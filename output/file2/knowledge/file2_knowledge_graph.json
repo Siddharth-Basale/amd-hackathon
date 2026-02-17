@@ -1,0 +1,3879 @@
+{
+  "nodes": [
+    {
+      "id": "chunk:file2::chunk::0",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::0",
+      "heading": "Cancellation in the Free-Look Period:",
+      "section_path": ""
+    },
+    {
+      "id": "entity:hdfc life",
+      "type": "entity",
+      "name": "HDFC Life",
+      "entity_type": "ORGANIZATION",
+      "description": "An insurance company that provides life insurance policies.",
+      "aliases": [
+        "HDFC Life Insurance Company Limited"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::28",
+        "file2::chunk::24",
+        "file2::chunk::0"
+      ]
+    },
+    {
+      "id": "entity:hdfc life click 2 protect elite plus",
+      "type": "entity",
+      "name": "HDFC Life Click 2 Protect Elite Plus",
+      "entity_type": "OTHER",
+      "description": "A specific life insurance policy issued by HDFC Life.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::0"
+      ]
+    },
+    {
+      "id": "entity:policyholder",
+      "type": "entity",
+      "name": "Policyholder",
+      "entity_type": "PERSON",
+      "description": "The individual who holds the insurance policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::16",
+        "file2::chunk::47",
+        "file2::chunk::42",
+        "file2::chunk::44",
+        "file2::chunk::8",
+        "file2::chunk::40",
+        "file2::chunk::45",
+        "file2::chunk::41",
+        "file2::chunk::43",
+        "file2::chunk::19",
+        "file2::chunk::27",
+        "file2::chunk::10",
+        "file2::chunk::9",
+        "file2::chunk::13",
+        "file2::chunk::46",
+        "file2::chunk::0"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::1",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::1",
+      "heading": "Cancellation in the Free-Look Period:",
+      "section_path": "Cancellation in the Free-Look Period:"
+    },
+    {
+      "id": "entity:hdfc life insurance company limited",
+      "type": "entity",
+      "name": "HDFC Life Insurance Company Limited",
+      "entity_type": "ORGANIZATION",
+      "description": "Insurance company providing products and services.",
+      "aliases": [
+        "HDFC Life"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::2",
+        "file2::chunk::4",
+        "file2::chunk::7",
+        "file2::chunk::8",
+        "file2::chunk::26",
+        "file2::chunk::1",
+        "file2::chunk::27"
+      ]
+    },
+    {
+      "id": "entity:mumbai",
+      "type": "entity",
+      "name": "Mumbai",
+      "entity_type": "LOCATION",
+      "description": "City in India where the organization is located.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::2",
+        "file2::chunk::31",
+        "file2::chunk::32",
+        "file2::chunk::28",
+        "file2::chunk::7",
+        "file2::chunk::26",
+        "file2::chunk::1",
+        "file2::chunk::27"
+      ]
+    },
+    {
+      "id": "entity:insurance ombudsman",
+      "type": "entity",
+      "name": "Insurance Ombudsman",
+      "entity_type": "OTHER",
+      "description": "Authority to approach in case of grievances.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29",
+        "file2::chunk::34",
+        "file2::chunk::32",
+        "file2::chunk::33",
+        "file2::chunk::1",
+        "file2::chunk::35",
+        "file2::chunk::36"
+      ]
+    },
+    {
+      "id": "entity:certified financial consultant",
+      "type": "entity",
+      "name": "Certified Financial Consultant",
+      "entity_type": "PERSON",
+      "description": "Insurance agent who advises clients.",
+      "aliases": [
+        "Insurance Agent"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::1"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::2",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::2",
+      "heading": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "section_path": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;"
+    },
+    {
+      "id": "chunk:file2::chunk::4",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::4",
+      "heading": "Table of Contents",
+      "section_path": "Table of Contents"
+    },
+    {
+      "id": "entity:india",
+      "type": "entity",
+      "name": "India",
+      "entity_type": "LOCATION",
+      "description": "Country where the policy is governed by applicable laws.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::4",
+        "file2::chunk::26"
+      ]
+    },
+    {
+      "id": "entity:proposal",
+      "type": "entity",
+      "name": "Proposal",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::6",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::6",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:nominee-1",
+      "type": "entity",
+      "name": "Nominee-1",
+      "entity_type": "PERSON",
+      "description": "First nominee listed in the nomination schedule.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::6"
+      ]
+    },
+    {
+      "id": "entity:nominee-2",
+      "type": "entity",
+      "name": "Nominee-2",
+      "entity_type": "PERSON",
+      "description": "Second nominee listed in the nomination schedule.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::6"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::7",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::7",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:government of maharashtra",
+      "type": "entity",
+      "name": "Government of Maharashtra",
+      "entity_type": "ORGANIZATION",
+      "description": "The governing body of the state of Maharashtra in India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::7"
+      ]
+    },
+    {
+      "id": "entity:indian stamp act, 1899",
+      "type": "entity",
+      "name": "Indian Stamp Act, 1899",
+      "entity_type": "OTHER",
+      "description": "An act governing stamp duty in India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::7"
+      ]
+    },
+    {
+      "id": "entity:insurance act, 1938",
+      "type": "entity",
+      "name": "Insurance Act, 1938",
+      "entity_type": "OTHER",
+      "description": "An act that regulates the insurance industry in India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::42",
+        "file2::chunk::7",
+        "file2::chunk::24",
+        "file2::chunk::8",
+        "file2::chunk::45",
+        "file2::chunk::22",
+        "file2::chunk::39",
+        "file2::chunk::9"
+      ]
+    },
+    {
+      "id": "entity:stamp duty",
+      "type": "entity",
+      "name": "Stamp Duty",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:assignment",
+      "type": "entity",
+      "name": "Assignment",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::8",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::8",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:irdai",
+      "type": "entity",
+      "name": "IRDAI",
+      "entity_type": "ORGANIZATION",
+      "description": "Insurance Regulatory and Development Authority of India.",
+      "aliases": [
+        "Insurance Regulatory and Development Authority"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::8",
+        "file2::chunk::11",
+        "file2::chunk::41",
+        "file2::chunk::28",
+        "file2::chunk::10"
+      ]
+    },
+    {
+      "id": "entity:policy",
+      "type": "entity",
+      "name": "Policy",
+      "entity_type": "OTHER",
+      "description": "The insurance contract between the Policyholder and the Insurer.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::8",
+        "file2::chunk::11",
+        "file2::chunk::19",
+        "file2::chunk::17",
+        "file2::chunk::12",
+        "file2::chunk::13"
+      ]
+    },
+    {
+      "id": "entity:insurance regulatory and development authority act, 1999",
+      "type": "entity",
+      "name": "Insurance Regulatory and Development Authority Act, 1999",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:company",
+      "type": "entity",
+      "name": "Company",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::16",
+        "file2::chunk::15",
+        "file2::chunk::23",
+        "file2::chunk::22"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::9",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::9",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:insurer",
+      "type": "entity",
+      "name": "Insurer",
+      "entity_type": "ORGANIZATION",
+      "description": "The entity that provides the insurance policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::33",
+        "file2::chunk::40",
+        "file2::chunk::41",
+        "file2::chunk::43",
+        "file2::chunk::19",
+        "file2::chunk::47",
+        "file2::chunk::9",
+        "file2::chunk::36",
+        "file2::chunk::46"
+      ]
+    },
+    {
+      "id": "entity:life assured",
+      "type": "entity",
+      "name": "Life Assured",
+      "entity_type": "PERSON",
+      "description": "The person on whose life the contingent events have to occur for the Benefits to be payable.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::9",
+        "file2::chunk::12",
+        "file2::chunk::15",
+        "file2::chunk::22"
+      ]
+    },
+    {
+      "id": "entity:nominee(s)",
+      "type": "entity",
+      "name": "Nominee(s)",
+      "entity_type": "PERSON",
+      "description": "The person(s) nominated by the Policyholder to receive benefits under the policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::41",
+        "file2::chunk::9",
+        "file2::chunk::44"
+      ]
+    },
+    {
+      "id": "entity:benefits",
+      "type": "entity",
+      "name": "Benefits",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:grace period",
+      "type": "entity",
+      "name": "Grace Period",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::17"
+      ]
+    },
+    {
+      "id": "entity:death benefit",
+      "type": "entity",
+      "name": "Death Benefit",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::12"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::10",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::10",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:regulations -irdai (insurance products) regulations, 2024",
+      "type": "entity",
+      "name": "Regulations -IRDAI (Insurance Products) Regulations, 2024",
+      "entity_type": "OTHER",
+      "description": "Regulations applicable to the policy as amended from time to time.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::10"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::11",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::11",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:rider",
+      "type": "entity",
+      "name": "Rider",
+      "entity_type": "OTHER",
+      "description": "Insurance cover(s) added to a base product for additional premium or charge",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::11"
+      ]
+    },
+    {
+      "id": "entity:revival period",
+      "type": "entity",
+      "name": "Revival Period",
+      "entity_type": "OTHER",
+      "description": "The period of five consecutive complete years from the date of first unpaid premium",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::11"
+      ]
+    },
+    {
+      "id": "entity:regulations",
+      "type": "entity",
+      "name": "Regulations",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:base product",
+      "type": "entity",
+      "name": "base product",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:five consecutive complete years",
+      "type": "entity",
+      "name": "five consecutive complete years",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::12",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::12",
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "entity:maturity benefit",
+      "type": "entity",
+      "name": "Maturity Benefit",
+      "entity_type": "OTHER",
+      "description": "A benefit payable at the end of the Policy Term if the Life Assured is alive.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::12"
+      ]
+    },
+    {
+      "id": "entity:return of premium (rop) option",
+      "type": "entity",
+      "name": "Return of Premium (ROP) Option",
+      "entity_type": "OTHER",
+      "description": "An optional benefit that allows for the return of premiums paid.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::12"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::13",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::13",
+      "heading": "a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "section_path": "Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;"
+    },
+    {
+      "id": "entity:baup",
+      "type": "entity",
+      "name": "BAUP",
+      "entity_type": "OTHER",
+      "description": "An acronym mentioned in relation to the availability of the renewability option.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::13"
+      ]
+    },
+    {
+      "id": "entity:premium",
+      "type": "entity",
+      "name": "Premium",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:this option",
+      "type": "entity",
+      "name": "this option",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:premium break benefit period",
+      "type": "entity",
+      "name": "premium break benefit period",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::15",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::15",
+      "heading": "c) Premium Break Benefit",
+      "section_path": "Table of Contents > Part C > c) Premium Break Benefit"
+    },
+    {
+      "id": "entity:you",
+      "type": "entity",
+      "name": "You",
+      "entity_type": "PERSON",
+      "description": "The individual responsible for paying the deferred amount under the Policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::15"
+      ]
+    },
+    {
+      "id": "entity:us",
+      "type": "entity",
+      "name": "Us",
+      "entity_type": "ORGANIZATION",
+      "description": "The entity responsible for managing the Policy and making payments.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::15"
+      ]
+    },
+    {
+      "id": "entity:inr 5 lacs",
+      "type": "entity",
+      "name": "INR 5 Lacs",
+      "entity_type": "OTHER",
+      "description": "The amount of the accelerated instant Death Benefit payable upon claim.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::15"
+      ]
+    },
+    {
+      "id": "entity:deferred amount",
+      "type": "entity",
+      "name": "deferred amount",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:accelerated instant death benefit",
+      "type": "entity",
+      "name": "accelerated instant Death Benefit",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:already paid amount",
+      "type": "entity",
+      "name": "already paid amount",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::16",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::16",
+      "heading": "d) Immediate Payout on Claim Intimation",
+      "section_path": "Table of Contents > Part C > d) Immediate Payout on Claim Intimation"
+    },
+    {
+      "id": "entity:life insured",
+      "type": "entity",
+      "name": "Life Insured",
+      "entity_type": "PERSON",
+      "description": "The individual whose life is insured under the policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::16"
+      ]
+    },
+    {
+      "id": "entity:nominee",
+      "type": "entity",
+      "name": "Nominee",
+      "entity_type": "PERSON",
+      "description": "The individual designated to receive benefits under the policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::16",
+        "file2::chunk::42",
+        "file2::chunk::45",
+        "file2::chunk::43",
+        "file2::chunk::47"
+      ]
+    },
+    {
+      "id": "entity:assignee",
+      "type": "entity",
+      "name": "Assignee",
+      "entity_type": "PERSON",
+      "description": "The individual to whom the policy has been assigned.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::16"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::17",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::17",
+      "heading": "5. What happens in case there's a delay in Premium payment?",
+      "section_path": "Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?"
+    },
+    {
+      "id": "entity:limited premium",
+      "type": "entity",
+      "name": "Limited Premium",
+      "entity_type": "OTHER",
+      "description": "A type of premium payment option.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::17"
+      ]
+    },
+    {
+      "id": "entity:single premium",
+      "type": "entity",
+      "name": "Single Premium",
+      "entity_type": "OTHER",
+      "description": "A type of premium payment option.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::17"
+      ]
+    },
+    {
+      "id": "entity:guaranteed surrender value (gsv)",
+      "type": "entity",
+      "name": "Guaranteed Surrender Value (GSV)",
+      "entity_type": "OTHER",
+      "description": "The minimum value payable upon surrender of the policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::17"
+      ]
+    },
+    {
+      "id": "entity:special surrender value (ssv)",
+      "type": "entity",
+      "name": "Special Surrender Value (SSV)",
+      "entity_type": "OTHER",
+      "description": "A potentially higher surrender value than GSV.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::17"
+      ]
+    },
+    {
+      "id": "entity:paid-up value",
+      "type": "entity",
+      "name": "paid-up value",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:payment of premium",
+      "type": "entity",
+      "name": "payment of Premium",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:completion of first policy year",
+      "type": "entity",
+      "name": "completion of first policy year",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::19",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::19",
+      "heading": "2. Lapse",
+      "section_path": "Table of Contents > Part D > 2. Lapse"
+    },
+    {
+      "id": "entity:premium frequency",
+      "type": "entity",
+      "name": "Premium frequency",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::22",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::22",
+      "heading": "ii. Age Admitted",
+      "section_path": "Table of Contents > Part E > ii. Age Admitted"
+    },
+    {
+      "id": "chunk:file2::chunk::23",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::23",
+      "heading": "i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "section_path": "Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:"
+    },
+    {
+      "id": "entity:municipal authority",
+      "type": "entity",
+      "name": "Municipal Authority",
+      "entity_type": "ORGANIZATION",
+      "description": "Authority that issues the Death Certificate.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::23"
+      ]
+    },
+    {
+      "id": "entity:gram panchayat",
+      "type": "entity",
+      "name": "Gram Panchayat",
+      "entity_type": "ORGANIZATION",
+      "description": "Local governing body that can issue the Death Certificate.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::23"
+      ]
+    },
+    {
+      "id": "entity:tehsildar",
+      "type": "entity",
+      "name": "Tehsildar",
+      "entity_type": "PERSON",
+      "description": "Official who can issue the Death Certificate.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::23"
+      ]
+    },
+    {
+      "id": "entity:hospital authority",
+      "type": "entity",
+      "name": "Hospital Authority",
+      "entity_type": "ORGANIZATION",
+      "description": "Authority that attests the Postmortem report.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::23"
+      ]
+    },
+    {
+      "id": "entity:claimant",
+      "type": "entity",
+      "name": "Claimant",
+      "entity_type": "PERSON",
+      "description": "Individual making the claim.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::23"
+      ]
+    },
+    {
+      "id": "entity:death certificate",
+      "type": "entity",
+      "name": "Death Certificate",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:postmortem report",
+      "type": "entity",
+      "name": "Postmortem report",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::24",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::24",
+      "heading": "i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "section_path": "Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:"
+    },
+    {
+      "id": "entity:section 38",
+      "type": "entity",
+      "name": "Section 38",
+      "entity_type": "OTHER",
+      "description": "Section of the Insurance Act related to assignment or transfer of a policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::24"
+      ]
+    },
+    {
+      "id": "entity:section 39",
+      "type": "entity",
+      "name": "Section 39",
+      "entity_type": "OTHER",
+      "description": "Section of the Insurance Act related to nomination of persons.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::24"
+      ]
+    },
+    {
+      "id": "entity:person/ persons",
+      "type": "entity",
+      "name": "person/ persons",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:duplicate policy",
+      "type": "entity",
+      "name": "duplicate Policy",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::25",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::25",
+      "heading": "6. Incorrect Information and Non-Disclosure",
+      "section_path": "Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure"
+    },
+    {
+      "id": "entity:insurance act 1938",
+      "type": "entity",
+      "name": "Insurance Act 1938",
+      "entity_type": "OTHER",
+      "description": "A legal framework governing insurance policies in India.",
+      "aliases": [
+        "Insurance Act"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::25"
+      ]
+    },
+    {
+      "id": "entity:income tax act, 1961",
+      "type": "entity",
+      "name": "Income Tax Act, 1961",
+      "entity_type": "OTHER",
+      "description": "A law governing income tax in India.",
+      "aliases": [
+        "Income Tax Act"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::25"
+      ]
+    },
+    {
+      "id": "entity:insurance regulatory and development authority of india",
+      "type": "entity",
+      "name": "Insurance Regulatory and Development Authority of India",
+      "entity_type": "ORGANIZATION",
+      "description": "The regulatory body for the insurance industry in India.",
+      "aliases": [
+        "IRDA"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29",
+        "file2::chunk::25",
+        "file2::chunk::26"
+      ]
+    },
+    {
+      "id": "entity:insurance policy provisions",
+      "type": "entity",
+      "name": "Insurance Policy provisions",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::26",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::26",
+      "heading": "9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder"
+    },
+    {
+      "id": "chunk:file2::chunk::27",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::27",
+      "heading": "11. Notices",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 11. Notices"
+    },
+    {
+      "id": "entity:maharashtra",
+      "type": "entity",
+      "name": "Maharashtra",
+      "entity_type": "LOCATION",
+      "description": "A state in India where Mumbai is located.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::27"
+      ]
+    },
+    {
+      "id": "entity:complaints",
+      "type": "entity",
+      "name": "complaints",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::28",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::28",
+      "heading": "1. Complaint Resolution Process",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process"
+    },
+    {
+      "id": "entity:grievance redressal officer",
+      "type": "entity",
+      "name": "Grievance Redressal Officer",
+      "entity_type": "PERSON",
+      "description": "An officer to contact for grievance resolution.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::28"
+      ]
+    },
+    {
+      "id": "entity:customer",
+      "type": "entity",
+      "name": "customer",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:grievance cell of irdai",
+      "type": "entity",
+      "name": "Grievance Cell of IRDAI",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:customer complaints",
+      "type": "entity",
+      "name": "customer complaints",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:complaint registration",
+      "type": "entity",
+      "name": "complaint registration",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::29",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::29",
+      "heading": "1. Complaint Resolution Process",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process"
+    },
+    {
+      "id": "entity:consumer affairs department",
+      "type": "entity",
+      "name": "Consumer Affairs Department",
+      "entity_type": "ORGANIZATION",
+      "description": "Department handling consumer grievances.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29"
+      ]
+    },
+    {
+      "id": "entity:ahmedabad",
+      "type": "entity",
+      "name": "AHMEDABAD",
+      "entity_type": "LOCATION",
+      "description": "City in Gujarat with an Insurance Ombudsman office.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29"
+      ]
+    },
+    {
+      "id": "entity:bhopal",
+      "type": "entity",
+      "name": "BHOPAL",
+      "entity_type": "LOCATION",
+      "description": "City in Madhya Pradesh with an Insurance Ombudsman office.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29"
+      ]
+    },
+    {
+      "id": "entity:bhubaneswar",
+      "type": "entity",
+      "name": "BHUBANESWAR",
+      "entity_type": "LOCATION",
+      "description": "City in Odisha with an Insurance Ombudsman office.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29"
+      ]
+    },
+    {
+      "id": "entity:bengaluru",
+      "type": "entity",
+      "name": "BENGALURU",
+      "entity_type": "LOCATION",
+      "description": "City in Karnataka with an Insurance Ombudsman office.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29"
+      ]
+    },
+    {
+      "id": "entity:chandigarh",
+      "type": "entity",
+      "name": "CHANDIGARH",
+      "entity_type": "LOCATION",
+      "description": "City with an Insurance Ombudsman office serving multiple regions.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::29",
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::30",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::30",
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "entity:chennai",
+      "type": "entity",
+      "name": "CHENNAI",
+      "entity_type": "LOCATION",
+      "description": "City in India, location of the Office of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "entity:delhi",
+      "type": "entity",
+      "name": "DELHI",
+      "entity_type": "LOCATION",
+      "description": "Capital city of India, location of the Office of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "entity:guwahati",
+      "type": "entity",
+      "name": "GUWAHATI",
+      "entity_type": "LOCATION",
+      "description": "City in Assam, India, location of the Office of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "entity:hyderabad",
+      "type": "entity",
+      "name": "HYDERABAD",
+      "entity_type": "LOCATION",
+      "description": "City in India, location of the Office of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "entity:jaipur",
+      "type": "entity",
+      "name": "JAIPUR",
+      "entity_type": "LOCATION",
+      "description": "Capital city of Rajasthan, India, location of the Office of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::31",
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "entity:office of the insurance ombudsman",
+      "type": "entity",
+      "name": "Office of the Insurance Ombudsman",
+      "entity_type": "ORGANIZATION",
+      "description": "An organization that addresses insurance complaints.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::31",
+        "file2::chunk::30"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::31",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::31",
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "entity:kochi",
+      "type": "entity",
+      "name": "KOCHI",
+      "entity_type": "LOCATION",
+      "description": "City in Kerala, India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::31"
+      ]
+    },
+    {
+      "id": "entity:kolkata",
+      "type": "entity",
+      "name": "KOLKATA",
+      "entity_type": "LOCATION",
+      "description": "City in West Bengal, India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::31"
+      ]
+    },
+    {
+      "id": "entity:lucknow",
+      "type": "entity",
+      "name": "LUCKNOW",
+      "entity_type": "LOCATION",
+      "description": "City in Uttar Pradesh, India.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::31"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::32",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::32",
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "entity:noida",
+      "type": "entity",
+      "name": "NOIDA",
+      "entity_type": "LOCATION",
+      "description": "A city in the Gautam Buddh Nagar district of Uttar Pradesh.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::32"
+      ]
+    },
+    {
+      "id": "entity:patna",
+      "type": "entity",
+      "name": "PATNA",
+      "entity_type": "LOCATION",
+      "description": "The capital city of Bihar.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::32"
+      ]
+    },
+    {
+      "id": "entity:pune",
+      "type": "entity",
+      "name": "PUNE",
+      "entity_type": "LOCATION",
+      "description": "A city in the state of Maharashtra.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::32"
+      ]
+    },
+    {
+      "id": "entity:insurance regulatory and development authority of india act, 1999",
+      "type": "entity",
+      "name": "Insurance Regulatory and Development Authority of India Act, 1999",
+      "entity_type": "OTHER",
+      "description": "An act that regulates the insurance industry in India.",
+      "aliases": [
+        "IRDAI Act"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::32"
+      ]
+    },
+    {
+      "id": "entity:insurers",
+      "type": "entity",
+      "name": "insurers",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::33",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::33",
+      "heading": "b. Insurance Ombudsman-",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-"
+    },
+    {
+      "id": "entity:policyholders",
+      "type": "entity",
+      "name": "Policyholders",
+      "entity_type": "PERSON",
+      "description": "Individuals who hold an insurance policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::33"
+      ]
+    },
+    {
+      "id": "entity:insurance broker",
+      "type": "entity",
+      "name": "insurance broker",
+      "entity_type": "ORGANIZATION",
+      "description": "An intermediary who sells insurance policies.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::33"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::34",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::34",
+      "heading": "c. Manner in which complaint is to be made -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -"
+    },
+    {
+      "id": "entity:council for insurance ombudsmen",
+      "type": "entity",
+      "name": "Council for Insurance Ombudsmen",
+      "entity_type": "ORGANIZATION",
+      "description": "An organization associated with the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::34",
+        "file2::chunk::35"
+      ]
+    },
+    {
+      "id": "entity:person",
+      "type": "entity",
+      "name": "person",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:complainant",
+      "type": "entity",
+      "name": "complainant",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::36"
+      ]
+    },
+    {
+      "id": "entity:insurer or insurance broker",
+      "type": "entity",
+      "name": "insurer or insurance broker",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::35",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::35",
+      "heading": "c. Manner in which complaint is to be made -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -"
+    },
+    {
+      "id": "entity:ombudsman",
+      "type": "entity",
+      "name": "Ombudsman",
+      "entity_type": "PERSON",
+      "description": "An official appointed to investigate complaints against maladministration.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::35"
+      ]
+    },
+    {
+      "id": "entity:insurance ombudsman rules, 2017",
+      "type": "entity",
+      "name": "Insurance Ombudsman Rules, 2017",
+      "entity_type": "EVENT",
+      "description": "Rules governing the operations of the Insurance Ombudsman.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::36",
+        "file2::chunk::35"
+      ]
+    },
+    {
+      "id": "entity:delay",
+      "type": "entity",
+      "name": "delay",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:complaints management system",
+      "type": "entity",
+      "name": "complaints management system",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:complaints made under rule 14 of insurance ombudsman rules, 2017",
+      "type": "entity",
+      "name": "complaints made under rule 14 of Insurance Ombudsman Rules, 2017",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::36",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::36",
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "chunk:file2::chunk::39",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::39",
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "entity:insurance laws (amendment) act, 2015",
+      "type": "entity",
+      "name": "Insurance Laws (Amendment) Act, 2015",
+      "entity_type": "OTHER",
+      "description": "An amendment to the Insurance Act, 1938.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::42",
+        "file2::chunk::44",
+        "file2::chunk::45",
+        "file2::chunk::39",
+        "file2::chunk::48"
+      ]
+    },
+    {
+      "id": "entity:23.03.2015",
+      "type": "entity",
+      "name": "23.03.2015",
+      "entity_type": "OTHER",
+      "description": "The date when the Insurance Laws (Amendment) Act, 2015 was enacted.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::39"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::40",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::40",
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "entity:authority",
+      "type": "entity",
+      "name": "Authority",
+      "entity_type": "ORGANIZATION",
+      "description": "The governing body that specifies fees for Assignment or transfer.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::41",
+        "file2::chunk::43",
+        "file2::chunk::40"
+      ]
+    },
+    {
+      "id": "entity:fee for assignment or transfer",
+      "type": "entity",
+      "name": "fee for Assignment or transfer",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::41",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::41",
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "entity:person aggrieved by the refusal",
+      "type": "entity",
+      "name": "person aggrieved by the refusal",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:dispute regarding priority",
+      "type": "entity",
+      "name": "dispute regarding priority",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:assignee or transferee",
+      "type": "entity",
+      "name": "Assignee or transferee",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:absolute assignee or transferee",
+      "type": "entity",
+      "name": "absolute Assignee or transferee",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::42",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::42",
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:file2::chunk::43",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::43",
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "entity:change or cancellation of nomination",
+      "type": "entity",
+      "name": "Change or Cancellation of Nomination",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:fee for registering change or cancellation of a nomination",
+      "type": "entity",
+      "name": "fee for registering change or cancellation of a Nomination",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:policyholder dies",
+      "type": "entity",
+      "name": "Policyholder dies",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::44",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::44",
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "entity:proceeds and benefit of the policy",
+      "type": "entity",
+      "name": "proceeds and benefit of the Policy",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:life insurance policies",
+      "type": "entity",
+      "name": "life insurance policies",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::45",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::45",
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "entity:married women's property act, 1874",
+      "type": "entity",
+      "name": "Married Women's Property Act, 1874",
+      "entity_type": "OTHER",
+      "description": "A legal act that affects the applicability of certain insurance provisions.",
+      "aliases": [
+        "MWP Act"
+      ],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::45"
+      ]
+    },
+    {
+      "id": "chunk:file2::chunk::46",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::46",
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "entity:insured",
+      "type": "entity",
+      "name": "Insured",
+      "entity_type": "PERSON",
+      "description": "The individual who holds the life insurance policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::47",
+        "file2::chunk::46"
+      ]
+    },
+    {
+      "id": "entity:beneficiary",
+      "type": "entity",
+      "name": "Beneficiary",
+      "entity_type": "PERSON",
+      "description": "The individual entitled to receive benefits from the life insurance policy.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::46"
+      ]
+    },
+    {
+      "id": "entity:fraud",
+      "type": "entity",
+      "name": "Fraud",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:misstatement",
+      "type": "entity",
+      "name": "misstatement",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::47",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::47",
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "entity:assignees",
+      "type": "entity",
+      "name": "Assignees",
+      "entity_type": "PERSON",
+      "description": "Individuals to whom the rights of the policy are assigned.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::47"
+      ]
+    },
+    {
+      "id": "entity:life insurance policy",
+      "type": "entity",
+      "name": "life insurance Policy",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:file2::chunk::48",
+      "type": "chunk",
+      "chunk_id": "file2::chunk::48",
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "entity:policy holders",
+      "type": "entity",
+      "name": "Policy Holders",
+      "entity_type": "PERSON",
+      "description": "Individuals or entities that hold insurance policies.",
+      "aliases": [],
+      "documents": [
+        "file2"
+      ],
+      "source_chunks": [
+        "file2::chunk::48"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "entity:hdfc life",
+      "target": "chunk:file2::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life",
+      "target": "entity:hdfc life click 2 protect elite plus",
+      "relation": "issued",
+      "evidence": "We've issued your HDFC Life Click 2 Protect Elite Plus policy.",
+      "chunk_id": "file2::chunk::0"
+    },
+    {
+      "source": "entity:hdfc life",
+      "target": "entity:policyholder",
+      "relation": "contract with",
+      "evidence": "This document is evidence of the insurance contract between HDFC Life Insurance Company Limited and you.",
+      "chunk_id": "file2::chunk::0"
+    },
+    {
+      "source": "entity:hdfc life",
+      "target": "chunk:file2::chunk::24",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life",
+      "target": "chunk:file2::chunk::28",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life",
+      "target": "entity:customer complaints",
+      "relation": "handles",
+      "evidence": "the organization handling customer complaints",
+      "chunk_id": "file2::chunk::28"
+    },
+    {
+      "source": "entity:hdfc life click 2 protect elite plus",
+      "target": "chunk:file2::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:proposal",
+      "relation": "submits",
+      "evidence": "based on the proposal made by the Policyholder and submitted to the Company.",
+      "chunk_id": "file2::chunk::4"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::8",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:policy",
+      "relation": "assigns or transfers",
+      "evidence": "a provision wherein the Policyholder can assign or transfer a Policy",
+      "chunk_id": "file2::chunk::8"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:policy",
+      "relation": "holds",
+      "evidence": "means or refers to the Policyholder stated in the Policy Schedule.",
+      "chunk_id": "file2::chunk::10"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:policy",
+      "relation": "can extend the term of",
+      "evidence": "you can extend the term of your Policy at maturity.",
+      "chunk_id": "file2::chunk::13"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:policy",
+      "relation": "can assign or transfer",
+      "evidence": "The Policyholder can assign or transfer of a Policy in accordance with Section 38 of the Insurance Act, 1938.",
+      "chunk_id": "file2::chunk::24"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::9",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:nominee(s)",
+      "relation": "nominates",
+      "evidence": "Nominee(s) means the person(s) nominated by the Policyholder under this Policy.",
+      "chunk_id": "file2::chunk::9"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:nominee(s)",
+      "relation": "nominates",
+      "evidence": "the Policyholder whose life is insured nominates his (a) parents or (b) Spouse or (c) children",
+      "chunk_id": "file2::chunk::44"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::10",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::13",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:premium",
+      "relation": "has to pay",
+      "evidence": "you will have to pay an additional Premium over and above the Premium amount",
+      "chunk_id": "file2::chunk::13"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:this option",
+      "relation": "can opt in / opt out of",
+      "evidence": "Once chosen, the Policyholder cannot opt out of this option.",
+      "chunk_id": "file2::chunk::13"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::16",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:company",
+      "relation": "receives benefits from",
+      "evidence": "the recipients of Benefits under this Policy",
+      "chunk_id": "file2::chunk::16"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::19",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:premium frequency",
+      "relation": "can alter",
+      "evidence": "you can alter the Premium frequency during the Premium Paying Term.",
+      "chunk_id": "file2::chunk::19"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:person/ persons",
+      "relation": "can nominate",
+      "evidence": "The Policyholder can nominate a person/ persons in accordance with Section 39 of the Insurance Act, 1938.",
+      "chunk_id": "file2::chunk::24"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:duplicate policy",
+      "relation": "can request for",
+      "evidence": "The Policyholder can request for a duplicate copy of the Policy at HDFC Life offices.",
+      "chunk_id": "file2::chunk::24"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::27",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:hdfc life insurance company limited",
+      "relation": "notifies",
+      "evidence": "The onus of intimation of change of address lies with the Policyholder.",
+      "chunk_id": "file2::chunk::27"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::40",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::41",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:insurer",
+      "relation": "gives notice of transfer or Assignment to",
+      "evidence": "Policyholder giving a notice of transfer or Assignment.",
+      "chunk_id": "file2::chunk::41"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::42",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:nominee",
+      "relation": "may nominate",
+      "evidence": "The Policyholder of a life insurance on his own life may nominate a person or persons to whom money secured by the Policy shall be paid in the event of his death.",
+      "chunk_id": "file2::chunk::42"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:nominee",
+      "relation": "can nominate",
+      "evidence": "Nomination can be made at any time before the maturity of the Policy.",
+      "chunk_id": "file2::chunk::43"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:nominee",
+      "relation": "dies after maturity",
+      "evidence": "his Nominee(s) shall be entitled to the proceeds and benefit of the Policy.",
+      "chunk_id": "file2::chunk::45"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::43",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::44",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::45",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::46",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:fraud",
+      "relation": "has the onus of disproving",
+      "evidence": "Onus of disproving is upon the Policyholder, if alive, or beneficiaries.",
+      "chunk_id": "file2::chunk::46"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "chunk:file2::chunk::47",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholder",
+      "target": "entity:life insurance policy",
+      "relation": "has",
+      "evidence": "Onus of disproving is upon the Policyholder, if alive, or beneficiaries.",
+      "chunk_id": "file2::chunk::47"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:mumbai",
+      "relation": "has address",
+      "evidence": "Address for Correspondence: HDFC Life Insurance Company Limited ... Mahalaxmi, Mumbai-400011.",
+      "chunk_id": "file2::chunk::1"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:mumbai",
+      "relation": "is located in",
+      "evidence": "HDFC Life Insurance Company Limited... Mumbai-400011.",
+      "chunk_id": "file2::chunk::2"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:mumbai",
+      "relation": "signed at",
+      "evidence": "Signed at Mumbai",
+      "chunk_id": "file2::chunk::7"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:certified financial consultant",
+      "relation": "provides services through",
+      "evidence": "you may reach out to our Certified Financial Consultant (Insurance Agent) who has advised you.",
+      "chunk_id": "file2::chunk::1"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:insurance ombudsman",
+      "relation": "has grievance authority",
+      "evidence": "you can also approach the Insurance Ombudsman in your region.",
+      "chunk_id": "file2::chunk::1"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::2",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::4",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:policyholder",
+      "relation": "provides",
+      "evidence": "This document is the evidence of a contract between HDFC Life Insurance Company Limited and the Policyholder.",
+      "chunk_id": "file2::chunk::4"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::7",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::8",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:company",
+      "relation": "referred to as",
+      "evidence": "means or refers to HDFC Life Insurance Company Limited",
+      "chunk_id": "file2::chunk::8"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::26",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:india",
+      "relation": "has jurisdiction governed by",
+      "evidence": "This Policy shall be governed by the laws of India.",
+      "chunk_id": "file2::chunk::26"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "chunk:file2::chunk::27",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hdfc life insurance company limited",
+      "target": "entity:complaints",
+      "relation": "handles",
+      "evidence": "All grievances (Service and sales) received by the Company will be responded to within the prescribed regulatory Turn Around Time (TAT) of 14 days.",
+      "chunk_id": "file2::chunk::27"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::2",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::7",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::26",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::27",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::28",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, 3rd Floor, Jeevan Seva Annexe, S. V. Road, Santacruz (W), Mumbai - 400 054.",
+      "chunk_id": "file2::chunk::31"
+    },
+    {
+      "source": "entity:mumbai",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:ahmedabad",
+      "relation": "has offices in",
+      "evidence": "Details and addresses of Insurance Ombudsman",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:bhopal",
+      "relation": "has offices in",
+      "evidence": "Details and addresses of Insurance Ombudsman",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:bhubaneswar",
+      "relation": "has offices in",
+      "evidence": "Details and addresses of Insurance Ombudsman",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:bengaluru",
+      "relation": "has offices in",
+      "evidence": "Details and addresses of Insurance Ombudsman",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:chandigarh",
+      "relation": "has offices in",
+      "evidence": "Details and addresses of Insurance Ombudsman",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:insurers",
+      "relation": "receives and considers complaints",
+      "evidence": "The Ombudsman shall receive and consider complaints alleging deficiency in performance required of an insurer.",
+      "chunk_id": "file2::chunk::32"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:insurance regulatory and development authority of india act, 1999",
+      "relation": "is governed by",
+      "evidence": "delay in settlement of claims, beyond the time specified in the Regulations, framed under the Insurance Regulatory and Development Authority of India Act, 1999.",
+      "chunk_id": "file2::chunk::32"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::33",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::34",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::35",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "entity:complaints made under rule 14 of insurance ombudsman rules, 2017",
+      "relation": "address complaints",
+      "evidence": "No complaint before the Insurance Ombudsman shall be maintainable on the same subject matter.",
+      "chunk_id": "file2::chunk::35"
+    },
+    {
+      "source": "entity:insurance ombudsman",
+      "target": "chunk:file2::chunk::36",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:certified financial consultant",
+      "target": "chunk:file2::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:india",
+      "target": "chunk:file2::chunk::4",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:india",
+      "target": "chunk:file2::chunk::26",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee-1",
+      "target": "chunk:file2::chunk::6",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee-2",
+      "target": "chunk:file2::chunk::6",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:government of maharashtra",
+      "target": "chunk:file2::chunk::7",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:government of maharashtra",
+      "target": "entity:stamp duty",
+      "relation": "receives",
+      "evidence": "included in Consolidated Stamp Duty Paid to the Government of Maharashtra Treasury",
+      "chunk_id": "file2::chunk::7"
+    },
+    {
+      "source": "entity:indian stamp act, 1899",
+      "target": "chunk:file2::chunk::7",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:indian stamp act, 1899",
+      "target": "entity:stamp duty",
+      "relation": "provides for",
+      "evidence": "as provided under Article 47D(iii) of Indian Stamp Act, 1899",
+      "chunk_id": "file2::chunk::7"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::7",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "entity:assignment",
+      "relation": "governs",
+      "evidence": "by virtue of Assignment under section 38 of the Insurance Act, 1938",
+      "chunk_id": "file2::chunk::7"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::8",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::9",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::22",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::24",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::39",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::42",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act, 1938",
+      "target": "chunk:file2::chunk::45",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "chunk:file2::chunk::8",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "entity:insurance regulatory and development authority act, 1999",
+      "relation": "established under",
+      "evidence": "established under the provisions of section 3 of the Insurance Regulatory and Development Authority Act, 1999",
+      "chunk_id": "file2::chunk::8"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "chunk:file2::chunk::10",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "entity:regulations -irdai (insurance products) regulations, 2024",
+      "relation": "issues",
+      "evidence": "including without limitation the Regulations and directions issued by the Insurance Regulatory and Development Authority of India ('IRDAI') from time to time.",
+      "chunk_id": "file2::chunk::10"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "chunk:file2::chunk::11",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "entity:regulations",
+      "relation": "issues",
+      "evidence": "Regulations -IRDAI (Insurance Products) Regulations, 2024 as amended from time to time",
+      "chunk_id": "file2::chunk::11"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "chunk:file2::chunk::28",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:irdai",
+      "target": "chunk:file2::chunk::41",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::8",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::11",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:insurer",
+      "relation": "is restored by",
+      "evidence": "Revival of a Policy means restoration of the policy, which was discontinued due to the nonpayment of premium",
+      "chunk_id": "file2::chunk::11"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::12",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:death benefit",
+      "relation": "provides",
+      "evidence": "This benefit is payable as a lump sum if the Life Assured dies during the Policy Term.",
+      "chunk_id": "file2::chunk::12"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:maturity benefit",
+      "relation": "provides",
+      "evidence": "Maturity benefit is not applicable under this Policy.",
+      "chunk_id": "file2::chunk::12"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:return of premium (rop) option",
+      "relation": "includes",
+      "evidence": "Return of Premium (ROP) Option.",
+      "chunk_id": "file2::chunk::12"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::13",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:baup",
+      "relation": "is subject to",
+      "evidence": "the availability of this option is subject to BAUP.",
+      "chunk_id": "file2::chunk::13"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:premium break benefit period",
+      "relation": "has a premium break benefit",
+      "evidence": "You shall be allowed to have a premium break benefit under the Policy for a period extending up to 12 months",
+      "chunk_id": "file2::chunk::13"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy",
+      "target": "entity:paid-up value",
+      "relation": "will lapse without",
+      "evidence": "If you do not pay Premium before the end of Grace Period, your Policy will lapse without any paid-up value.",
+      "chunk_id": "file2::chunk::17"
+    },
+    {
+      "source": "entity:policy",
+      "target": "chunk:file2::chunk::19",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:company",
+      "target": "chunk:file2::chunk::15",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:company",
+      "target": "entity:already paid amount",
+      "relation": "reserves the right to recover",
+      "evidence": "the Company reserves the right to recover the already paid amount.",
+      "chunk_id": "file2::chunk::15"
+    },
+    {
+      "source": "entity:company",
+      "target": "chunk:file2::chunk::16",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:company",
+      "target": "chunk:file2::chunk::22",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:company",
+      "target": "entity:insurance act, 1938",
+      "relation": "follows",
+      "evidence": "without prejudice to our rights and remedies including those under the Insurance Act, 1938.",
+      "chunk_id": "file2::chunk::22"
+    },
+    {
+      "source": "entity:company",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::9",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:grace period",
+      "relation": "grants",
+      "evidence": "Grace Period for other than single premium policies - means the time granted by the Insurer from the due date for the payment of Premium.",
+      "chunk_id": "file2::chunk::9"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::19",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:policy",
+      "relation": "may revive",
+      "evidence": "it may be revived/ restored by the Insurer with all the benefits mentioned in the Policy document.",
+      "chunk_id": "file2::chunk::19"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::33",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::36",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:insurance ombudsman",
+      "relation": "required to comply with",
+      "evidence": "The Insurer is required to comply with the award of the Insurance Ombudsman.",
+      "chunk_id": "file2::chunk::36"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:complainant",
+      "relation": "liable to pay",
+      "evidence": "a penalty of Rs. 5000/- per day shall be payable to the complainant.",
+      "chunk_id": "file2::chunk::36"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:insurance ombudsman rules, 2017",
+      "relation": "under",
+      "evidence": "penal interest liable to be paid by the Insurer under the Insurance Ombudsman Rules, 2017.",
+      "chunk_id": "file2::chunk::36"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::40",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:policyholder",
+      "relation": "provides",
+      "evidence": "The insurer may accept or decline to act upon any transfer or Assignment.",
+      "chunk_id": "file2::chunk::40"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:policyholder",
+      "relation": "refuses to act upon endorsement for",
+      "evidence": "In case of refusal to act upon the endorsement by the Insurer.",
+      "chunk_id": "file2::chunk::41"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::41",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::43",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:change or cancellation of nomination",
+      "relation": "must be notified of",
+      "evidence": "A notice in writing of Change or Cancellation of Nomination must be delivered to the insurer.",
+      "chunk_id": "file2::chunk::43"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::46",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:insured",
+      "relation": "communicate in writing to",
+      "evidence": "the insurer should communicate in writing to the insured or legal representative or Nominee or Assignees of insured",
+      "chunk_id": "file2::chunk::46"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:fraud",
+      "relation": "repudiate a life insurance Policy on the ground of",
+      "evidence": "No Insurer shall repudiate a life insurance Policy on the ground of Fraud",
+      "chunk_id": "file2::chunk::46"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "chunk:file2::chunk::47",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurer",
+      "target": "entity:life insurance policy",
+      "relation": "provides",
+      "evidence": "No Insurer shall repudiate a life insurance Policy on the ground of Fraud.",
+      "chunk_id": "file2::chunk::47"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "chunk:file2::chunk::9",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "entity:benefits",
+      "relation": "is the person on whose life",
+      "evidence": "Life Assured means the person as stated in the Policy Schedule on whose life the contingent events have to occur for the Benefits to be payable.",
+      "chunk_id": "file2::chunk::9"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "chunk:file2::chunk::12",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "entity:death benefit",
+      "relation": "is covered for",
+      "evidence": "The Life Assured is covered for a Death Benefit under this plan.",
+      "chunk_id": "file2::chunk::12"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "entity:maturity benefit",
+      "relation": "receives",
+      "evidence": "Sum Assured on Maturity will be payable, which will be equal to 100% of the Total Premiums Paid, if the Life Assured is alive when the Policy matures.",
+      "chunk_id": "file2::chunk::12"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "chunk:file2::chunk::15",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "entity:accelerated instant death benefit",
+      "relation": "in case of death",
+      "evidence": "In case of death of the Life Assured, post completion of waiting period of 1 Policy Year.",
+      "chunk_id": "file2::chunk::15"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "chunk:file2::chunk::22",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life assured",
+      "target": "entity:company",
+      "relation": "is insured under",
+      "evidence": "The Company has calculated the Premiums under the Policy on the basis of the age of the Life Assured.",
+      "chunk_id": "file2::chunk::22"
+    },
+    {
+      "source": "entity:nominee(s)",
+      "target": "chunk:file2::chunk::9",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee(s)",
+      "target": "entity:death benefit",
+      "relation": "receives",
+      "evidence": "to whom money secured by the Policy as mentioned under the Death Benefit shall be paid in event of the death of the Life Assured.",
+      "chunk_id": "file2::chunk::9"
+    },
+    {
+      "source": "entity:nominee(s)",
+      "target": "chunk:file2::chunk::41",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee(s)",
+      "target": "chunk:file2::chunk::44",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee(s)",
+      "target": "entity:proceeds and benefit of the policy",
+      "relation": "receives",
+      "evidence": "his Nominee(s) shall be entitled to the proceeds and benefit of the Policy.",
+      "chunk_id": "file2::chunk::44"
+    },
+    {
+      "source": "entity:grace period",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:grace period",
+      "target": "entity:limited premium",
+      "relation": "is applicable for",
+      "evidence": "The Grace Period is applicable for Limited Premium and is not applicable for Single Premium.",
+      "chunk_id": "file2::chunk::17"
+    },
+    {
+      "source": "entity:grace period",
+      "target": "entity:single premium",
+      "relation": "is not applicable for",
+      "evidence": "The Grace Period is applicable for Limited Premium and is not applicable for Single Premium.",
+      "chunk_id": "file2::chunk::17"
+    },
+    {
+      "source": "entity:death benefit",
+      "target": "chunk:file2::chunk::12",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:regulations -irdai (insurance products) regulations, 2024",
+      "target": "chunk:file2::chunk::10",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:rider",
+      "target": "chunk:file2::chunk::11",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:rider",
+      "target": "entity:base product",
+      "relation": "is added to",
+      "evidence": "Rider - means the insurance cover(s) added to a base product for additional premium or charge",
+      "chunk_id": "file2::chunk::11"
+    },
+    {
+      "source": "entity:revival period",
+      "target": "chunk:file2::chunk::11",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:revival period",
+      "target": "entity:five consecutive complete years",
+      "relation": "is defined as",
+      "evidence": "Revival Period means the period of five consecutive complete years from the date of first unpaid premium",
+      "chunk_id": "file2::chunk::11"
+    },
+    {
+      "source": "entity:maturity benefit",
+      "target": "chunk:file2::chunk::12",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:return of premium (rop) option",
+      "target": "chunk:file2::chunk::12",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:baup",
+      "target": "chunk:file2::chunk::13",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:you",
+      "target": "chunk:file2::chunk::15",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:you",
+      "target": "entity:deferred amount",
+      "relation": "shall pay",
+      "evidence": "You shall pay the deferred amount at the end of or during the premium break benefit period.",
+      "chunk_id": "file2::chunk::15"
+    },
+    {
+      "source": "entity:us",
+      "target": "chunk:file2::chunk::15",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:us",
+      "target": "entity:deferred amount",
+      "relation": "shall be entitled to recover",
+      "evidence": "we shall be entitled to recover the deferred amount from the benefits payable under the Policy to You.",
+      "chunk_id": "file2::chunk::15"
+    },
+    {
+      "source": "entity:inr 5 lacs",
+      "target": "chunk:file2::chunk::15",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life insured",
+      "target": "chunk:file2::chunk::16",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:life insured",
+      "target": "entity:company",
+      "relation": "is insured by",
+      "evidence": "the event of death of the Life Insured",
+      "chunk_id": "file2::chunk::16"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "chunk:file2::chunk::16",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "entity:company",
+      "relation": "receives Death Benefit from",
+      "evidence": "Death Benefit shall be payable to the registered Nominee(s)",
+      "chunk_id": "file2::chunk::16"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "chunk:file2::chunk::42",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "chunk:file2::chunk::43",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "entity:policyholder dies",
+      "relation": "receives proceeds if",
+      "evidence": "if the Nominees die before the Policyholder, the proceeds are payable to Policyholder or his heirs.",
+      "chunk_id": "file2::chunk::43"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "chunk:file2::chunk::45",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "chunk:file2::chunk::47",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:nominee",
+      "target": "entity:life insurance policy",
+      "relation": "receives benefits from",
+      "evidence": "Premium collected on Policy till the date of repudiation shall be paid to the insured or legal representative or Nominee.",
+      "chunk_id": "file2::chunk::47"
+    },
+    {
+      "source": "entity:assignee",
+      "target": "chunk:file2::chunk::16",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:assignee",
+      "target": "entity:company",
+      "relation": "receives benefits from",
+      "evidence": "all Benefits shall be payable to the Assignee",
+      "chunk_id": "file2::chunk::16"
+    },
+    {
+      "source": "entity:limited premium",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:single premium",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:guaranteed surrender value (gsv)",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:guaranteed surrender value (gsv)",
+      "target": "entity:payment of premium",
+      "relation": "gets acquired upon",
+      "evidence": "Your Guaranteed Surrender Value (GSV) gets acquired immediately upon payment of Premium in case of SP.",
+      "chunk_id": "file2::chunk::17"
+    },
+    {
+      "source": "entity:special surrender value (ssv)",
+      "target": "chunk:file2::chunk::17",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:special surrender value (ssv)",
+      "target": "entity:completion of first policy year",
+      "relation": "shall become payable after",
+      "evidence": "SSV shall become payable after completion of first policy year provided one full year premium has been received.",
+      "chunk_id": "file2::chunk::17"
+    },
+    {
+      "source": "entity:municipal authority",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:gram panchayat",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:tehsildar",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hospital authority",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:claimant",
+      "target": "chunk:file2::chunk::23",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:claimant",
+      "target": "entity:company",
+      "relation": "provides",
+      "evidence": "All documents in support of the claim have been provided to the Company.",
+      "chunk_id": "file2::chunk::23"
+    },
+    {
+      "source": "entity:death certificate",
+      "target": "entity:municipal authority",
+      "relation": "issued by",
+      "evidence": "Death Certificate issued by Municipal Authority.",
+      "chunk_id": "file2::chunk::23"
+    },
+    {
+      "source": "entity:death certificate",
+      "target": "entity:gram panchayat",
+      "relation": "issued by",
+      "evidence": "Death Certificate issued by Gram Panchayat.",
+      "chunk_id": "file2::chunk::23"
+    },
+    {
+      "source": "entity:death certificate",
+      "target": "entity:tehsildar",
+      "relation": "issued by",
+      "evidence": "Death Certificate issued by Tehsildar.",
+      "chunk_id": "file2::chunk::23"
+    },
+    {
+      "source": "entity:postmortem report",
+      "target": "entity:hospital authority",
+      "relation": "attested by",
+      "evidence": "Original or copy of Postmortem report attested by Hospital Authority.",
+      "chunk_id": "file2::chunk::23"
+    },
+    {
+      "source": "entity:section 38",
+      "target": "chunk:file2::chunk::24",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:section 39",
+      "target": "chunk:file2::chunk::24",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act 1938",
+      "target": "chunk:file2::chunk::25",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance act 1938",
+      "target": "entity:insurance act 1938",
+      "relation": "is amended from time to time",
+      "evidence": "Insurance Act 1938 as amended from time to time.",
+      "chunk_id": "file2::chunk::25"
+    },
+    {
+      "source": "entity:income tax act, 1961",
+      "target": "chunk:file2::chunk::25",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:income tax act, 1961",
+      "target": "entity:income tax act, 1961",
+      "relation": "is amended from time to time",
+      "evidence": "as per the provisions of the Income Tax Act, 1961 as amended from time to time.",
+      "chunk_id": "file2::chunk::25"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india",
+      "target": "chunk:file2::chunk::25",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india",
+      "target": "entity:insurance policy provisions",
+      "relation": "requires prior approval",
+      "evidence": "We are required to obtain prior approval from the Insurance Regulatory and Development Authority of India before making any material changes.",
+      "chunk_id": "file2::chunk::25"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india",
+      "target": "chunk:file2::chunk::26",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india",
+      "target": "entity:hdfc life insurance company limited",
+      "relation": "requires approval from",
+      "evidence": "We are required to obtain prior approval from the IRDAI before making any material changes.",
+      "chunk_id": "file2::chunk::26"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:maharashtra",
+      "target": "chunk:file2::chunk::27",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:grievance redressal officer",
+      "target": "chunk:file2::chunk::28",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:customer",
+      "target": "entity:grievance redressal officer",
+      "relation": "may contact",
+      "evidence": "he or she may contact our Grievance Redressal Officer within 8 weeks",
+      "chunk_id": "file2::chunk::28"
+    },
+    {
+      "source": "entity:customer",
+      "target": "entity:grievance cell of irdai",
+      "relation": "may approach",
+      "evidence": "you may approach the Grievance Cell of IRDAI",
+      "chunk_id": "file2::chunk::28"
+    },
+    {
+      "source": "entity:grievance cell of irdai",
+      "target": "entity:complaint registration",
+      "relation": "provides",
+      "evidence": "You can register your complaint online at http://www.igms.irdai.gov.in/",
+      "chunk_id": "file2::chunk::28"
+    },
+    {
+      "source": "entity:consumer affairs department",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:consumer affairs department",
+      "target": "entity:insurance ombudsman",
+      "relation": "provides",
+      "evidence": "you may approach the Insurance Ombudsman in your region.",
+      "chunk_id": "file2::chunk::29"
+    },
+    {
+      "source": "entity:ahmedabad",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:bhopal",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:bhubaneswar",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:bengaluru",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:chandigarh",
+      "target": "chunk:file2::chunk::29",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:chandigarh",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:chandigarh",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, S.C.O. No. 101, 102 &103, 2nd Floor, Batra Building, Sector 17 - D, Chandigarh - 160 017.",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:chennai",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:chennai",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, Fatima Akhtar Court, 4th Floor, 453, Anna Salai, Teynampet, CHENNAI - 600 018.",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:delhi",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:delhi",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, 2/2 A, Universal Insurance Building, Asaf Ali Road, New Delhi - 110 002.",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:guwahati",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:guwahati",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, Jeevan Nivesh, 5th Floor, Nr. Panbazar over bridge, S.S. Road, Guwahati - 781001(ASSAM).",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:hyderabad",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:hyderabad",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, 6-2-46, 1st floor, 'Moin Court', Lane Opp. Saleem Function Palace, A. C. Guards, Lakdi-Ka-Pool, Hyderabad - 500 004.",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:jaipur",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:jaipur",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, Jeevan Nidhi - II Bldg., Gr. Floor, Bhawani Singh Marg, Jaipur - 302 005.",
+      "chunk_id": "file2::chunk::30"
+    },
+    {
+      "source": "entity:jaipur",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, Jeevan Nidhi - II Bldg., Gr. Floor, Bhawani Singh Marg, Jaipur - 302 005.",
+      "chunk_id": "file2::chunk::31"
+    },
+    {
+      "source": "entity:jaipur",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:office of the insurance ombudsman",
+      "target": "chunk:file2::chunk::30",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:office of the insurance ombudsman",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:kochi",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:kochi",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, 10th Floor, Jeevan Prakash, LIC Building, Opp to Maharaja's College, M.G.Road, Kochi- 682 011.",
+      "chunk_id": "file2::chunk::31"
+    },
+    {
+      "source": "entity:kolkata",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:kolkata",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, Hindustan Bldg. Annexe, 7th Floor, 4, C.R. Avenue, KOLKATA - 700 072.",
+      "chunk_id": "file2::chunk::31"
+    },
+    {
+      "source": "entity:lucknow",
+      "target": "chunk:file2::chunk::31",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:lucknow",
+      "target": "entity:office of the insurance ombudsman",
+      "relation": "has office of",
+      "evidence": "Office of the Insurance Ombudsman, 6th Floor, Jeevan Bhawan, Phase-II, Nawal Kishore Road, Hazratganj, Lucknow - 226 001.",
+      "chunk_id": "file2::chunk::31"
+    },
+    {
+      "source": "entity:noida",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:patna",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:pune",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance regulatory and development authority of india act, 1999",
+      "target": "chunk:file2::chunk::32",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholders",
+      "target": "chunk:file2::chunk::33",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policyholders",
+      "target": "entity:insurance ombudsman",
+      "relation": "make a complaint to",
+      "evidence": "Any person who has a grievance against an insurer or insurance broker, may... make a complaint in writing to the Insurance Ombudsman.",
+      "chunk_id": "file2::chunk::33"
+    },
+    {
+      "source": "entity:policyholders",
+      "target": "entity:insurer",
+      "relation": "have grievances against",
+      "evidence": "Any person who has a grievance against an insurer or insurance broker.",
+      "chunk_id": "file2::chunk::33"
+    },
+    {
+      "source": "entity:policyholders",
+      "target": "entity:insurance broker",
+      "relation": "have grievances against",
+      "evidence": "Any person who has a grievance against an insurer or insurance broker.",
+      "chunk_id": "file2::chunk::33"
+    },
+    {
+      "source": "entity:insurance broker",
+      "target": "chunk:file2::chunk::33",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:council for insurance ombudsmen",
+      "target": "chunk:file2::chunk::34",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:council for insurance ombudsmen",
+      "target": "chunk:file2::chunk::35",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:council for insurance ombudsmen",
+      "target": "entity:complaints management system",
+      "relation": "develop",
+      "evidence": "The Council for Insurance Ombudsmen shall develop a complaints management system.",
+      "chunk_id": "file2::chunk::35"
+    },
+    {
+      "source": "entity:person",
+      "target": "entity:insurance ombudsman",
+      "relation": "may make a complaint to",
+      "evidence": "Any person who has a grievance against an insurer or insurance broker... make a complaint in writing to the Insurance Ombudsman",
+      "chunk_id": "file2::chunk::34"
+    },
+    {
+      "source": "entity:complainant",
+      "target": "entity:insurer or insurance broker",
+      "relation": "must represent to",
+      "evidence": "the complainant has made a representation in writing or through electronic mail or online through website of the insurer or insurance broker concerned",
+      "chunk_id": "file2::chunk::34"
+    },
+    {
+      "source": "entity:complainant",
+      "target": "chunk:file2::chunk::36",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:ombudsman",
+      "target": "chunk:file2::chunk::35",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:ombudsman",
+      "target": "entity:delay",
+      "relation": "empowered to condone",
+      "evidence": "The Ombudsman shall be empowered to condone the delay in such cases.",
+      "chunk_id": "file2::chunk::35"
+    },
+    {
+      "source": "entity:insurance ombudsman rules, 2017",
+      "target": "chunk:file2::chunk::35",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance ombudsman rules, 2017",
+      "target": "chunk:file2::chunk::36",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "chunk:file2::chunk::39",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "entity:insurance act, 1938",
+      "relation": "amended",
+      "evidence": "amended by Insurance Laws (Amendment) Act, 2015",
+      "chunk_id": "file2::chunk::39"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "entity:insurance act, 1938",
+      "relation": "amends",
+      "evidence": "Nomination of a life insurance Policy is as below in accordance with Section 39 of the Insurance Act, 1938 as amended by Insurance Laws (Amendment) Act, 2015.",
+      "chunk_id": "file2::chunk::42"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "entity:insurance act, 1938",
+      "relation": "amends",
+      "evidence": "Provisions regarding Policy not being called into question in terms of Section 45 of the Insurance Act, 1938, as amended Insurance Laws (Amendment) Act, 2015.",
+      "chunk_id": "file2::chunk::45"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "entity:23.03.2015",
+      "relation": "enacted on",
+      "evidence": "dated 23.03.2015",
+      "chunk_id": "file2::chunk::39"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "chunk:file2::chunk::42",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "chunk:file2::chunk::44",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "entity:life insurance policies",
+      "relation": "applies to",
+      "evidence": "The provisions of sub-section 7 and 8 shall apply to all life insurance policies maturing for payment after the commencement of Insurance Laws (Amendment) Act, 2015.",
+      "chunk_id": "file2::chunk::44"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "chunk:file2::chunk::45",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insurance laws (amendment) act, 2015",
+      "target": "chunk:file2::chunk::48",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:23.03.2015",
+      "target": "chunk:file2::chunk::39",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:authority",
+      "target": "chunk:file2::chunk::40",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:authority",
+      "target": "entity:fee for assignment or transfer",
+      "relation": "specifies",
+      "evidence": "Fee to be paid for Assignment or transfer can be specified by the Authority through Regulations.",
+      "chunk_id": "file2::chunk::40"
+    },
+    {
+      "source": "entity:authority",
+      "target": "chunk:file2::chunk::41",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:authority",
+      "target": "chunk:file2::chunk::43",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:authority",
+      "target": "entity:fee for registering change or cancellation of a nomination",
+      "relation": "specifies",
+      "evidence": "Fee to be paid to the insurer for registering change or cancellation of a Nomination can be specified by the Authority through Regulations.",
+      "chunk_id": "file2::chunk::43"
+    },
+    {
+      "source": "entity:person aggrieved by the refusal",
+      "target": "entity:irdai",
+      "relation": "may prefer a claim to",
+      "evidence": "any person aggrieved by the refusal may prefer a claim to IRDAI.",
+      "chunk_id": "file2::chunk::41"
+    },
+    {
+      "source": "entity:dispute regarding priority",
+      "target": "entity:authority",
+      "relation": "should be referred to",
+      "evidence": "Any dispute in this regard as to priority should be referred to Authority.",
+      "chunk_id": "file2::chunk::41"
+    },
+    {
+      "source": "entity:assignee or transferee",
+      "target": "entity:absolute assignee or transferee",
+      "relation": "shall be deemed to be",
+      "evidence": "the Assignee or transferee shall be deemed to be absolute Assignee or transferee.",
+      "chunk_id": "file2::chunk::41"
+    },
+    {
+      "source": "entity:married women's property act, 1874",
+      "target": "chunk:file2::chunk::45",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:married women's property act, 1874",
+      "target": "entity:insurance laws (amendment) act, 2015",
+      "relation": "affects",
+      "evidence": "The provisions of Section 39 are not applicable to any life insurance Policy to which Section 6 of Married Women's Property Act, 1874 applies.",
+      "chunk_id": "file2::chunk::45"
+    },
+    {
+      "source": "entity:insured",
+      "target": "chunk:file2::chunk::46",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insured",
+      "target": "entity:misstatement",
+      "relation": "can prove",
+      "evidence": "if the Insured / beneficiary can prove that the misstatement was true to the best of his knowledge",
+      "chunk_id": "file2::chunk::46"
+    },
+    {
+      "source": "entity:insured",
+      "target": "chunk:file2::chunk::47",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:insured",
+      "target": "entity:life insurance policy",
+      "relation": "is covered by",
+      "evidence": "Fact shall not be considered material unless it has a direct bearing on the risk undertaken by the insurer.",
+      "chunk_id": "file2::chunk::47"
+    },
+    {
+      "source": "entity:beneficiary",
+      "target": "chunk:file2::chunk::46",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:assignees",
+      "target": "chunk:file2::chunk::47",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:assignees",
+      "target": "entity:life insurance policy",
+      "relation": "receive rights from",
+      "evidence": "Premium collected on Policy till the date of repudiation shall be paid to the insured or legal representative or Nominee or Assignees of insured.",
+      "chunk_id": "file2::chunk::47"
+    },
+    {
+      "source": "entity:policy holders",
+      "target": "chunk:file2::chunk::48",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:policy holders",
+      "target": "entity:insurance laws (amendment) act, 2015",
+      "relation": "are advised to refer to",
+      "evidence": "Policy Holders are advised to refer to Insurance Laws (Amendment) Act, 2015",
+      "chunk_id": "file2::chunk::48"
+    }
+  ]
+}

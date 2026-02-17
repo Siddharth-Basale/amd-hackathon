@@ -1,0 +1,2291 @@
+{
+  "nodes": [
+    {
+      "id": "section:Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "type": "section",
+      "section_path": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "section_title": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "level": 2,
+      "start_line": 52
+    },
+    {
+      "id": "section:Cancellation in the Free-Look Period:",
+      "type": "section",
+      "section_path": "Cancellation in the Free-Look Period:",
+      "section_title": "Cancellation in the Free-Look Period:",
+      "level": 2,
+      "start_line": 18
+    },
+    {
+      "id": "section:Part A",
+      "type": "section",
+      "section_path": "Part A",
+      "section_title": "Part A",
+      "level": 2,
+      "start_line": 42
+    },
+    {
+      "id": "section:Table of Contents",
+      "type": "section",
+      "section_path": "Table of Contents",
+      "section_title": "Table of Contents",
+      "level": 2,
+      "start_line": 60
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1",
+      "section_title": "Appendix 1",
+      "level": 3,
+      "start_line": 932
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure I",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I",
+      "section_title": "Annexure I",
+      "level": 4,
+      "start_line": 989
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_title": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "level": 5,
+      "start_line": 991
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "section_title": "Section 39 - Nomination by Policyholder",
+      "level": 5,
+      "start_line": 1033
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure II",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure II",
+      "section_title": "Annexure II",
+      "level": 4,
+      "start_line": 1055
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure III",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III",
+      "section_title": "Annexure III",
+      "level": 4,
+      "start_line": 1067
+    },
+    {
+      "id": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "type": "section",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_title": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "level": 5,
+      "start_line": 1069
+    },
+    {
+      "id": "section:Table of Contents > Life Assured Details",
+      "type": "section",
+      "section_path": "Table of Contents > Life Assured Details",
+      "section_title": "Life Assured Details",
+      "level": 3,
+      "start_line": 152
+    },
+    {
+      "id": "section:Table of Contents > NOMINATION SCHEDULE",
+      "type": "section",
+      "section_path": "Table of Contents > NOMINATION SCHEDULE",
+      "section_title": "NOMINATION SCHEDULE",
+      "level": 3,
+      "start_line": 264
+    },
+    {
+      "id": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus",
+      "type": "section",
+      "section_path": "Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus",
+      "section_title": "POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus",
+      "level": 3,
+      "start_line": 134
+    },
+    {
+      "id": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "type": "section",
+      "section_path": "Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "section_title": "Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "level": 4,
+      "start_line": 136
+    },
+    {
+      "id": "section:Table of Contents > POLICY SCHEDULE",
+      "type": "section",
+      "section_path": "Table of Contents > POLICY SCHEDULE",
+      "section_title": "POLICY SCHEDULE",
+      "level": 3,
+      "start_line": 142
+    },
+    {
+      "id": "section:Table of Contents > Part B",
+      "type": "section",
+      "section_path": "Table of Contents > Part B",
+      "section_title": "Part B",
+      "level": 3,
+      "start_line": 302
+    },
+    {
+      "id": "section:Table of Contents > Part B > 1. Benefits",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > 1. Benefits",
+      "section_title": "1. Benefits",
+      "level": 4,
+      "start_line": 358
+    },
+    {
+      "id": "section:Table of Contents > Part B > 2. Optional Benefits",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > 2. Optional Benefits",
+      "section_title": "2. Optional Benefits",
+      "level": 4,
+      "start_line": 378
+    },
+    {
+      "id": "section:Table of Contents > Part B > Can you opt in / opt out of this option?",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > Can you opt in / opt out of this option?",
+      "section_title": "Can you opt in / opt out of this option?",
+      "level": 4,
+      "start_line": 384
+    },
+    {
+      "id": "section:Table of Contents > Part B > Death Benefit:",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > Death Benefit:",
+      "section_title": "Death Benefit:",
+      "level": 4,
+      "start_line": 362
+    },
+    {
+      "id": "section:Table of Contents > Part B > Maturity Benefit",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > Maturity Benefit",
+      "section_title": "Maturity Benefit",
+      "level": 4,
+      "start_line": 370
+    },
+    {
+      "id": "section:Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "section_title": "a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "level": 4,
+      "start_line": 380
+    },
+    {
+      "id": "section:Table of Contents > Part B > b) Renewability Option at Maturity",
+      "type": "section",
+      "section_path": "Table of Contents > Part B > b) Renewability Option at Maturity",
+      "section_title": "b) Renewability Option at Maturity",
+      "level": 4,
+      "start_line": 394
+    },
+    {
+      "id": "section:Table of Contents > Part C",
+      "type": "section",
+      "section_path": "Table of Contents > Part C",
+      "section_title": "Part C",
+      "level": 3,
+      "start_line": 408
+    },
+    {
+      "id": "section:Table of Contents > Part C > 3. General",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > 3. General",
+      "section_title": "3. General",
+      "level": 4,
+      "start_line": 454
+    },
+    {
+      "id": "section:Table of Contents > Part C > 4. Payment and cessation of Premiums",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > 4. Payment and cessation of Premiums",
+      "section_title": "4. Payment and cessation of Premiums",
+      "level": 4,
+      "start_line": 468
+    },
+    {
+      "id": "section:Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?",
+      "section_title": "5. What happens in case there's a delay in Premium payment?",
+      "level": 4,
+      "start_line": 479
+    },
+    {
+      "id": "section:Table of Contents > Part C > Do you have to pay additional Premium?",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > Do you have to pay additional Premium?",
+      "section_title": "Do you have to pay additional Premium?",
+      "level": 4,
+      "start_line": 432
+    },
+    {
+      "id": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > c) Premium Break Benefit",
+      "section_title": "c) Premium Break Benefit",
+      "level": 4,
+      "start_line": 414
+    },
+    {
+      "id": "section:Table of Contents > Part C > d) Immediate Payout on Claim Intimation",
+      "type": "section",
+      "section_path": "Table of Contents > Part C > d) Immediate Payout on Claim Intimation",
+      "section_title": "d) Immediate Payout on Claim Intimation",
+      "level": 4,
+      "start_line": 436
+    },
+    {
+      "id": "section:Table of Contents > Part D",
+      "type": "section",
+      "section_path": "Table of Contents > Part D",
+      "section_title": "Part D",
+      "level": 3,
+      "start_line": 485
+    },
+    {
+      "id": "section:Table of Contents > Part D > 1. Benefits payable on Surrender",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 1. Benefits payable on Surrender",
+      "section_title": "1. Benefits payable on Surrender",
+      "level": 4,
+      "start_line": 489
+    },
+    {
+      "id": "section:Table of Contents > Part D > 2. Lapse",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 2. Lapse",
+      "section_title": "2. Lapse",
+      "level": 4,
+      "start_line": 553
+    },
+    {
+      "id": "section:Table of Contents > Part D > 3. Loans",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 3. Loans",
+      "section_title": "3. Loans",
+      "level": 4,
+      "start_line": 577
+    },
+    {
+      "id": "section:Table of Contents > Part D > 4. Alterations",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 4. Alterations",
+      "section_title": "4. Alterations",
+      "level": 4,
+      "start_line": 583
+    },
+    {
+      "id": "section:Table of Contents > Part D > 5. Revival of the Policy",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 5. Revival of the Policy",
+      "section_title": "5. Revival of the Policy",
+      "level": 4,
+      "start_line": 591
+    },
+    {
+      "id": "section:Table of Contents > Part D > 6. Bonus",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 6. Bonus",
+      "section_title": "6. Bonus",
+      "level": 4,
+      "start_line": 613
+    },
+    {
+      "id": "section:Table of Contents > Part D > 7. Free Look Cancellation",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > 7. Free Look Cancellation",
+      "section_title": "7. Free Look Cancellation",
+      "level": 4,
+      "start_line": 619
+    },
+    {
+      "id": "section:Table of Contents > Part D > Are you eligible for Bonus under this Policy?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > Are you eligible for Bonus under this Policy?",
+      "section_title": "Are you eligible for Bonus under this Policy?",
+      "level": 4,
+      "start_line": 615
+    },
+    {
+      "id": "section:Table of Contents > Part D > Can you alter the Premium paying frequency?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > Can you alter the Premium paying frequency?",
+      "section_title": "Can you alter the Premium paying frequency?",
+      "level": 4,
+      "start_line": 585
+    },
+    {
+      "id": "section:Table of Contents > Part D > Can you avail a loan under this Policy?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > Can you avail a loan under this Policy?",
+      "section_title": "Can you avail a loan under this Policy?",
+      "level": 4,
+      "start_line": 579
+    },
+    {
+      "id": "section:Table of Contents > Part D > How often does the revival interest rate reviewed?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > How often does the revival interest rate reviewed?",
+      "section_title": "How often does the revival interest rate reviewed?",
+      "level": 4,
+      "start_line": 607
+    },
+    {
+      "id": "section:Table of Contents > Part D > What happens if the Policy has acquired paid-up value and you stop paying Premiums?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > What happens if the Policy has acquired paid-up value and you stop paying Premiums?",
+      "section_title": "What happens if the Policy has acquired paid-up value and you stop paying Premiums?",
+      "level": 4,
+      "start_line": 564
+    },
+    {
+      "id": "section:Table of Contents > Part D > What is Smart Exit Benefit?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > What is Smart Exit Benefit?",
+      "section_title": "What is Smart Exit Benefit?",
+      "level": 4,
+      "start_line": 540
+    },
+    {
+      "id": "section:Table of Contents > Part D > When can you avail this option?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > When can you avail this option?",
+      "section_title": "When can you avail this option?",
+      "level": 4,
+      "start_line": 544
+    },
+    {
+      "id": "section:Table of Contents > Part D > When should you make the application for Policy revival?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > When should you make the application for Policy revival?",
+      "section_title": "When should you make the application for Policy revival?",
+      "level": 4,
+      "start_line": 603
+    },
+    {
+      "id": "section:Table of Contents > Part D > When will your policy acquire a paid-up value?",
+      "type": "section",
+      "section_path": "Table of Contents > Part D > When will your policy acquire a paid-up value?",
+      "section_title": "When will your policy acquire a paid-up value?",
+      "level": 4,
+      "start_line": 555
+    },
+    {
+      "id": "section:Table of Contents > Part E",
+      "type": "section",
+      "section_path": "Table of Contents > Part E",
+      "section_title": "Part E",
+      "level": 3,
+      "start_line": 629
+    },
+    {
+      "id": "section:Table of Contents > Part E > 1. Exclusions",
+      "type": "section",
+      "section_path": "Table of Contents > Part E > 1. Exclusions",
+      "section_title": "1. Exclusions",
+      "level": 4,
+      "start_line": 635
+    },
+    {
+      "id": "section:Table of Contents > Part E > 2. Claim Procedure",
+      "type": "section",
+      "section_path": "Table of Contents > Part E > 2. Claim Procedure",
+      "section_title": "2. Claim Procedure",
+      "level": 4,
+      "start_line": 645
+    },
+    {
+      "id": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "type": "section",
+      "section_path": "Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "section_title": "i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "level": 4,
+      "start_line": 647
+    },
+    {
+      "id": "section:Table of Contents > Part E > i. Suicide Exclusion",
+      "type": "section",
+      "section_path": "Table of Contents > Part E > i. Suicide Exclusion",
+      "section_title": "i. Suicide Exclusion",
+      "level": 4,
+      "start_line": 637
+    },
+    {
+      "id": "section:Table of Contents > Part E > ii. Age Admitted",
+      "type": "section",
+      "section_path": "Table of Contents > Part E > ii. Age Admitted",
+      "section_title": "ii. Age Admitted",
+      "level": 4,
+      "start_line": 641
+    },
+    {
+      "id": "section:Table of Contents > Part F",
+      "type": "section",
+      "section_path": "Table of Contents > Part F",
+      "section_title": "Part F",
+      "level": 3,
+      "start_line": 671
+    },
+    {
+      "id": "section:Table of Contents > Part F > 1. For Regular Pay and Limited Pay",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 1. For Regular Pay and Limited Pay",
+      "section_title": "1. For Regular Pay and Limited Pay",
+      "level": 4,
+      "start_line": 904
+    },
+    {
+      "id": "section:Table of Contents > Part F > 3. Assignment",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 3. Assignment",
+      "section_title": "3. Assignment",
+      "level": 4,
+      "start_line": 703
+    },
+    {
+      "id": "section:Table of Contents > Part F > 4. Nomination",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 4. Nomination",
+      "section_title": "4. Nomination",
+      "level": 4,
+      "start_line": 707
+    },
+    {
+      "id": "section:Table of Contents > Part F > 5. Issuance of Duplicate Policy:",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 5. Issuance of Duplicate Policy:",
+      "section_title": "5. Issuance of Duplicate Policy:",
+      "level": 4,
+      "start_line": 711
+    },
+    {
+      "id": "section:Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure",
+      "section_title": "6. Incorrect Information and Non-Disclosure",
+      "level": 4,
+      "start_line": 715
+    },
+    {
+      "id": "section:Table of Contents > Part F > 7. Policy on the life of a Minor",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 7. Policy on the life of a Minor",
+      "section_title": "7. Policy on the life of a Minor",
+      "level": 4,
+      "start_line": 719
+    },
+    {
+      "id": "section:Table of Contents > Part F > 8. Taxes",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > 8. Taxes",
+      "section_title": "8. Taxes",
+      "level": 4,
+      "start_line": 723
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes",
+      "section_title": "ii. Direct Taxes",
+      "level": 4,
+      "start_line": 733
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > (Grievance Redress Mechanism)",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > (Grievance Redress Mechanism)",
+      "section_title": "(Grievance Redress Mechanism)",
+      "level": 5,
+      "start_line": 817
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "section_title": "1. Complaint Resolution Process",
+      "level": 5,
+      "start_line": 773
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > 10. Jurisdiction:",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 10. Jurisdiction:",
+      "section_title": "10. Jurisdiction:",
+      "level": 5,
+      "start_line": 749
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > 11. Notices",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 11. Notices",
+      "section_title": "11. Notices",
+      "level": 5,
+      "start_line": 753
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "section_title": "9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "level": 5,
+      "start_line": 737
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > Part G",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > Part G",
+      "section_title": "Part G",
+      "level": 5,
+      "start_line": 815
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "section_title": "a. Details and addresses of Insurance Ombudsman",
+      "level": 5,
+      "start_line": 827
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-",
+      "section_title": "b. Insurance Ombudsman-",
+      "level": 5,
+      "start_line": 863
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "section_title": "c. Manner in which complaint is to be made -",
+      "level": 5,
+      "start_line": 876
+    },
+    {
+      "id": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "type": "section",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "section_title": "d. Implementation of Ombudsman Award -",
+      "level": 5,
+      "start_line": 898
+    },
+    {
+      "id": "section:Table of Contents > Policy Details",
+      "type": "section",
+      "section_path": "Table of Contents > Policy Details",
+      "section_title": "Policy Details",
+      "level": 3,
+      "start_line": 162
+    },
+    {
+      "id": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "type": "section",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details",
+      "section_title": "Rider Policy Details",
+      "level": 4,
+      "start_line": 239
+    },
+    {
+      "id": "section:Table of Contents > Policyholder Details",
+      "type": "section",
+      "section_path": "Table of Contents > Policyholder Details",
+      "section_title": "Policyholder Details",
+      "level": 3,
+      "start_line": 132
+    },
+    {
+      "id": "section:Table of Contents > SPACE FOR ENDORSEMENTS",
+      "type": "section",
+      "section_path": "Table of Contents > SPACE FOR ENDORSEMENTS",
+      "section_title": "SPACE FOR ENDORSEMENTS",
+      "level": 3,
+      "start_line": 298
+    },
+    {
+      "id": "chunk:0",
+      "type": "chunk",
+      "chunk_id": 0,
+      "heading": "Cancellation in the Free-Look Period:",
+      "section_path": ""
+    },
+    {
+      "id": "chunk:1",
+      "type": "chunk",
+      "chunk_id": 1,
+      "heading": "Cancellation in the Free-Look Period:",
+      "section_path": "Cancellation in the Free-Look Period:"
+    },
+    {
+      "id": "chunk:2",
+      "type": "chunk",
+      "chunk_id": 2,
+      "heading": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "section_path": "Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;"
+    },
+    {
+      "id": "chunk:3",
+      "type": "chunk",
+      "chunk_id": 3,
+      "heading": "Table of Contents",
+      "section_path": "Table of Contents"
+    },
+    {
+      "id": "chunk:4",
+      "type": "chunk",
+      "chunk_id": 4,
+      "heading": "Table of Contents",
+      "section_path": "Table of Contents"
+    },
+    {
+      "id": "chunk:5",
+      "type": "chunk",
+      "chunk_id": 5,
+      "heading": "Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "section_path": "Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;"
+    },
+    {
+      "id": "chunk:6",
+      "type": "chunk",
+      "chunk_id": 6,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:7",
+      "type": "chunk",
+      "chunk_id": 7,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:8",
+      "type": "chunk",
+      "chunk_id": 8,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:9",
+      "type": "chunk",
+      "chunk_id": 9,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:10",
+      "type": "chunk",
+      "chunk_id": 10,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:11",
+      "type": "chunk",
+      "chunk_id": 11,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:12",
+      "type": "chunk",
+      "chunk_id": 12,
+      "heading": "Rider Policy Details",
+      "section_path": "Table of Contents > Policy Details > Rider Policy Details"
+    },
+    {
+      "id": "chunk:13",
+      "type": "chunk",
+      "chunk_id": 13,
+      "heading": "a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "section_path": "Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;"
+    },
+    {
+      "id": "chunk:14",
+      "type": "chunk",
+      "chunk_id": 14,
+      "heading": "c) Premium Break Benefit",
+      "section_path": "Table of Contents > Part C > c) Premium Break Benefit"
+    },
+    {
+      "id": "chunk:15",
+      "type": "chunk",
+      "chunk_id": 15,
+      "heading": "c) Premium Break Benefit",
+      "section_path": "Table of Contents > Part C > c) Premium Break Benefit"
+    },
+    {
+      "id": "chunk:16",
+      "type": "chunk",
+      "chunk_id": 16,
+      "heading": "d) Immediate Payout on Claim Intimation",
+      "section_path": "Table of Contents > Part C > d) Immediate Payout on Claim Intimation"
+    },
+    {
+      "id": "chunk:17",
+      "type": "chunk",
+      "chunk_id": 17,
+      "heading": "5. What happens in case there's a delay in Premium payment?",
+      "section_path": "Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?"
+    },
+    {
+      "id": "chunk:18",
+      "type": "chunk",
+      "chunk_id": 18,
+      "heading": "1. Benefits payable on Surrender",
+      "section_path": "Table of Contents > Part D > 1. Benefits payable on Surrender"
+    },
+    {
+      "id": "chunk:19",
+      "type": "chunk",
+      "chunk_id": 19,
+      "heading": "2. Lapse",
+      "section_path": "Table of Contents > Part D > 2. Lapse"
+    },
+    {
+      "id": "chunk:20",
+      "type": "chunk",
+      "chunk_id": 20,
+      "heading": "5. Revival of the Policy",
+      "section_path": "Table of Contents > Part D > 5. Revival of the Policy"
+    },
+    {
+      "id": "chunk:21",
+      "type": "chunk",
+      "chunk_id": 21,
+      "heading": "7. Free Look Cancellation",
+      "section_path": "Table of Contents > Part D > 7. Free Look Cancellation"
+    },
+    {
+      "id": "chunk:22",
+      "type": "chunk",
+      "chunk_id": 22,
+      "heading": "ii. Age Admitted",
+      "section_path": "Table of Contents > Part E > ii. Age Admitted"
+    },
+    {
+      "id": "chunk:23",
+      "type": "chunk",
+      "chunk_id": 23,
+      "heading": "i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "section_path": "Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:"
+    },
+    {
+      "id": "chunk:24",
+      "type": "chunk",
+      "chunk_id": 24,
+      "heading": "i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "section_path": "Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:"
+    },
+    {
+      "id": "chunk:25",
+      "type": "chunk",
+      "chunk_id": 25,
+      "heading": "6. Incorrect Information and Non-Disclosure",
+      "section_path": "Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure"
+    },
+    {
+      "id": "chunk:26",
+      "type": "chunk",
+      "chunk_id": 26,
+      "heading": "9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder"
+    },
+    {
+      "id": "chunk:27",
+      "type": "chunk",
+      "chunk_id": 27,
+      "heading": "11. Notices",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 11. Notices"
+    },
+    {
+      "id": "chunk:28",
+      "type": "chunk",
+      "chunk_id": 28,
+      "heading": "1. Complaint Resolution Process",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process"
+    },
+    {
+      "id": "chunk:29",
+      "type": "chunk",
+      "chunk_id": 29,
+      "heading": "1. Complaint Resolution Process",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process"
+    },
+    {
+      "id": "chunk:30",
+      "type": "chunk",
+      "chunk_id": 30,
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "chunk:31",
+      "type": "chunk",
+      "chunk_id": 31,
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "chunk:32",
+      "type": "chunk",
+      "chunk_id": 32,
+      "heading": "a. Details and addresses of Insurance Ombudsman",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "chunk:33",
+      "type": "chunk",
+      "chunk_id": 33,
+      "heading": "b. Insurance Ombudsman-",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-"
+    },
+    {
+      "id": "chunk:34",
+      "type": "chunk",
+      "chunk_id": 34,
+      "heading": "c. Manner in which complaint is to be made -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -"
+    },
+    {
+      "id": "chunk:35",
+      "type": "chunk",
+      "chunk_id": 35,
+      "heading": "c. Manner in which complaint is to be made -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -"
+    },
+    {
+      "id": "chunk:36",
+      "type": "chunk",
+      "chunk_id": 36,
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "chunk:37",
+      "type": "chunk",
+      "chunk_id": 37,
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "chunk:38",
+      "type": "chunk",
+      "chunk_id": 38,
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "chunk:39",
+      "type": "chunk",
+      "chunk_id": 39,
+      "heading": "d. Implementation of Ombudsman Award -",
+      "section_path": "Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -"
+    },
+    {
+      "id": "chunk:40",
+      "type": "chunk",
+      "chunk_id": 40,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:41",
+      "type": "chunk",
+      "chunk_id": 41,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:42",
+      "type": "chunk",
+      "chunk_id": 42,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:43",
+      "type": "chunk",
+      "chunk_id": 43,
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "chunk:44",
+      "type": "chunk",
+      "chunk_id": 44,
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "chunk:45",
+      "type": "chunk",
+      "chunk_id": 45,
+      "heading": "Section 39 - Nomination by Policyholder",
+      "section_path": "Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder"
+    },
+    {
+      "id": "chunk:46",
+      "type": "chunk",
+      "chunk_id": 46,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "chunk:47",
+      "type": "chunk",
+      "chunk_id": 47,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "chunk:48",
+      "type": "chunk",
+      "chunk_id": 48,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    }
+  ],
+  "edges": [
+    {
+      "source": "section:Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "target": "chunk:2",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Cancellation in the Free-Look Period:",
+      "target": "chunk:1",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Part F",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Policyholder Details",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Policy Details",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > NOMINATION SCHEDULE",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Appendix 1",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Part E",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Part B",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Part D",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Part C",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > SPACE FOR ENDORSEMENTS",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > Life Assured Details",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > POLICY SCHEDULE",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "chunk:3",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents",
+      "target": "chunk:4",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1",
+      "target": "section:Table of Contents > Appendix 1 > Annexure II",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1",
+      "target": "section:Table of Contents > Appendix 1 > Annexure III",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:40",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:41",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:42",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "target": "chunk:43",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "target": "chunk:44",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "target": "chunk:45",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure III",
+      "target": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:46",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:47",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:48",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus",
+      "target": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "target": "chunk:5",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > Can you opt in / opt out of this option?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > Death Benefit:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > b) Renewability Option at Maturity",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > 2. Optional Benefits",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > 1. Benefits",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B",
+      "target": "section:Table of Contents > Part B > Maturity Benefit",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "target": "chunk:13",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > d) Immediate Payout on Claim Intimation",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > 4. Payment and cessation of Premiums",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > 3. General",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C",
+      "target": "section:Table of Contents > Part C > Do you have to pay additional Premium?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?",
+      "target": "chunk:17",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "target": "chunk:14",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "target": "chunk:15",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part C > d) Immediate Payout on Claim Intimation",
+      "target": "chunk:16",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > When will your policy acquire a paid-up value?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 1. Benefits payable on Surrender",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > When can you avail this option?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 6. Bonus",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 5. Revival of the Policy",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > When should you make the application for Policy revival?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > How often does the revival interest rate reviewed?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 4. Alterations",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > What is Smart Exit Benefit?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > Are you eligible for Bonus under this Policy?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > What happens if the Policy has acquired paid-up value and you stop paying Premiums?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 7. Free Look Cancellation",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 3. Loans",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > Can you alter the Premium paying frequency?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > 2. Lapse",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D",
+      "target": "section:Table of Contents > Part D > Can you avail a loan under this Policy?",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part D > 1. Benefits payable on Surrender",
+      "target": "chunk:18",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part D > 2. Lapse",
+      "target": "chunk:19",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part D > 5. Revival of the Policy",
+      "target": "chunk:20",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part D > 7. Free Look Cancellation",
+      "target": "chunk:21",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part E",
+      "target": "section:Table of Contents > Part E > 1. Exclusions",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part E",
+      "target": "section:Table of Contents > Part E > ii. Age Admitted",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part E",
+      "target": "section:Table of Contents > Part E > 2. Claim Procedure",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part E",
+      "target": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part E",
+      "target": "section:Table of Contents > Part E > i. Suicide Exclusion",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "target": "chunk:23",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "target": "chunk:24",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part E > ii. Age Admitted",
+      "target": "chunk:22",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 7. Policy on the life of a Minor",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 8. Taxes",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 1. For Regular Pay and Limited Pay",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 3. Assignment",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 4. Nomination",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F",
+      "target": "section:Table of Contents > Part F > 5. Issuance of Duplicate Policy:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure",
+      "target": "chunk:25",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > (Grievance Redress Mechanism)",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 10. Jurisdiction:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > Part G",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 11. Notices",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "target": "chunk:28",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "target": "chunk:29",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > 11. Notices",
+      "target": "chunk:27",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "target": "chunk:26",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "target": "chunk:30",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "target": "chunk:31",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "target": "chunk:32",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-",
+      "target": "chunk:33",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "target": "chunk:34",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "target": "chunk:35",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "target": "chunk:36",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "target": "chunk:37",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "target": "chunk:38",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "target": "chunk:39",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:6",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:7",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:8",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:9",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:10",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:11",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "target": "chunk:12",
+      "relation": "contains"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "section:Cancellation in the Free-Look Period:",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "section:Agency/Intermediary Contact Details:  &lt;&lt;Agency/Intermediary address&gt;&gt;",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "section:Table of Contents",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "section:Table of Contents",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "section:Table of Contents > POLICY DOCUMENT- HDFC Life Click 2 Protect Elite Plus > Unique Identification Number: &lt;&lt;101N182V01&gt;&gt;",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:8",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:8",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:8",
+      "target": "chunk:10",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:9",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:9",
+      "target": "chunk:10",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:9",
+      "target": "chunk:11",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:10",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:10",
+      "target": "chunk:11",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:10",
+      "target": "chunk:12",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:11",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:11",
+      "target": "chunk:12",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:11",
+      "target": "chunk:13",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:12",
+      "target": "section:Table of Contents > Policy Details > Rider Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:12",
+      "target": "chunk:13",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:12",
+      "target": "chunk:14",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:12",
+      "target": "chunk:17",
+      "relation": "similar_to",
+      "similarity": 0.5277453087740073
+    },
+    {
+      "source": "chunk:13",
+      "target": "section:Table of Contents > Part B > a) &lt;&lt; Return of Premium (ROP) Option &gt;&gt;",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:13",
+      "target": "chunk:14",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:13",
+      "target": "chunk:15",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:14",
+      "target": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:14",
+      "target": "chunk:15",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:14",
+      "target": "chunk:16",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:15",
+      "target": "section:Table of Contents > Part C > c) Premium Break Benefit",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:15",
+      "target": "chunk:16",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:15",
+      "target": "chunk:17",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:16",
+      "target": "section:Table of Contents > Part C > d) Immediate Payout on Claim Intimation",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:16",
+      "target": "chunk:17",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:16",
+      "target": "chunk:18",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:17",
+      "target": "section:Table of Contents > Part C > 5. What happens in case there's a delay in Premium payment?",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:17",
+      "target": "chunk:18",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:17",
+      "target": "chunk:19",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:18",
+      "target": "section:Table of Contents > Part D > 1. Benefits payable on Surrender",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:18",
+      "target": "chunk:19",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:18",
+      "target": "chunk:20",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:19",
+      "target": "section:Table of Contents > Part D > 2. Lapse",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:19",
+      "target": "chunk:20",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:19",
+      "target": "chunk:21",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:20",
+      "target": "section:Table of Contents > Part D > 5. Revival of the Policy",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:20",
+      "target": "chunk:21",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:20",
+      "target": "chunk:22",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:21",
+      "target": "section:Table of Contents > Part D > 7. Free Look Cancellation",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:21",
+      "target": "chunk:22",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:21",
+      "target": "chunk:23",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:22",
+      "target": "section:Table of Contents > Part E > ii. Age Admitted",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:22",
+      "target": "chunk:23",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:22",
+      "target": "chunk:24",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:23",
+      "target": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:23",
+      "target": "chunk:24",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:23",
+      "target": "chunk:25",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:24",
+      "target": "section:Table of Contents > Part E > i. Death Benefit: The Death Benefit will be paid if and only if:",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:24",
+      "target": "chunk:25",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:24",
+      "target": "chunk:26",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:25",
+      "target": "section:Table of Contents > Part F > 6. Incorrect Information and Non-Disclosure",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:25",
+      "target": "chunk:26",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:25",
+      "target": "chunk:27",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:26",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 9. Modification, Amendment, Re-enactment of or to the Insurance laws and rules, Regulations, guidelines, clarifications, circulars etc. thereunder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:26",
+      "target": "chunk:27",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:26",
+      "target": "chunk:28",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:27",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 11. Notices",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:27",
+      "target": "chunk:28",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:27",
+      "target": "chunk:29",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:28",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:28",
+      "target": "chunk:29",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:28",
+      "target": "chunk:30",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:29",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > 1. Complaint Resolution Process",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:29",
+      "target": "chunk:30",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:29",
+      "target": "chunk:31",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:30",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:30",
+      "target": "chunk:31",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:30",
+      "target": "chunk:32",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:31",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:31",
+      "target": "chunk:32",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:31",
+      "target": "chunk:33",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:32",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > a. Details and addresses of Insurance Ombudsman",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:32",
+      "target": "chunk:33",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:32",
+      "target": "chunk:34",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:33",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > b. Insurance Ombudsman-",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:33",
+      "target": "chunk:34",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:33",
+      "target": "chunk:35",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:34",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:34",
+      "target": "chunk:35",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:34",
+      "target": "chunk:36",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:35",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > c. Manner in which complaint is to be made -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:35",
+      "target": "chunk:36",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:35",
+      "target": "chunk:37",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:36",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:36",
+      "target": "chunk:37",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:36",
+      "target": "chunk:38",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:37",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:37",
+      "target": "chunk:38",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:37",
+      "target": "chunk:39",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:38",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:38",
+      "target": "chunk:39",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:38",
+      "target": "chunk:40",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:39",
+      "target": "section:Table of Contents > Part F > ii. Direct Taxes > d. Implementation of Ombudsman Award -",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:39",
+      "target": "chunk:40",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:39",
+      "target": "chunk:41",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:40",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:40",
+      "target": "chunk:41",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:40",
+      "target": "chunk:42",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:41",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:41",
+      "target": "chunk:42",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:41",
+      "target": "chunk:43",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:42",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:42",
+      "target": "chunk:43",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:42",
+      "target": "chunk:44",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:43",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:43",
+      "target": "chunk:44",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:43",
+      "target": "chunk:45",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:44",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:44",
+      "target": "chunk:45",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:44",
+      "target": "chunk:46",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:45",
+      "target": "section:Table of Contents > Appendix 1 > Annexure I > Section 39 - Nomination by Policyholder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:45",
+      "target": "chunk:46",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:45",
+      "target": "chunk:47",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:46",
+      "target": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:46",
+      "target": "chunk:47",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:46",
+      "target": "chunk:48",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:47",
+      "target": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:47",
+      "target": "chunk:48",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:48",
+      "target": "section:Table of Contents > Appendix 1 > Annexure III > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    }
+  ]
+}

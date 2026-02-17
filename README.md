@@ -63,10 +63,10 @@ This project builds a document understanding pipeline that:
 3. **Index with GraphRAG**
    ```bash
    cd graphrag-project
-   graphrag init --root graphrag-project            # already run once
-   graphrag index --root graphrag-project
+   graphrag init --root . -m gpt-4o-mini -e nomic-embed-text   # non-interactive, uses your defaults
+   graphrag index --root .
    ```
-   Ensure `.env` has `GRAPHRAG_API_KEY` (for completion model) and Ollama is serving embeddings.
+   Ensure `.env` has `OPENAI_API_KEY` and Ollama is serving embeddings.
 
 4. **Ask questions**
    ```bash
