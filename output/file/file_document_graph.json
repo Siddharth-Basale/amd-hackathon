@@ -1,0 +1,1412 @@
+{
+  "nodes": [
+    {
+      "id": "section:Authorised Signatory",
+      "type": "section",
+      "section_path": "Authorised Signatory",
+      "section_title": "Authorised Signatory",
+      "level": 2,
+      "start_line": 134
+    },
+    {
+      "id": "section:Cancellation in the Free-Look Period:",
+      "type": "section",
+      "section_path": "Cancellation in the Free-Look Period:",
+      "section_title": "Cancellation in the Free-Look Period:",
+      "level": 2,
+      "start_line": 18
+    },
+    {
+      "id": "section:Contacting us:",
+      "type": "section",
+      "section_path": "Contacting us:",
+      "section_title": "Contacting us:",
+      "level": 2,
+      "start_line": 22
+    },
+    {
+      "id": "section:Life Assured Details",
+      "type": "section",
+      "section_path": "Life Assured Details",
+      "section_title": "Life Assured Details",
+      "level": 2,
+      "start_line": 62
+    },
+    {
+      "id": "section:NOMINATION SCHEDULE",
+      "type": "section",
+      "section_path": "NOMINATION SCHEDULE",
+      "section_title": "NOMINATION SCHEDULE",
+      "level": 2,
+      "start_line": 117
+    },
+    {
+      "id": "section:POLICY DOCUMENT- HDFC Life Cancer Care",
+      "type": "section",
+      "section_path": "POLICY DOCUMENT- HDFC Life Cancer Care",
+      "section_title": "POLICY DOCUMENT- HDFC Life Cancer Care",
+      "level": 2,
+      "start_line": 87
+    },
+    {
+      "id": "section:POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "type": "section",
+      "section_path": "POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "section_title": "Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "level": 3,
+      "start_line": 89
+    },
+    {
+      "id": "section:POLICY SCHEDULE",
+      "type": "section",
+      "section_path": "POLICY SCHEDULE",
+      "section_title": "POLICY SCHEDULE",
+      "level": 2,
+      "start_line": 93
+    },
+    {
+      "id": "section:Policy Details",
+      "type": "section",
+      "section_path": "Policy Details",
+      "section_title": "Policy Details",
+      "level": 2,
+      "start_line": 68
+    },
+    {
+      "id": "section:Policy document:",
+      "type": "section",
+      "section_path": "Policy document:",
+      "section_title": "Policy document:",
+      "level": 2,
+      "start_line": 14
+    },
+    {
+      "id": "section:Policyholder Details",
+      "type": "section",
+      "section_path": "Policyholder Details",
+      "section_title": "Policyholder Details",
+      "level": 2,
+      "start_line": 56
+    },
+    {
+      "id": "section:Riders",
+      "type": "section",
+      "section_path": "Riders",
+      "section_title": "Riders",
+      "level": 2,
+      "start_line": 81
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS",
+      "section_title": "SPACE FOR ENDORSEMENTS",
+      "level": 2,
+      "start_line": 140
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "section_title": "Part B Definitions",
+      "level": 3,
+      "start_line": 144
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Carcinoma-in-situ",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Carcinoma-in-situ",
+      "section_title": "Carcinoma-in-situ",
+      "level": 4,
+      "start_line": 172
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer",
+      "section_title": "Early Stage Cancer",
+      "level": 4,
+      "start_line": 182
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Major Cancer",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Major Cancer",
+      "section_title": "Major Cancer",
+      "level": 4,
+      "start_line": 190
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease",
+      "section_title": "Pre-existing Disease",
+      "level": 4,
+      "start_line": 194
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C",
+      "section_title": "Part C",
+      "level": 3,
+      "start_line": 200
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Benefits:",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 1. Benefits:",
+      "section_title": "1. Benefits:",
+      "level": 4,
+      "start_line": 202
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Cancer Diagnosis Benefit :",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 1. Cancer Diagnosis Benefit :",
+      "section_title": "1. Cancer Diagnosis Benefit :",
+      "level": 4,
+      "start_line": 214
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "section_title": "2. Payment and cessation of Premiums",
+      "level": 4,
+      "start_line": 241
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Waiver of Premium :",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 2. Waiver of Premium :",
+      "section_title": "2. Waiver of Premium :",
+      "level": 4,
+      "start_line": 227
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > 3. Premium Guarantee",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 3. Premium Guarantee",
+      "section_title": "3. Premium Guarantee",
+      "level": 4,
+      "start_line": 249
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > a. Base Benefits",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > a. Base Benefits",
+      "section_title": "a. Base Benefits",
+      "level": 4,
+      "start_line": 212
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit",
+      "section_title": "b. Increased Benefit",
+      "level": 4,
+      "start_line": 231
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part C > c.  Income Benefit",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > c.  Income Benefit",
+      "section_title": "c.  Income Benefit",
+      "level": 4,
+      "start_line": 237
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part D",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D",
+      "section_title": "Part D",
+      "level": 3,
+      "start_line": 255
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part D > 1. Lapsed Policies",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D > 1. Lapsed Policies",
+      "section_title": "1. Lapsed Policies",
+      "level": 4,
+      "start_line": 257
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "section_title": "2. Revival of the Policy",
+      "level": 4,
+      "start_line": 261
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part D > 3. Alterations",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D > 3. Alterations",
+      "section_title": "3. Alterations",
+      "level": 4,
+      "start_line": 265
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part E  - Charges",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part E  - Charges",
+      "section_title": "Part E  - Charges",
+      "level": 3,
+      "start_line": 289
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "section_title": "Part F - General Terms &amp; Conditions",
+      "level": 3,
+      "start_line": 297
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "section_title": "(1)",
+      "level": 4,
+      "start_line": 311
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "section_title": "(Grievance Redress Mechanism)",
+      "level": 4,
+      "start_line": 357
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 10. Jurisdiction:",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 10. Jurisdiction:",
+      "section_title": "10. Jurisdiction:",
+      "level": 4,
+      "start_line": 343
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "section_title": "11. Notices",
+      "level": 4,
+      "start_line": 347
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "section_title": "2. Age Admitted",
+      "level": 4,
+      "start_line": 303
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "section_title": "A. Details and addresses of Insurance Ombudsman",
+      "level": 4,
+      "start_line": 410
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure I",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure I",
+      "section_title": "Annexure I",
+      "level": 4,
+      "start_line": 468
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II",
+      "section_title": "Annexure II",
+      "level": 4,
+      "start_line": 496
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure III",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure III",
+      "section_title": "Annexure III",
+      "level": 4,
+      "start_line": 526
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "section_title": "B. Power of Ombudsman-",
+      "level": 4,
+      "start_line": 435
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Part G",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Part G",
+      "section_title": "Part G",
+      "level": 4,
+      "start_line": 355
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_title": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "level": 4,
+      "start_line": 470
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "section_title": "Section 39 - Nomination by policyholder",
+      "level": 4,
+      "start_line": 498
+    },
+    {
+      "id": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "type": "section",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_title": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "level": 4,
+      "start_line": 528
+    },
+    {
+      "id": "section:Sub: Your Policy no. &lt;&lt;  &gt;&gt;",
+      "type": "section",
+      "section_path": "Sub: Your Policy no. &lt;&lt;  &gt;&gt;",
+      "section_title": "Sub: Your Policy no. &lt;&lt;  &gt;&gt;",
+      "level": 2,
+      "start_line": 10
+    },
+    {
+      "id": "section:`Part A",
+      "type": "section",
+      "section_path": "`Part A",
+      "section_title": "`Part A",
+      "level": 2,
+      "start_line": 8
+    },
+    {
+      "id": "chunk:0",
+      "type": "chunk",
+      "chunk_id": 0,
+      "heading": "`Part A",
+      "section_path": ""
+    },
+    {
+      "id": "chunk:1",
+      "type": "chunk",
+      "chunk_id": 1,
+      "heading": "Contacting us:",
+      "section_path": "Contacting us:"
+    },
+    {
+      "id": "chunk:2",
+      "type": "chunk",
+      "chunk_id": 2,
+      "heading": "Policy Details",
+      "section_path": "Policy Details"
+    },
+    {
+      "id": "chunk:3",
+      "type": "chunk",
+      "chunk_id": 3,
+      "heading": "Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "section_path": "POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;"
+    },
+    {
+      "id": "chunk:4",
+      "type": "chunk",
+      "chunk_id": 4,
+      "heading": "Part B Definitions",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions"
+    },
+    {
+      "id": "chunk:5",
+      "type": "chunk",
+      "chunk_id": 5,
+      "heading": "Part B Definitions",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions"
+    },
+    {
+      "id": "chunk:6",
+      "type": "chunk",
+      "chunk_id": 6,
+      "heading": "Part B Definitions",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions"
+    },
+    {
+      "id": "chunk:7",
+      "type": "chunk",
+      "chunk_id": 7,
+      "heading": "Early Stage Cancer",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer"
+    },
+    {
+      "id": "chunk:8",
+      "type": "chunk",
+      "chunk_id": 8,
+      "heading": "Pre-existing Disease",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease"
+    },
+    {
+      "id": "chunk:9",
+      "type": "chunk",
+      "chunk_id": 9,
+      "heading": "b. Increased Benefit",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit"
+    },
+    {
+      "id": "chunk:10",
+      "type": "chunk",
+      "chunk_id": 10,
+      "heading": "2. Payment and cessation of Premiums",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums"
+    },
+    {
+      "id": "chunk:11",
+      "type": "chunk",
+      "chunk_id": 11,
+      "heading": "2. Revival of the Policy",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy"
+    },
+    {
+      "id": "chunk:12",
+      "type": "chunk",
+      "chunk_id": 12,
+      "heading": "3. Alterations",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part D > 3. Alterations"
+    },
+    {
+      "id": "chunk:13",
+      "type": "chunk",
+      "chunk_id": 13,
+      "heading": "2. Age Admitted",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted"
+    },
+    {
+      "id": "chunk:14",
+      "type": "chunk",
+      "chunk_id": 14,
+      "heading": "(1)",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)"
+    },
+    {
+      "id": "chunk:15",
+      "type": "chunk",
+      "chunk_id": 15,
+      "heading": "(1)",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)"
+    },
+    {
+      "id": "chunk:16",
+      "type": "chunk",
+      "chunk_id": 16,
+      "heading": "11. Notices",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices"
+    },
+    {
+      "id": "chunk:17",
+      "type": "chunk",
+      "chunk_id": 17,
+      "heading": "(Grievance Redress Mechanism)",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)"
+    },
+    {
+      "id": "chunk:18",
+      "type": "chunk",
+      "chunk_id": 18,
+      "heading": "(Grievance Redress Mechanism)",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)"
+    },
+    {
+      "id": "chunk:19",
+      "type": "chunk",
+      "chunk_id": 19,
+      "heading": "A. Details and addresses of Insurance Ombudsman",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman"
+    },
+    {
+      "id": "chunk:20",
+      "type": "chunk",
+      "chunk_id": 20,
+      "heading": "B. Power of Ombudsman-",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-"
+    },
+    {
+      "id": "chunk:21",
+      "type": "chunk",
+      "chunk_id": 21,
+      "heading": "B. Power of Ombudsman-",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-"
+    },
+    {
+      "id": "chunk:22",
+      "type": "chunk",
+      "chunk_id": 22,
+      "heading": "B. Power of Ombudsman-",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-"
+    },
+    {
+      "id": "chunk:23",
+      "type": "chunk",
+      "chunk_id": 23,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:24",
+      "type": "chunk",
+      "chunk_id": 24,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:25",
+      "type": "chunk",
+      "chunk_id": 25,
+      "heading": "Section 38 - Assignment or Transfer of Insurance Policies",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies"
+    },
+    {
+      "id": "chunk:26",
+      "type": "chunk",
+      "chunk_id": 26,
+      "heading": "Annexure II",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II"
+    },
+    {
+      "id": "chunk:27",
+      "type": "chunk",
+      "chunk_id": 27,
+      "heading": "Section 39 - Nomination by policyholder",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder"
+    },
+    {
+      "id": "chunk:28",
+      "type": "chunk",
+      "chunk_id": 28,
+      "heading": "Section 39 - Nomination by policyholder",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder"
+    },
+    {
+      "id": "chunk:29",
+      "type": "chunk",
+      "chunk_id": 29,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "chunk:30",
+      "type": "chunk",
+      "chunk_id": 30,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    },
+    {
+      "id": "chunk:31",
+      "type": "chunk",
+      "chunk_id": 31,
+      "heading": "Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "section_path": "SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years"
+    }
+  ],
+  "edges": [
+    {
+      "source": "section:Contacting us:",
+      "target": "chunk:1",
+      "relation": "contains"
+    },
+    {
+      "source": "section:POLICY DOCUMENT- HDFC Life Cancer Care",
+      "target": "section:POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "target": "chunk:3",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Policy Details",
+      "target": "chunk:2",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part E  - Charges",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Major Cancer",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Carcinoma-in-situ",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "chunk:4",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "chunk:5",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "target": "chunk:6",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer",
+      "target": "chunk:7",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease",
+      "target": "chunk:8",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Cancer Diagnosis Benefit :",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Benefits:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 3. Premium Guarantee",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Waiver of Premium :",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > c.  Income Benefit",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > a. Base Benefits",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "target": "chunk:10",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit",
+      "target": "chunk:9",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part D",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 3. Alterations",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part D",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part D",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 1. Lapsed Policies",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "target": "chunk:11",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part D > 3. Alterations",
+      "target": "chunk:12",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Part G",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure III",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 10. Jurisdiction:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure I",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "target": "chunk:14",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "target": "chunk:15",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "target": "chunk:17",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "target": "chunk:18",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "target": "chunk:16",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "target": "chunk:13",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "target": "chunk:19",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II",
+      "target": "chunk:26",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "target": "chunk:20",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "target": "chunk:21",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "target": "chunk:22",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:23",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:24",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "chunk:25",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "target": "chunk:27",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "target": "chunk:28",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:29",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:30",
+      "relation": "contains"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "target": "chunk:31",
+      "relation": "contains"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "section:Contacting us:",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "section:Policy Details",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "section:POLICY DOCUMENT- HDFC Life Cancer Care > Unique Identification Number: &lt;&lt; 101N106V04 &gt;&gt;",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Early Stage Cancer",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:8",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Pre-existing Disease",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:8",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:8",
+      "target": "chunk:10",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:9",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > b. Increased Benefit",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:9",
+      "target": "chunk:10",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:9",
+      "target": "chunk:11",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:10",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:10",
+      "target": "chunk:11",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:10",
+      "target": "chunk:12",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:11",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:11",
+      "target": "chunk:12",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:11",
+      "target": "chunk:13",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:12",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 3. Alterations",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:12",
+      "target": "chunk:13",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:12",
+      "target": "chunk:14",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:13",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:13",
+      "target": "chunk:14",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:13",
+      "target": "chunk:15",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:14",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:14",
+      "target": "chunk:15",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:14",
+      "target": "chunk:16",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:15",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (1)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:15",
+      "target": "chunk:16",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:15",
+      "target": "chunk:17",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:16",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:16",
+      "target": "chunk:17",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:16",
+      "target": "chunk:18",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:17",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:17",
+      "target": "chunk:18",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:17",
+      "target": "chunk:19",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:18",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:18",
+      "target": "chunk:19",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:18",
+      "target": "chunk:20",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:19",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:19",
+      "target": "chunk:20",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:19",
+      "target": "chunk:21",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:20",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:20",
+      "target": "chunk:21",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:20",
+      "target": "chunk:22",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:21",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:21",
+      "target": "chunk:22",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:21",
+      "target": "chunk:23",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:22",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:22",
+      "target": "chunk:23",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:22",
+      "target": "chunk:24",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:23",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:23",
+      "target": "chunk:24",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:23",
+      "target": "chunk:25",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:24",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:24",
+      "target": "chunk:25",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:24",
+      "target": "chunk:26",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:25",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:25",
+      "target": "chunk:26",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:25",
+      "target": "chunk:27",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:26",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure II",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:26",
+      "target": "chunk:27",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:26",
+      "target": "chunk:28",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:27",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:27",
+      "target": "chunk:28",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:27",
+      "target": "chunk:29",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:28",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:28",
+      "target": "chunk:29",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:28",
+      "target": "chunk:30",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:29",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:29",
+      "target": "chunk:30",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:29",
+      "target": "chunk:31",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:30",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:30",
+      "target": "chunk:31",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:31",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
+      "relation": "belongs_to"
+    }
+  ]
+}

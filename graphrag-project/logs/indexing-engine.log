@@ -1,0 +1,543 @@
+2026-02-11 16:07:52.0462 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:07:52.0475 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=litellm/ollama/nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 195, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4467, in aembedding
+    _, custom_llm_provider, _, _ = get_llm_provider(
+                                   ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 470, in get_llm_provider
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 451, in get_llm_provider
+    raise litellm.exceptions.BadRequestError(  # type: ignore
+litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=litellm/ollama/nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-02-11 16:07:52.0488 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=litellm/ollama/nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-02-11 16:07:52.0488 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for litellm/ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:07:52.0488 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.006709098815918,
+  "compute_duration_per_response_seconds": 1.006709098815918,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:10:52.0748 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:10:52.0936 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4482, in aembedding
+    response = await init_response  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\ollama\completion\handler.py", line 87, in ollama_aembeddings
+    response = await litellm.module_level_aclient.post(url=api_base, json=data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\logging_utils.py", line 190, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 510, in post
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 466, in post
+    response.raise_for_status()
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 195, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2378, in exception_type
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2347, in exception_type
+    raise APIConnectionError(
+litellm.exceptions.APIConnectionError: litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:10:52.0941 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:10:52.0941 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:10:52.0941 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 3.912350654602051,
+  "compute_duration_per_response_seconds": 3.912350654602051,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:13:54.0277 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:13:54.0447 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4482, in aembedding
+    response = await init_response  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\ollama\completion\handler.py", line 87, in ollama_aembeddings
+    response = await litellm.module_level_aclient.post(url=api_base, json=data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\logging_utils.py", line 190, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 510, in post
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 466, in post
+    response.raise_for_status()
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 250, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2378, in exception_type
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2347, in exception_type
+    raise APIConnectionError(
+litellm.exceptions.APIConnectionError: litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:13:54.0453 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:13:54.0454 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:13:54.0454 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0.9661984443664551,
+  "compute_duration_per_response_seconds": 0.9661984443664551,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:15:02.0616 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:15:02.0791 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4482, in aembedding
+    response = await init_response  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\ollama\completion\handler.py", line 87, in ollama_aembeddings
+    response = await litellm.module_level_aclient.post(url=api_base, json=data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\logging_utils.py", line 190, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 510, in post
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 466, in post
+    response.raise_for_status()
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 250, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2378, in exception_type
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2347, in exception_type
+    raise APIConnectionError(
+litellm.exceptions.APIConnectionError: litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:15:02.0796 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:15:02.0796 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:15:02.0796 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 2.2955753803253174,
+  "compute_duration_per_response_seconds": 2.2955753803253174,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:17:52.0106 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:17:52.0259 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4482, in aembedding
+    response = await init_response  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\ollama\completion\handler.py", line 87, in ollama_aembeddings
+    response = await litellm.module_level_aclient.post(url=api_base, json=data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\logging_utils.py", line 190, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 510, in post
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 466, in post
+    response.raise_for_status()
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 259, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2378, in exception_type
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2347, in exception_type
+    raise APIConnectionError(
+litellm.exceptions.APIConnectionError: litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:17:52.0264 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:17:52.0265 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:17:52.0265 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.493229627609253,
+  "compute_duration_per_response_seconds": 1.493229627609253,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:18:55.0251 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:18:55.0410 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4482, in aembedding
+    response = await init_response  # type: ignore
+               ^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\ollama\completion\handler.py", line 87, in ollama_aembeddings
+    response = await litellm.module_level_aclient.post(url=api_base, json=data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\logging_utils.py", line 190, in async_wrapper
+    result = await func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 510, in post
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\llms\custom_httpx\http_handler.py", line 466, in post
+    response.raise_for_status()
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 258, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+          ^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2378, in exception_type
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\exception_mapping_utils.py", line 2347, in exception_type
+    raise APIConnectionError(
+litellm.exceptions.APIConnectionError: litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:18:55.0415 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.APIConnectionError: OllamaException - Client error '404 Not Found' for url 'http://localhost:11434/api/embed'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/404
+2026-02-11 16:18:55.0415 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:18:55.0415 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 0.937035083770752,
+  "compute_duration_per_response_seconds": 0.937035083770752,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:21:35.0114 - INFO - graphrag.index.validate_config - LLM Config Params Validated
+2026-02-11 16:21:35.0126 - ERROR - graphrag_llm.middleware.with_logging - Async request failed with exception=litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+Traceback (most recent call last):
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_logging.py", line 64, in _request_count_middleware_async
+    return await async_middleware(**kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_request_count.py", line 72, in _request_count_middleware_async
+    result = await async_middleware(**kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\middleware\with_metrics.py", line 80, in _metrics_middleware_async
+    response = await async_middleware(**kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\graphrag_llm\embedding\lite_llm_embedding.py", line 258, in _base_embedding_async
+    response = await litellm.aembedding(**new_args)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 2040, in wrapper_async
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\utils.py", line 1861, in wrapper_async
+    result = await original_function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4497, in aembedding
+    raise exception_type(
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\main.py", line 4467, in aembedding
+    _, custom_llm_provider, _, _ = get_llm_provider(
+                                   ^^^^^^^^^^^^^^^^^
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 470, in get_llm_provider
+    raise e
+  File "D:\Projects\AMD-Hackathon\.venv\Lib\site-packages\litellm\litellm_core_utils\get_llm_provider_logic.py", line 451, in get_llm_provider
+    raise litellm.exceptions.BadRequestError(  # type: ignore
+litellm.exceptions.BadRequestError: litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-02-11 16:21:35.0129 - ERROR - graphrag.index.validate_config - Embedding configuration error detected.
+litellm.BadRequestError: LLM Provider NOT provided. Pass in the LLM provider you are trying to call. You passed model=nomic-embed-text
+ Pass model as E.g. For 'Huggingface' inference endpoints pass in `completion(model='huggingface/starcoder',..)` Learn more: https://docs.litellm.ai/docs/providers
+2026-02-11 16:21:35.0129 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for ollama/nomic-embed-text: {
+  "attempted_request_count": 1,
+  "successful_response_count": 0,
+  "failed_response_count": 1,
+  "failure_rate": 1.0,
+  "compute_duration_per_response_seconds": 0.0,
+  "cache_hit_rate": 0.0,
+  "tokens_per_response": 0.0,
+  "cost_per_response": 0.0
+}
+2026-02-11 16:21:35.0129 - INFO - graphrag_llm.metrics.log_metrics_writer - Metrics for openai/gpt-4.1: {
+  "attempted_request_count": 1,
+  "successful_response_count": 1,
+  "failed_response_count": 0,
+  "failure_rate": 0.0,
+  "requests_with_retries": 0,
+  "retries": 0,
+  "retry_rate": 0.0,
+  "compute_duration_seconds": 1.602067232131958,
+  "compute_duration_per_response_seconds": 1.602067232131958,
+  "cache_hit_rate": 0.0,
+  "streaming_responses": 0,
+  "responses_with_tokens": 1,
+  "prompt_tokens": 18,
+  "completion_tokens": 2,
+  "total_tokens": 20,
+  "tokens_per_response": 20.0,
+  "cost_per_response": 0.0
+}

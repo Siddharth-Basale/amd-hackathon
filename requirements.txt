@@ -1,0 +1,17 @@
+# VectorizerE - Graph-Based Markdown Vectorizer
+networkx>=3.0
+langchain-community>=0.3.0
+langchain-core>=0.3.0
+langgraph>=0.2.0
+chromadb>=0.4.0
+typing-extensions>=4.0
+tiktoken>=0.5.0
+
+# VisualizeGraphE - Graph Visualization
+pyvis>=0.3.0
+matplotlib>=3.7.0
+
+# GraphRAG Bridge utilities
+pandas>=2.2.0
+pyarrow>=14.0.0
+numpy>=1.26.0
