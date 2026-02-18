@@ -1,0 +1,360 @@
+{
+  "nodes": [
+    {
+      "id": "section:knowledge Package — Overview",
+      "type": "section",
+      "section_path": "knowledge Package — Overview",
+      "section_title": "knowledge Package — Overview",
+      "level": 1,
+      "start_line": 1
+    },
+    {
+      "id": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+      "section_title": "Data Flow (End-to-End)",
+      "level": 2,
+      "start_line": 29
+    },
+    {
+      "id": "section:knowledge Package — Overview > Dependencies",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Dependencies",
+      "section_title": "Dependencies",
+      "level": 2,
+      "start_line": 59
+    },
+    {
+      "id": "section:knowledge Package — Overview > Integration with vectorizerE",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Integration with vectorizerE",
+      "section_title": "Integration with vectorizerE",
+      "level": 2,
+      "start_line": 49
+    },
+    {
+      "id": "section:knowledge Package — Overview > Module Summary",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Module Summary",
+      "section_title": "Module Summary",
+      "level": 2,
+      "start_line": 20
+    },
+    {
+      "id": "section:knowledge Package — Overview > Package Structure",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Package Structure",
+      "section_title": "Package Structure",
+      "level": 2,
+      "start_line": 9
+    },
+    {
+      "id": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_title": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "level": 2,
+      "start_line": 66
+    },
+    {
+      "id": "section:knowledge Package — Overview > Purpose",
+      "type": "section",
+      "section_path": "knowledge Package — Overview > Purpose",
+      "section_title": "Purpose",
+      "level": 2,
+      "start_line": 3
+    },
+    {
+      "id": "chunk:0",
+      "type": "chunk",
+      "chunk_id": 0,
+      "heading": "knowledge Package — Overview",
+      "section_path": "knowledge Package — Overview"
+    },
+    {
+      "id": "chunk:1",
+      "type": "chunk",
+      "chunk_id": 1,
+      "heading": "Package Structure",
+      "section_path": "knowledge Package — Overview > Package Structure"
+    },
+    {
+      "id": "chunk:2",
+      "type": "chunk",
+      "chunk_id": 2,
+      "heading": "Module Summary",
+      "section_path": "knowledge Package — Overview > Module Summary"
+    },
+    {
+      "id": "chunk:3",
+      "type": "chunk",
+      "chunk_id": 3,
+      "heading": "Data Flow (End-to-End)",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)"
+    },
+    {
+      "id": "chunk:4",
+      "type": "chunk",
+      "chunk_id": 4,
+      "heading": "Data Flow (End-to-End)",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)"
+    },
+    {
+      "id": "chunk:5",
+      "type": "chunk",
+      "chunk_id": 5,
+      "heading": "Integration with vectorizerE",
+      "section_path": "knowledge Package — Overview > Integration with vectorizerE"
+    },
+    {
+      "id": "chunk:6",
+      "type": "chunk",
+      "chunk_id": 6,
+      "heading": "Dependencies",
+      "section_path": "knowledge Package — Overview > Dependencies"
+    },
+    {
+      "id": "chunk:7",
+      "type": "chunk",
+      "chunk_id": 7,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow"
+    },
+    {
+      "id": "chunk:8",
+      "type": "chunk",
+      "chunk_id": 8,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow"
+    },
+    {
+      "id": "chunk:9",
+      "type": "chunk",
+      "chunk_id": 9,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow"
+    }
+  ],
+  "edges": [
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Purpose",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Dependencies",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Integration with vectorizerE",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Package Structure",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "section:knowledge Package — Overview > Module Summary",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:knowledge Package — Overview",
+      "target": "chunk:0",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "target": "chunk:3",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "target": "chunk:4",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Dependencies",
+      "target": "chunk:6",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Integration with vectorizerE",
+      "target": "chunk:5",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Module Summary",
+      "target": "chunk:2",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > Package Structure",
+      "target": "chunk:1",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "target": "chunk:7",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "target": "chunk:8",
+      "relation": "contains"
+    },
+    {
+      "source": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "target": "chunk:9",
+      "relation": "contains"
+    },
+    {
+      "source": "chunk:0",
+      "target": "section:knowledge Package — Overview",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "section:knowledge Package — Overview > Package Structure",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "section:knowledge Package — Overview > Module Summary",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "section:knowledge Package — Overview > Data Flow (End-to-End)",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "section:knowledge Package — Overview > Integration with vectorizerE",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "section:knowledge Package — Overview > Dependencies",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:7",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:8",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:7",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:8",
+      "target": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:8",
+      "target": "chunk:9",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:9",
+      "target": "section:knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "relation": "belongs_to"
+    }
+  ]
+}

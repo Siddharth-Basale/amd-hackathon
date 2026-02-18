@@ -2,17 +2,21 @@
 Entity and relation extraction utilities.
 
 This module provides a thin wrapper around an LLM to pull structured
-entities and relations out of chunk text.  The design keeps the interface
-simple so the extractor can be swapped between Ollama, OpenAI, or any
-LangChain-compatible chat model.
+entities and relations out of chunk text. Uses LangChain's with_structured_output
+for reliable schema enforcement when supported (e.g. OpenAI).
 """
 
 from __future__ import annotations
 
-import json
 import logging
 from dataclasses import dataclass, field
 from typing import Any, Dict, List, Optional
+
+try:
+    from pydantic import BaseModel, Field
+except ImportError:
+    BaseModel = None  # type: ignore
+    Field = None  # type: ignore
 
 try:
     from langchain_openai import ChatOpenAI
@@ -54,41 +58,70 @@ class ExtractionResult:
     raw_response: Optional[Dict[str, Any]] = None
 
 
-DEFAULT_PROMPT = """You are an information extraction assistant. Analyse the passage
-and return structured JSON describing named entities and relations. Follow the schema:
+# Pydantic schema for LangChain with_structured_output
+if BaseModel is not None:
 
-{{
-  "entities": [
-     {{
-        "name": "...",
-        "type": "PERSON | ORGANIZATION | LOCATION | EVENT | OTHER",
-        "description": "...",
-        "aliases": ["..."],
-        "source_ids": ["optional chunk ids if provided"]
-     }}
-  ],
-  "relations": [
-     {{
-        "source": "entity name",
-        "relation": "verb or relation phrase",
-        "target": "entity name",
-        "evidence": "short quote supporting the relation"
-     }}
-  ]
-}}
+    class EntitySchema(BaseModel):
+        """Schema for a single extracted entity."""
+
+        name: str = Field(description="Entity name as it appears in the text")
+        type: str = Field(
+            description="Entity type: a short label (1–2 words) of your choice that best describes the entity's category."
+        )
+        description: str = Field(default="", description="Concise description from the passage")
+        aliases: List[str] = Field(default_factory=list, description="Alternative names")
+        source_ids: List[str] = Field(default_factory=list, description="Optional chunk ids")
+
+    class RelationSchema(BaseModel):
+        """Schema for a relation between two entities."""
+
+        source: str = Field(description="Source entity name")
+        relation: str = Field(description="Verb or relation phrase")
+        target: str = Field(description="Target entity name")
+        evidence: str = Field(
+            default="",
+            description=(
+                "Exact quote supporting the relation. Use full text—no truncation. "
+                "For code snippets with placeholders (e.g. ...), expand to representative concrete values (e.g. chunk_id='doc::chunk::0')."
+            ),
+        )
+
+    class ExtractionSchema(BaseModel):
+        """Schema for the full extraction result."""
+
+        entities: List[EntitySchema] = Field(default_factory=list, description="Named entities")
+        relations: List[RelationSchema] = Field(default_factory=list, description="Relations between entities")
+
+
+EXTRACTION_INTENSITY_INSTRUCTIONS = {
+    "minimal": (
+        "Extract only the most salient entities and relations. Be conservative—"
+        "include only clearly explicit ones. Aim for roughly 1–3 entities and 0–2 relations per passage."
+    ),
+    "moderate": (
+        "Extract a moderate number of entities and relations. Include the most important ones; "
+        "infer relations from clear patterns (e.g. lists, tables) but avoid over-extraction. "
+        "Aim for roughly 2–5 entities and 1–4 relations per passage."
+    ),
+}
+
+DEFAULT_PROMPT_TEMPLATE = """You are an information extraction assistant. Analyse the passage
+and extract named entities and relations.
+
+Intensity: {intensity_instruction}
 
 Rules:
-- If nothing is found, return {{"entities": [], "relations": []}}.
 - Use entity names exactly as they appear in the text.
 - Prefer concise descriptions taken from the passage.
-- Relation evidence should be at most one sentence.
+- Relation evidence: use the full supporting quote—do not truncate. For code snippets with placeholders like ..., expand them to representative concrete values (e.g. chunk_id='doc::chunk::0') so evidence is informative.
+- If nothing is found, return empty entities and relations lists.
 
 Passage:
 \"\"\"{text}\"\"\""""
 
 
 class EntityExtractor:
-    """High-level entity & relation extractor."""
+    """High-level entity & relation extractor using LangChain structured output."""
 
     def __init__(
         self,
@@ -96,10 +129,25 @@ class EntityExtractor:
         *,
         model: str = "gpt-4o-mini",
         temperature: float = 0.0,
-        prompt_template: str = DEFAULT_PROMPT,
+        extraction_intensity: str = "moderate",
+        prompt_template: Optional[str] = None,
     ) -> None:
+        if BaseModel is None:
+            raise RuntimeError(
+                "Pydantic is required for structured extraction. "
+                "Install with: pip install pydantic"
+            )
+        intensity = extraction_intensity.lower()
+        if intensity not in EXTRACTION_INTENSITY_INSTRUCTIONS:
+            raise ValueError(
+                f"extraction_intensity must be one of {list(EXTRACTION_INTENSITY_INSTRUCTIONS)}; got {extraction_intensity}"
+            )
+        self.extraction_intensity = intensity
         self.llm = llm or self._build_default_llm(model, temperature)
-        self.prompt_template = prompt_template
+        self._structured_llm = self.llm.with_structured_output(
+            ExtractionSchema, method="json_schema"
+        )
+        self.prompt_template = prompt_template or DEFAULT_PROMPT_TEMPLATE
 
     def _build_default_llm(
         self, model: str, temperature: float
@@ -117,57 +165,37 @@ class EntityExtractor:
 
     def build_prompt(self, text: str, chunk_id: Optional[str] = None) -> str:
         """Render the extraction prompt."""
-        preamble = (
-            f"Chunk ID: {chunk_id}\n\n" if chunk_id else ""
+        preamble = f"Chunk ID: {chunk_id}\n\n" if chunk_id else ""
+        intensity_instruction = EXTRACTION_INTENSITY_INSTRUCTIONS[self.extraction_intensity]
+        return self.prompt_template.format(
+            intensity_instruction=intensity_instruction,
+            text=preamble + text,
         )
-        return self.prompt_template.format(text=preamble + text)
 
-    def parse_response(self, response_text: str) -> ExtractionResult:
-        """Convert the LLM response into structured entities and relations."""
-        def _load_json(text: str) -> Dict[str, Any]:
-            return json.loads(text)
-
-        try:
-            payload = _load_json(response_text)
-        except json.JSONDecodeError as exc:
-            logger.warning("Failed to parse extractor response as JSON: %s", exc)
-            candidate = self._extract_json_substring(response_text)
-            if candidate:
-                try:
-                    payload = _load_json(candidate)
-                except json.JSONDecodeError as inner_exc:
-                    logger.warning("Recovery attempt failed: %s", inner_exc)
-                    return ExtractionResult(raw_response={"error": str(inner_exc), "text": response_text})
-            else:
-                return ExtractionResult(raw_response={"error": str(exc), "text": response_text})
-
-        entities_payload = payload.get("entities", []) or []
-        relations_payload = payload.get("relations", []) or []
-
+    def _pydantic_to_result(self, schema: ExtractionSchema) -> ExtractionResult:
+        """Convert Pydantic schema to ExtractionResult."""
         entities = [
             ExtractedEntity(
-                name=item.get("name", "").strip(),
-                type=item.get("type", "").strip() or "OTHER",
-                description=item.get("description", "").strip(),
-                aliases=[alias.strip() for alias in item.get("aliases", []) if alias],
-                source_ids=[src.strip() for src in item.get("source_ids", []) if src],
+                name=e.name.strip(),
+                type=e.type.strip() or "OTHER",
+                description=(e.description or "").strip(),
+                aliases=[a.strip() for a in (e.aliases or []) if a],
+                source_ids=[s.strip() for s in (e.source_ids or []) if s],
             )
-            for item in entities_payload
-            if item.get("name")
+            for e in (schema.entities or [])
+            if e.name
         ]
-
         relations = [
             ExtractedRelation(
-                source=item.get("source", "").strip(),
-                relation=item.get("relation", "").strip(),
-                target=item.get("target", "").strip(),
-                evidence=item.get("evidence", "").strip(),
+                source=r.source.strip(),
+                relation=r.relation.strip(),
+                target=r.target.strip(),
+                evidence=(r.evidence or "").strip(),
             )
-            for item in relations_payload
-            if item.get("source") and item.get("target") and item.get("relation")
+            for r in (schema.relations or [])
+            if r.source and r.target and r.relation
         ]
-
-        return ExtractionResult(entities=entities, relations=relations, raw_response=payload)
+        return ExtractionResult(entities=entities, relations=relations)
 
     def extract(
         self,
@@ -182,13 +210,12 @@ class EntityExtractor:
 
         prompt = self.build_prompt(text, chunk_id)
         try:
-            response = self.llm.invoke(prompt)
-        except Exception as exc:  # pragma: no cover - runtime failure
+            schema = self._structured_llm.invoke(prompt)
+        except Exception as exc:
             logger.error("Entity extractor LLM invocation failed: %s", exc)
             return ExtractionResult(raw_response={"error": str(exc)})
 
-        response_text = response.content if hasattr(response, "content") else str(response)
-        result = self.parse_response(response_text)
+        result = self._pydantic_to_result(schema)
 
         # Attach chunk id metadata for bookkeeping.
         if chunk_id:
@@ -200,24 +227,3 @@ class EntityExtractor:
             logger.debug("Extractor extra context: %s", extra_context)
 
         return result
-
-    @staticmethod
-    def _extract_json_substring(text: str) -> Optional[str]:
-        stack = []
-        start = None
-        for idx, char in enumerate(text):
-            if char == "{":
-                if not stack:
-                    start = idx
-                stack.append(char)
-            elif char == "}":
-                if stack:
-                    stack.pop()
-                    if not stack and start is not None:
-                        candidate = text[start:idx + 1]
-                        try:
-                            json.loads(candidate)
-                            return candidate
-                        except json.JSONDecodeError:
-                            continue
-        return None

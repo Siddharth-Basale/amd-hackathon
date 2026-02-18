@@ -362,7 +362,7 @@ def visualize_interactive(
                 color="#ffb347",
                 shape="star",
                 size=26,
-                title="<br>".join(title_parts) if title_parts else label,
+                title=" | ".join(title_parts) if title_parts else label,
                 group="knowledge_entity",
             )
 
@@ -387,7 +387,7 @@ def visualize_interactive(
                     source_id,
                     target_id,
                     color="#ff8800",
-                    title="<br>".join(title_lines),
+                    title=" | ".join(title_lines),
                     arrows="to",
                 )
             elif target_data.get("type") == "chunk":
@@ -398,7 +398,7 @@ def visualize_interactive(
                         source_id,
                         doc_node,
                         color="#ffa500",
-                        title="<br>".join(title_lines),
+                        title=" | ".join(title_lines),
                         arrows="to",
                     )
     
@@ -682,6 +682,12 @@ Examples:
         visualize_interactive(G, interactive_file, knowledge_graph=knowledge_graph)
         print(f"\n✓ Interactive visualization: {interactive_file}")
         print("  Open this file in a web browser for an interactive graph!")
+
+        markdown_only_file = output_dir / f"{graph_name}_markdown_only.html"
+        logger.info("Creating markdown-only interactive visualization...")
+        visualize_interactive(G, markdown_only_file, knowledge_graph=None)
+        print(f"✓ Markdown-only visualization: {markdown_only_file}")
+
         if knowledge_graph and knowledge_graph.number_of_nodes() > 0:
             knowledge_only_file = output_dir / f"{graph_name}_knowledge_only.html"
             logger.info("Creating knowledge-only interactive visualization...")

@@ -640,17 +640,7 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part E  - Charges",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS",
       "target": "section:SPACE FOR ENDORSEMENTS > Part D",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
       "relation": "contains_section"
     },
     {
@@ -660,12 +650,22 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS",
       "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
       "relation": "contains_section"
     },
     {
+      "source": "section:SPACE FOR ENDORSEMENTS",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part E  - Charges",
+      "relation": "contains_section"
+    },
+    {
       "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Major Cancer",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Carcinoma-in-situ",
       "relation": "contains_section"
     },
     {
@@ -680,7 +680,7 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part B Definitions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Carcinoma-in-situ",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part B Definitions > Major Cancer",
       "relation": "contains_section"
     },
     {
@@ -710,7 +710,12 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part C",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Cancer Diagnosis Benefit :",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > c.  Income Benefit",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > a. Base Benefits",
       "relation": "contains_section"
     },
     {
@@ -720,17 +725,12 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part C",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
       "target": "section:SPACE FOR ENDORSEMENTS > Part C > 3. Premium Guarantee",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Waiver of Premium :",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part C",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part C > c.  Income Benefit",
       "relation": "contains_section"
     },
     {
@@ -740,12 +740,12 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part C",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Payment and cessation of Premiums",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 1. Cancer Diagnosis Benefit :",
       "relation": "contains_section"
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part C",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part C > a. Base Benefits",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part C > 2. Waiver of Premium :",
       "relation": "contains_section"
     },
     {
@@ -765,12 +765,12 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part D",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 1. Lapsed Policies",
       "relation": "contains_section"
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part D",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 1. Lapsed Policies",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part D > 2. Revival of the Policy",
       "relation": "contains_section"
     },
     {
@@ -785,7 +785,27 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 10. Jurisdiction:",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure I",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure III",
       "relation": "contains_section"
     },
     {
@@ -800,6 +820,26 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 38 - Assignment or Transfer of Insurance Policies",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
+      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
       "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > B. Power of Ombudsman-",
       "relation": "contains_section"
     },
@@ -810,47 +850,7 @@
     },
     {
       "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure III",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 2. Age Admitted",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 10. Jurisdiction:",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Annexure I",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > 11. Notices",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > A. Details and addresses of Insurance Ombudsman",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > (Grievance Redress Mechanism)",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
       "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 45 - Policy shall not be called in question on the ground of mis-statement after three years",
-      "relation": "contains_section"
-    },
-    {
-      "source": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions",
-      "target": "section:SPACE FOR ENDORSEMENTS > Part F - General Terms &amp; Conditions > Section 39 - Nomination by policyholder",
       "relation": "contains_section"
     },
     {

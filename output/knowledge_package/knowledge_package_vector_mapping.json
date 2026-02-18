@@ -1,0 +1,294 @@
+[
+  {
+    "vector_number": 0,
+    "heading": "knowledge Package — Overview",
+    "section_path": "knowledge Package — Overview",
+    "content": "# knowledge Package — Overview\n\n## Purpose\n\nThe `knowledge` package provides **entity extraction** and **knowledge graph construction** for the document understanding pipeline. It turns unstructured chunk text into a structured graph of entities and relations.\n\n---\n\n## Package Structure\n\n```\nknowledge/\n├── __init__.py          # Package exports\n",
+    "content_length": 347,
+    "metadata": {
+      "vector_number": 0,
+      "chunk_index": 0,
+      "heading": "knowledge Package — Overview",
+      "section_path": "knowledge Package — Overview",
+      "section_title": "knowledge Package — Overview",
+      "section_level": 1,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 347,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 0,
+      "prev_chunk_ids": [],
+      "next_chunk_ids": [
+        1,
+        2
+      ],
+      "start_line": 1
+    }
+  },
+  {
+    "vector_number": 1,
+    "heading": "Package Structure",
+    "section_path": "knowledge Package — Overview > Package Structure",
+    "content": "├── __init__.py          # Package exports\n├── entity_extractor.py  # LLM-based entity/relation extraction\n└── graph_builder.py     # Knowledge graph construction\n```\n\n---\n\n## Module Summary\n\n| Module | Responsibility |\n|--------|----------------|\n",
+    "content_length": 248,
+    "metadata": {
+      "vector_number": 1,
+      "chunk_index": 1,
+      "heading": "Package Structure",
+      "section_path": "knowledge Package — Overview > Package Structure",
+      "section_title": "Package Structure",
+      "section_level": 2,
+      "chunk_type": "table",
+      "table_context": "| Module | Responsibility |\n|--------|----------------|",
+      "original_length": 248,
+      "truncated": false,
+      "has_table": true,
+      "sequential_position": 1,
+      "prev_chunk_ids": [
+        0
+      ],
+      "next_chunk_ids": [
+        2,
+        3
+      ],
+      "start_line": 13
+    }
+  },
+  {
+    "vector_number": 2,
+    "heading": "Module Summary",
+    "section_path": "knowledge Package — Overview > Module Summary",
+    "content": "|--------|----------------|\n| **entity_extractor** | Use LLM (ChatOpenAI) to extract entities and relations from chunk text; return `ExtractionResult` |\n| **graph_builder** | Take chunk-level extraction records and build an aggregated `nx.MultiDiGraph` with entities and relations |\n\n---\n\n## Data Flow (End-to-End)\n\n```\nChunk Text\n    │\n",
+    "content_length": 337,
+    "metadata": {
+      "vector_number": 2,
+      "chunk_index": 2,
+      "heading": "Module Summary",
+      "section_path": "knowledge Package — Overview > Module Summary",
+      "section_title": "Module Summary",
+      "section_level": 2,
+      "chunk_type": "table",
+      "table_context": "|--------|----------------|\n| **entity_extractor** | Use LLM (ChatOpenAI) to extract entities and relations from chunk text; return `ExtractionResult` |\n| **graph_builder** | Take chunk-level extraction records and build an aggregated `nx.MultiDiGraph` with entities and relations |",
+      "original_length": 337,
+      "truncated": false,
+      "has_table": true,
+      "sequential_position": 2,
+      "prev_chunk_ids": [
+        0,
+        1
+      ],
+      "next_chunk_ids": [
+        3,
+        4
+      ],
+      "start_line": 23
+    }
+  },
+  {
+    "vector_number": 3,
+    "heading": "Data Flow (End-to-End)",
+    "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+    "content": "    │\n    ▼  EntityExtractor.extract()\nExtractionResult (entities, relations)\n    │\n    ▼  Collect per chunk as knowledge_records\nList[Dict] (chunk_id, entities, relations)\n    │\n    ▼  graph_builder.build_graph()\nnx.MultiDiGraph (entity nodes, chunk nodes, mentions, relations)\n    │\n    ▼  graph_builder.save_graph()\nJSON file (*_knowledge_graph.json)\n```\n\n",
+    "content_length": 359,
+    "metadata": {
+      "vector_number": 3,
+      "chunk_index": 3,
+      "heading": "Data Flow (End-to-End)",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+      "section_title": "Data Flow (End-to-End)",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 359,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 3,
+      "prev_chunk_ids": [
+        1,
+        2
+      ],
+      "next_chunk_ids": [
+        4,
+        5
+      ],
+      "start_line": 33
+    }
+  },
+  {
+    "vector_number": 4,
+    "heading": "Data Flow (End-to-End)",
+    "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+    "content": "\n---\n\n## Integration with vectorizerE\n\n1. For each chunk, `vectorizerE` calls `EntityExtractor.extract(chunk.page_content, chunk_id=...)`.\n2. Extracted entities/relations are stored as `knowledge_records`.\n3. After all chunks are processed, `graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph.\n",
+    "content_length": 316,
+    "metadata": {
+      "vector_number": 4,
+      "chunk_index": 4,
+      "heading": "Data Flow (End-to-End)",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+      "section_title": "Data Flow (End-to-End)",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 316,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 4,
+      "prev_chunk_ids": [
+        2,
+        3
+      ],
+      "next_chunk_ids": [
+        5,
+        6
+      ],
+      "start_line": 46
+    }
+  },
+  {
+    "vector_number": 5,
+    "heading": "Integration with vectorizerE",
+    "section_path": "knowledge Package — Overview > Integration with vectorizerE",
+    "content": "3. After all chunks are processed, `graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph.\n4. The graph is saved with `graph_builder.save_graph(knowledge_graph, path)`.\n5. `graph_builder.aggregate_entities()` and `graph_builder.aggregate_relations()` provide flat lists for downstream use.\n\n---\n\n## Dependencies\n\n",
+    "content_length": 332,
+    "metadata": {
+      "vector_number": 5,
+      "chunk_index": 5,
+      "heading": "Integration with vectorizerE",
+      "section_path": "knowledge Package — Overview > Integration with vectorizerE",
+      "section_title": "Integration with vectorizerE",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 332,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 5,
+      "prev_chunk_ids": [
+        3,
+        4
+      ],
+      "next_chunk_ids": [
+        6,
+        7
+      ],
+      "start_line": 53
+    }
+  },
+  {
+    "vector_number": 6,
+    "heading": "Dependencies",
+    "section_path": "knowledge Package — Overview > Dependencies",
+    "content": "\n- **entity_extractor**: `langchain-openai`, `pydantic`\n- **graph_builder**: `networkx`\n\n---\n\n## PlantUML Sequence Diagram — Knowledge Package Flow\n\n```plantuml\n@startuml knowledge_package\ntitle knowledge Package — End-to-End Flow\n\nparticipant \"vectorizerE\" as V\nparticipant \"EntityExtractor\" as E\nparticipant \"LLM (OpenAI)\" as LLM\n",
+    "content_length": 332,
+    "metadata": {
+      "vector_number": 6,
+      "chunk_index": 6,
+      "heading": "Dependencies",
+      "section_path": "knowledge Package — Overview > Dependencies",
+      "section_title": "Dependencies",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 332,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 6,
+      "prev_chunk_ids": [
+        4,
+        5
+      ],
+      "next_chunk_ids": [
+        7,
+        8
+      ],
+      "start_line": 60
+    }
+  },
+  {
+    "vector_number": 7,
+    "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+    "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+    "content": "participant \"LLM (OpenAI)\" as LLM\nparticipant \"knowledge_records\" as KR\nparticipant \"graph_builder\" as GB\nparticipant \"nx.MultiDiGraph\" as Graph\n\nV -> E: EntityExtractor(model=...)\n\nloop for each chunk\n    V -> E: extract(chunk.page_content, chunk_id=...)\n    E -> LLM: invoke(prompt) [structured output]\n    LLM --> E: ExtractionSchema\n",
+    "content_length": 337,
+    "metadata": {
+      "vector_number": 7,
+      "chunk_index": 7,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_title": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 337,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 7,
+      "prev_chunk_ids": [
+        5,
+        6
+      ],
+      "next_chunk_ids": [
+        8,
+        9
+      ],
+      "start_line": 74
+    }
+  },
+  {
+    "vector_number": 8,
+    "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+    "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+    "content": "    LLM --> E: ExtractionSchema\n    E --> V: ExtractionResult(entities, relations)\n    V -> KR: append({chunk_id, entities, relations})\nend\n\nV -> GB: build_graph(doc_stem, knowledge_records)\nGB -> Graph: Create MultiDiGraph\nloop for each record in knowledge_records\n    GB -> Graph: add chunk node, entity nodes, edges\nend\nGB --> V: graph\n\n",
+    "content_length": 340,
+    "metadata": {
+      "vector_number": 8,
+      "chunk_index": 8,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_title": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 340,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 8,
+      "prev_chunk_ids": [
+        6,
+        7
+      ],
+      "next_chunk_ids": [
+        9
+      ],
+      "start_line": 84
+    }
+  },
+  {
+    "vector_number": 9,
+    "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+    "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+    "content": "\nV -> GB: save_graph(graph, path)\nGB --> V: (file persisted)\n\nV -> GB: aggregate_entities(graph)\nV -> GB: aggregate_relations(graph)\nGB --> V: entities list, relations list\n@enduml\n```\n\n",
+    "content_length": 186,
+    "metadata": {
+      "vector_number": 9,
+      "chunk_index": 9,
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_title": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 186,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 9,
+      "prev_chunk_ids": [
+        7,
+        8
+      ],
+      "next_chunk_ids": [],
+      "start_line": 94
+    }
+  }
+]

@@ -4,15 +4,16 @@ Hybrid retrieval planner combining vector search with knowledge-graph traversal.
 
 from __future__ import annotations
 
-import math
 import re
 from dataclasses import dataclass
 from enum import Enum
-import json
 from pathlib import Path
-from typing import Callable, Dict, Iterable, List, Optional, Sequence, Tuple
+from typing import TYPE_CHECKING, Any, Callable, Dict, Iterable, List, Optional, Sequence, Tuple
 
 import networkx as nx
+
+if TYPE_CHECKING:
+    from retrieval.graph_expander import ExpandedChunk, GraphExpander
 
 
 VectorRetriever = Callable[[str, int], Sequence[Tuple[str, float, Dict]]]
@@ -179,17 +180,21 @@ class HybridRetrievalPlanner:
         return ranked[:top_k], contributing_entities
 
 
+def expand_candidates(
+    plan: RetrievalPlan, expander: "GraphExpander", **kwargs: Any
+) -> List["ExpandedChunk"]:
+    """
+    Expand retrieval plan candidates using GraphExpander.
+    Returns expanded chunks for RAG context.
+    """
+    from retrieval.graph_expander import ExpandedChunk, GraphExpander
+
+    seed_ids = [c.chunk_id for c in plan.candidates]
+    return expander.expand(seed_ids, **kwargs)
+
+
 def load_knowledge_graph(path: Path) -> Optional[nx.MultiDiGraph]:
-    if not path.exists():
-        return None
-    with open(path, "r", encoding="utf-8") as f:
-        payload = json.load(f)
-    graph = nx.MultiDiGraph()
-    for node in payload.get("nodes", []):
-        node_id = node.pop("id")
-        graph.add_node(node_id, **node)
-    for edge in payload.get("edges", []):
-        source = edge.pop("source")
-        target = edge.pop("target")
-        graph.add_edge(source, target, **edge)
-    return graph
+    """Load knowledge graph from JSON. Re-exports from retrieval.loaders."""
+    from retrieval.loaders import load_knowledge_graph as _load
+
+    return _load(path)

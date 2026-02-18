@@ -61,6 +61,7 @@ logging.getLogger("langchain_community").setLevel(logging.WARNING)
 EMBEDDING_MODEL = "nomic-embed-text:v1.5"
 OLLAMA_BASE_URL = "http://localhost:11434"
 ENTITY_EXTRACTION_MODEL = os.getenv("PLAN_E_ENTITY_MODEL", "gpt-4o-mini")
+ENTITY_EXTRACTION_INTENSITY_THRESHOLD = int(os.getenv("PLAN_E_EXTRACTION_INTENSITY_THRESHOLD_CHARS", "3000"))
 ENABLE_ENTITY_EXTRACTION = os.getenv("PLAN_E_ENABLE_ENTITY_EXTRACTION", "1").lower() not in {"0", "false", "no"}
 
 # Token limits
@@ -70,6 +71,10 @@ EMBEDDING_MAX_TOKENS = 1500
 EMBEDDING_MAX_CHARS = 2000
 CHUNK_SIZE = EMBEDDING_MAX_CHARS
 CHUNK_OVERLAP = 150
+
+# Adaptive chunking for small documents (env overrides)
+MIN_CHUNKS = int(os.getenv("PLAN_E_MIN_CHUNKS", "8"))  # Target minimum chunks for short docs
+MIN_CHUNK_CHARS = int(os.getenv("PLAN_E_MIN_CHUNK_CHARS", "300"))  # Floor to avoid tiny chunks
 
 # Token counting encoding
 TOKEN_ENCODING = "cl100k_base" if TIKTOKEN_AVAILABLE else None
@@ -553,6 +558,19 @@ def is_chunk_empty(chunk: Document) -> bool:
     
     return False
 
+
+def compute_effective_chunk_size(total_chars: int) -> int:
+    """
+    Adaptive chunk size by document length.
+    Short docs get smaller chunks (more granular retrieval); long docs use fixed max.
+    """
+    effective = min(
+        CHUNK_SIZE,
+        max(MIN_CHUNK_CHARS, total_chars // MIN_CHUNKS),
+    )
+    return effective
+
+
 def parse_markdown_enhanced(markdown_content: str) -> Tuple[List[Document], Dict[str, Any]]:
     """Parse markdown with structure awareness and enhanced metadata"""
     logger.info("Extracting document structure...")
@@ -567,6 +585,14 @@ def parse_markdown_enhanced(markdown_content: str) -> Tuple[List[Document], Dict
     if level_counts:
         level_summary = ", ".join([f"Level {k}: {v}" for k, v in sorted(level_counts.items())])
         logger.info(f"Heading level distribution: {level_summary}")
+
+    total_chars = len(markdown_content)
+    effective_chunk_size = compute_effective_chunk_size(total_chars)
+    if effective_chunk_size != CHUNK_SIZE:
+        logger.info(
+            "Adaptive chunking: doc has %d chars, using effective_chunk_size=%d (target min %d chunks)",
+            total_chars, effective_chunk_size, MIN_CHUNKS,
+        )
     
     lines = markdown_content.split("\n")
     chunks = []
@@ -588,7 +614,7 @@ def parse_markdown_enhanced(markdown_content: str) -> Tuple[List[Document], Dict
         line_with_newline = line + "\n"
         line_size = len(line_with_newline)
         
-        if current_chunk_size + line_size > CHUNK_SIZE and current_chunk_lines:
+        if current_chunk_size + line_size > effective_chunk_size and current_chunk_lines:
             chunk_text = "".join(current_chunk_lines)
             chunk_start_line = line_num - len(current_chunk_lines)
             
@@ -955,11 +981,22 @@ def process_chunks_one_by_one(state: VectorizerState) -> VectorizerState:
     knowledge_records: List[Dict[str, Any]] = []
     if ENABLE_ENTITY_EXTRACTION:
         try:
+            total_doc_chars = sum(len(c.page_content) for c in chunks)
+            extraction_intensity = (
+                "minimal" if total_doc_chars > ENTITY_EXTRACTION_INTENSITY_THRESHOLD else "moderate"
+            )
             entity_extractor = EntityExtractor(
                 model=ENTITY_EXTRACTION_MODEL,
                 temperature=0.0,
+                extraction_intensity=extraction_intensity,
             )
-            logger.info("Entity extraction enabled using model %s", ENTITY_EXTRACTION_MODEL)
+            logger.info(
+                "Entity extraction enabled using model %s, intensity %s (doc %d chars, threshold %d)",
+                ENTITY_EXTRACTION_MODEL,
+                extraction_intensity,
+                total_doc_chars,
+                ENTITY_EXTRACTION_INTENSITY_THRESHOLD,
+            )
         except Exception as exc:
             logger.warning(
                 "Entity extraction disabled: failed to initialise extractor (%s)", exc

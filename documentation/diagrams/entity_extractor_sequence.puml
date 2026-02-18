@@ -1,0 +1,38 @@
+@startuml entity_extractor_sequence
+title entity_extractor.py — Entity & Relation Extraction
+
+participant "Caller (vectorizerE)" as Caller
+participant "EntityExtractor" as Extractor
+participant "_structured_llm" as LLM
+participant "ChatOpenAI" as ChatOpenAI
+participant "ExtractionSchema" as Schema
+
+Caller -> Extractor: extract(text, chunk_id="doc::chunk::0")
+Extractor -> Extractor: build_prompt(text, chunk_id)
+
+note right of Extractor
+  Prompt: "You are an information extraction assistant..."
+  + Passage text
+end note
+
+Extractor -> LLM: invoke(prompt)
+LLM -> ChatOpenAI: with_structured_output(ExtractionSchema)
+ChatOpenAI -> ChatOpenAI: OpenAI API (response_format=json_schema)
+ChatOpenAI --> LLM: ExtractionSchema instance
+
+LLM --> Extractor: schema (Pydantic)
+
+Extractor -> Extractor: _pydantic_to_result(schema)
+
+loop for each entity in schema.entities
+    Extractor -> Extractor: ExtractedEntity(name, type, ...)
+end
+
+loop for each relation in schema.relations
+    Extractor -> Extractor: ExtractedRelation(source, relation, target, ...)
+end
+
+Extractor -> Extractor: attach chunk_id to entity.source_ids
+
+Extractor --> Caller: ExtractionResult(entities, relations)
+@enduml

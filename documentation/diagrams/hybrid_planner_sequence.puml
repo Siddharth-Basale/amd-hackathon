@@ -1,0 +1,52 @@
+@startuml hybrid_planner_sequence
+title hybrid_planner.py — Hybrid Retrieval
+
+actor User
+participant "Caller" as Caller
+participant "HybridRetrievalPlanner" as Planner
+participant "QueryClassifier" as Classifier
+participant "vector_retriever" as VectorRet
+participant "Chroma" as Chroma
+participant "knowledge_graph" as KG
+
+User -> Caller: plan("How does X relate to Y?")
+Caller -> Planner: plan(query, top_k=8)
+
+Planner -> Classifier: classify(query)
+Classifier --> Planner: RetrievalMode (ENTITY/DOCUMENT/HYBRID)
+
+Planner -> VectorRet: (query, top_k)
+VectorRet -> Chroma: similarity_search_with_score(query, k)
+Chroma --> VectorRet: [(doc, score), ...]
+VectorRet --> Planner: vector_candidates
+
+Planner -> Planner: _run_knowledge_search(query, top_k)
+
+alt knowledge_graph exists
+    Planner -> KG: nodes(data=True)
+    loop for each entity node
+        Planner -> Planner: match query tokens to name/aliases
+    end
+    loop for each matched entity
+        Planner -> KG: out_edges(entity_id, data=True)
+        loop for each "mentions" edge
+            Planner -> Planner: add RetrievalCandidate(chunk_id, score, "entity match", "knowledge")
+        end
+    end
+end
+
+Planner --> Planner: knowledge_candidates, contributing_entities
+
+alt mode == DOCUMENT
+    Planner -> Planner: candidates = vector_candidates
+else mode == ENTITY
+    Planner -> Planner: candidates = knowledge_candidates or vector_candidates
+else mode == HYBRID
+    Planner -> Planner: merge vector + knowledge, deduplicate by chunk_id, sort by score
+end
+
+Planner -> Planner: candidates = candidates[:top_k]
+
+Planner --> Caller: RetrievalPlan(mode, candidates, contributing_entities)
+Caller --> User: plan
+@enduml

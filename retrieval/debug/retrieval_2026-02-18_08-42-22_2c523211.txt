@@ -1,0 +1,66 @@
+============================================================
+RETRIEVAL DEBUG ANALYSIS
+============================================================
+Query: 'entity extraction'
+Top-K: 5
+
+--- Plan ---
+Mode: hybrid
+Contributing entities: ['entity extraction', 'LLM-based entity/relation extraction']
+
+Seed candidates:
+  - knowledge_package::chunk::0  score=1.0  source=vector  reason=semantic similarity
+  - knowledge_package::chunk::1  score=0.95  source=vector  reason=semantic similarity
+  - knowledge_package::chunk::4  score=0.9  source=vector  reason=semantic similarity
+  - knowledge_package::chunk::5  score=0.85  source=vector  reason=semantic similarity
+  - knowledge_package::chunk::6  score=0.8  source=vector  reason=semantic similarity
+
+--- Expansion config ---
+{
+  "use_document_graph": true,
+  "use_knowledge_graph": true,
+  "max_expansion": 25,
+  "doc_stem": "knowledge_package"
+}
+
+--- Counts ---
+{
+  "seed_candidates": 5,
+  "expanded_chunks": 9,
+  "by_source": {
+    "seed": 5,
+    "document": 2,
+    "knowledge": 2
+  }
+}
+
+--- Graph stats ---
+{
+  "document_graph": {
+    "nodes": 18,
+    "edges": 44
+  },
+  "knowledge_graph": {
+    "nodes": 35,
+    "edges": 43
+  }
+}
+
+--- Expanded chunks ---
+  - knowledge_package::chunk::0  source=seed  reason=seed
+  - knowledge_package::chunk::1  source=seed  reason=seed
+  - knowledge_package::chunk::4  source=seed  reason=seed
+  - knowledge_package::chunk::5  source=seed  reason=seed
+  - knowledge_package::chunk::6  source=seed  reason=seed
+  - knowledge_package::chunk::2  source=document  reason=section|adjacent|similar
+  - knowledge_package::chunk::3  source=document  reason=section|adjacent|similar
+  - knowledge_package::chunk::7  source=knowledge  reason=entity:knowledge_records
+  - knowledge_package::chunk::9  source=knowledge  reason=entity:graph
+
+--- Timings (ms) ---
+{
+  "plan_ms": 0.17,
+  "expand_ms": 0.5
+}
+
+============================================================

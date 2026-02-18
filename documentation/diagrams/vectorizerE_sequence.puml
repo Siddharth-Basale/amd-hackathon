@@ -1,0 +1,54 @@
+@startuml vectorizerE_sequence
+title vectorizerE.py — Main Vectorization Pipeline
+
+actor User
+participant "main()" as Main
+participant "create_vectorization_workflow()" as Workflow
+participant "load_markdown" as Load
+participant "parse_markdown_enhanced" as Parse
+participant "process_chunks_one_by_one" as Process
+participant "DocumentGraph" as DocGraph
+participant "Chroma" as Chroma
+participant "EntityExtractor" as Extractor
+participant "graph_builder" as GraphBuilder
+
+User -> Main: python vectorizerE.py <path>
+Main -> Main: check_ollama_running()
+Main -> Workflow: create_vectorization_workflow()
+Main -> Workflow: invoke(initial_state)
+
+Workflow -> Load: load_markdown(state)
+Load -> Load: Path(markdown_file)
+Load -> Parse: parse_markdown_enhanced(content)
+Parse -> Parse: extract_document_structure()
+Parse -> Parse: chunk with structure metadata
+Parse --> Load: chunks, structure
+Load --> Workflow: state with chunks, structure
+
+Workflow -> Process: process_chunks_one_by_one(state)
+Process -> DocGraph: DocumentGraph()
+Process -> Chroma: Chroma(embedding_function, persist_directory)
+
+loop for each chunk
+    Process -> Chroma: add_documents([doc])
+    Process -> DocGraph: add_chunk_node(), add_edge()
+    alt ENABLE_ENTITY_EXTRACTION
+        Process -> Extractor: extract(chunk.page_content, chunk_id=...)
+        Extractor --> Process: ExtractionResult
+        Process -> Process: knowledge_records.append(...)
+    end
+end
+
+Process -> Process: similarity_search_with_score() for each chunk
+Process -> DocGraph: add_edge(relation="similar_to")
+
+alt knowledge_records
+    Process -> GraphBuilder: build_graph(doc_stem, knowledge_records)
+    Process -> GraphBuilder: save_graph()
+end
+
+Process -> Process: save JSON, document_graph.save()
+Process --> Workflow: updated state
+Workflow --> Main: final_state
+Main --> User: logs and completion
+@enduml

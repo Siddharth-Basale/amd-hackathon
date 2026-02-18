@@ -1,0 +1,49 @@
+@startuml graph_builder_sequence
+title graph_builder.py — Knowledge Graph Construction
+
+participant "Caller (vectorizerE)" as Caller
+participant "build_graph" as Build
+participant "entity_nodes (dict)" as EntityMap
+participant "nx.MultiDiGraph" as Graph
+participant "aggregate_entities" as AggE
+participant "aggregate_relations" as AggR
+participant "save_graph" as Save
+
+Caller -> Build: build_graph(document_id, knowledge_records)
+
+loop for each chunk record
+    Build -> Graph: add_node(chunk_node_id, type="chunk", ...)
+    
+    loop for each entity in record.entities
+        Build -> Build: _entity_key(name)
+        alt entity not in entity_nodes
+            Build -> EntityMap: entity_nodes[node_id] = {...}
+        end
+        Build -> Graph: add_edge(entity_node, chunk_node, relation="mentions")
+    end
+    
+    loop for each relation in record.relations
+        alt source/target not in entity_nodes
+            Build -> EntityMap: add entity nodes
+        end
+        Build -> Graph: add_edge(source_entity, target_entity, relation, evidence, chunk_id)
+    end
+end
+
+loop for each entity in entity_nodes
+    Build -> Graph: add_node(entity_id, type="entity", ...)
+end
+
+Build --> Caller: graph
+
+Caller -> AggE: aggregate_entities(graph)
+AggE --> Caller: List[Dict]
+
+Caller -> AggR: aggregate_relations(graph)
+AggR --> Caller: List[Dict]
+
+Caller -> Save: save_graph(graph, path)
+Save -> Save: graph_to_dict(graph)
+Save -> Save: json.dump(payload, path)
+Save --> Caller: (persisted)
+@enduml

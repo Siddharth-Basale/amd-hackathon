@@ -1,0 +1,1139 @@
+{
+  "document_id": "knowledge_package",
+  "chunks": [
+    {
+      "chunk_id": "knowledge_package::chunk::0",
+      "heading": "knowledge Package — Overview",
+      "section_path": "knowledge Package — Overview",
+      "entities": [
+        {
+          "name": "knowledge package",
+          "type": "Software Package",
+          "description": "The `knowledge` package provides entity extraction and knowledge graph construction for the document understanding pipeline.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::0"
+          ]
+        },
+        {
+          "name": "entity extraction",
+          "type": "Feature",
+          "description": "A feature of the `knowledge` package that extracts entities from text.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::0"
+          ]
+        },
+        {
+          "name": "knowledge graph construction",
+          "type": "Feature",
+          "description": "A feature of the `knowledge` package that constructs a knowledge graph from extracted entities and relations.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::0"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "knowledge package",
+          "relation": "provides",
+          "target": "entity extraction",
+          "evidence": "The `knowledge` package provides **entity extraction** and **knowledge graph construction** for the document understanding pipeline."
+        },
+        {
+          "source": "knowledge package",
+          "relation": "provides",
+          "target": "knowledge graph construction",
+          "evidence": "The `knowledge` package provides **entity extraction** and **knowledge graph construction** for the document understanding pipeline."
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::1",
+      "heading": "Package Structure",
+      "section_path": "knowledge Package — Overview > Package Structure",
+      "entities": [
+        {
+          "name": "__init__.py",
+          "type": "File",
+          "description": "Package exports",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::1"
+          ]
+        },
+        {
+          "name": "entity_extractor.py",
+          "type": "File",
+          "description": "LLM-based entity/relation extraction",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::1"
+          ]
+        },
+        {
+          "name": "graph_builder.py",
+          "type": "File",
+          "description": "Knowledge graph construction",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::1"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "__init__.py",
+          "relation": "exports",
+          "target": "Package",
+          "evidence": "├── __init__.py          # Package exports"
+        },
+        {
+          "source": "entity_extractor.py",
+          "relation": "responsibility",
+          "target": "LLM-based entity/relation extraction",
+          "evidence": "├── entity_extractor.py  # LLM-based entity/relation extraction"
+        },
+        {
+          "source": "graph_builder.py",
+          "relation": "responsibility",
+          "target": "Knowledge graph construction",
+          "evidence": "└── graph_builder.py     # Knowledge graph construction"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::4",
+      "heading": "Data Flow (End-to-End)",
+      "section_path": "knowledge Package — Overview > Data Flow (End-to-End)",
+      "entities": [
+        {
+          "name": "vectorizerE",
+          "type": "Tool",
+          "description": "A tool that calls EntityExtractor to extract entities from chunks.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::4"
+          ]
+        },
+        {
+          "name": "EntityExtractor",
+          "type": "Tool",
+          "description": "A component that extracts entities from the page content of chunks.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::4"
+          ]
+        },
+        {
+          "name": "knowledge_records",
+          "type": "Data Structure",
+          "description": "Storage for extracted entities and relations.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::4"
+          ]
+        },
+        {
+          "name": "graph_builder",
+          "type": "Tool",
+          "description": "A tool that builds a graph from the processed knowledge records.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::4"
+          ]
+        },
+        {
+          "name": "doc_stem",
+          "type": "Data Structure",
+          "description": "A parameter used in building the graph.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::4"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "vectorizerE",
+          "relation": "calls",
+          "target": "EntityExtractor",
+          "evidence": "For each chunk, `vectorizerE` calls `EntityExtractor.extract(chunk.page_content, chunk_id=...)`."
+        },
+        {
+          "source": "EntityExtractor",
+          "relation": "extracts",
+          "target": "chunk.page_content",
+          "evidence": "For each chunk, `vectorizerE` calls `EntityExtractor.extract(chunk.page_content, chunk_id=...)`."
+        },
+        {
+          "source": "knowledge_records",
+          "relation": "stores",
+          "target": "extracted entities/relations",
+          "evidence": "Extracted entities/relations are stored as `knowledge_records`."
+        },
+        {
+          "source": "graph_builder",
+          "relation": "builds",
+          "target": "graph",
+          "evidence": "After all chunks are processed, `graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph."
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::5",
+      "heading": "Integration with vectorizerE",
+      "section_path": "knowledge Package — Overview > Integration with vectorizerE",
+      "entities": [
+        {
+          "name": "graph_builder",
+          "type": "Class",
+          "description": "Class responsible for building and saving graphs.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::5"
+          ]
+        },
+        {
+          "name": "knowledge_records",
+          "type": "Data",
+          "description": "Data records used for building the graph.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::5"
+          ]
+        },
+        {
+          "name": "knowledge_graph",
+          "type": "Graph",
+          "description": "The graph that is built and saved.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::5"
+          ]
+        },
+        {
+          "name": "path",
+          "type": "File Path",
+          "description": "The location where the graph is saved.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::5"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "graph_builder",
+          "relation": "builds",
+          "target": "knowledge_graph",
+          "evidence": "`graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph."
+        },
+        {
+          "source": "graph_builder",
+          "relation": "saves",
+          "target": "knowledge_graph",
+          "evidence": "The graph is saved with `graph_builder.save_graph(knowledge_graph, path)`."
+        },
+        {
+          "source": "graph_builder",
+          "relation": "provides",
+          "target": "flat lists",
+          "evidence": "`graph_builder.aggregate_entities()` and `graph_builder.aggregate_relations()` provide flat lists for downstream use."
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::6",
+      "heading": "Dependencies",
+      "section_path": "knowledge Package — Overview > Dependencies",
+      "entities": [
+        {
+          "name": "langchain-openai",
+          "type": "Library",
+          "description": "A library used for entity extraction.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::6"
+          ]
+        },
+        {
+          "name": "pydantic",
+          "type": "Library",
+          "description": "A library used for data validation and settings management.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::6"
+          ]
+        },
+        {
+          "name": "networkx",
+          "type": "Library",
+          "description": "A library used for creating and manipulating complex networks.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::6"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "langchain-openai",
+          "relation": "is a",
+          "target": "Library",
+          "evidence": "- **entity_extractor**: `langchain-openai`, `pydantic`"
+        },
+        {
+          "source": "pydantic",
+          "relation": "is a",
+          "target": "Library",
+          "evidence": "- **entity_extractor**: `langchain-openai`, `pydantic`"
+        },
+        {
+          "source": "networkx",
+          "relation": "is a",
+          "target": "Library",
+          "evidence": "- **graph_builder**: `networkx`"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::7",
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "entities": [
+        {
+          "name": "LLM (OpenAI)",
+          "type": "Participant",
+          "description": "A participant in the process, representing the language model from OpenAI.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::7"
+          ]
+        },
+        {
+          "name": "knowledge_records",
+          "type": "Participant",
+          "description": "A participant in the process, representing the knowledge records.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::7"
+          ]
+        },
+        {
+          "name": "graph_builder",
+          "type": "Participant",
+          "description": "A participant in the process, representing the graph builder.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::7"
+          ]
+        },
+        {
+          "name": "nx.MultiDiGraph",
+          "type": "Graph Type",
+          "description": "A type of graph used in the process.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::7"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "V",
+          "relation": "interacts with",
+          "target": "E",
+          "evidence": "V -> E: EntityExtractor(model=...)"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "knowledge_package::chunk::9",
+      "heading": "PlantUML Sequence Diagram — Knowledge Package Flow",
+      "section_path": "knowledge Package — Overview > PlantUML Sequence Diagram — Knowledge Package Flow",
+      "entities": [
+        {
+          "name": "V",
+          "type": "Entity",
+          "description": "An entity that interacts with GB.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::9"
+          ]
+        },
+        {
+          "name": "GB",
+          "type": "Entity",
+          "description": "An entity that receives commands from V.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::9"
+          ]
+        },
+        {
+          "name": "graph",
+          "type": "Graph",
+          "description": "A data structure used in the interactions between V and GB.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::9"
+          ]
+        },
+        {
+          "name": "path",
+          "type": "Path",
+          "description": "A location where the graph is saved.",
+          "aliases": [],
+          "source_ids": [
+            "knowledge_package::chunk::9"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "V",
+          "relation": "saves",
+          "target": "graph",
+          "evidence": "V -> GB: save_graph(graph, path)"
+        }
+      ],
+      "raw_response": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:knowledge package",
+      "name": "knowledge package",
+      "type": "Software Package",
+      "description": "The `knowledge` package provides entity extraction and knowledge graph construction for the document understanding pipeline.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::0"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:entity extraction",
+      "name": "entity extraction",
+      "type": "Feature",
+      "description": "A feature of the `knowledge` package that extracts entities from text.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::0"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:knowledge graph construction",
+      "name": "knowledge graph construction",
+      "type": "Feature",
+      "description": "A feature of the `knowledge` package that constructs a knowledge graph from extracted entities and relations.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::0"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:__init__.py",
+      "name": "__init__.py",
+      "type": "File",
+      "description": "Package exports",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::1"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:entity_extractor.py",
+      "name": "entity_extractor.py",
+      "type": "File",
+      "description": "LLM-based entity/relation extraction",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::1"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:graph_builder.py",
+      "name": "graph_builder.py",
+      "type": "File",
+      "description": "Knowledge graph construction",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::1"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:package",
+      "name": "Package",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:llm-based entity/relation extraction",
+      "name": "LLM-based entity/relation extraction",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:vectorizere",
+      "name": "vectorizerE",
+      "type": "Tool",
+      "description": "A tool that calls EntityExtractor to extract entities from chunks.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::4"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:entityextractor",
+      "name": "EntityExtractor",
+      "type": "Tool",
+      "description": "A component that extracts entities from the page content of chunks.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::4"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:knowledge_records",
+      "name": "knowledge_records",
+      "type": "Data Structure",
+      "description": "Storage for extracted entities and relations.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::4",
+        "knowledge_package::chunk::7",
+        "knowledge_package::chunk::5"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:graph_builder",
+      "name": "graph_builder",
+      "type": "Tool",
+      "description": "A tool that builds a graph from the processed knowledge records.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::4",
+        "knowledge_package::chunk::7",
+        "knowledge_package::chunk::5"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:doc_stem",
+      "name": "doc_stem",
+      "type": "Data Structure",
+      "description": "A parameter used in building the graph.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::4"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:chunk.page_content",
+      "name": "chunk.page_content",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:extracted entities/relations",
+      "name": "extracted entities/relations",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:graph",
+      "name": "graph",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::9"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:knowledge_graph",
+      "name": "knowledge_graph",
+      "type": "Graph",
+      "description": "The graph that is built and saved.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::5"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:path",
+      "name": "path",
+      "type": "File Path",
+      "description": "The location where the graph is saved.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::9",
+        "knowledge_package::chunk::5"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:flat lists",
+      "name": "flat lists",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:langchain-openai",
+      "name": "langchain-openai",
+      "type": "Library",
+      "description": "A library used for entity extraction.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::6"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:pydantic",
+      "name": "pydantic",
+      "type": "Library",
+      "description": "A library used for data validation and settings management.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::6"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:networkx",
+      "name": "networkx",
+      "type": "Library",
+      "description": "A library used for creating and manipulating complex networks.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::6"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:library",
+      "name": "Library",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:llm (openai)",
+      "name": "LLM (OpenAI)",
+      "type": "Participant",
+      "description": "A participant in the process, representing the language model from OpenAI.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::7"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:nx.multidigraph",
+      "name": "nx.MultiDiGraph",
+      "type": "Graph Type",
+      "description": "A type of graph used in the process.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::7"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:v",
+      "name": "V",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::9"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:e",
+      "name": "E",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "knowledge_package"
+      ]
+    },
+    {
+      "id": "entity:gb",
+      "name": "GB",
+      "type": "Entity",
+      "description": "An entity that receives commands from V.",
+      "aliases": [],
+      "source_chunks": [
+        "knowledge_package::chunk::9"
+      ],
+      "documents": [
+        "knowledge_package"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "entity:knowledge package",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:knowledge package",
+      "relation": "provides",
+      "target": "entity:entity extraction",
+      "evidence": [
+        "The `knowledge` package provides **entity extraction** and **knowledge graph construction** for the document understanding pipeline."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::0"
+      ]
+    },
+    {
+      "source": "entity:knowledge package",
+      "relation": "provides",
+      "target": "entity:knowledge graph construction",
+      "evidence": [
+        "The `knowledge` package provides **entity extraction** and **knowledge graph construction** for the document understanding pipeline."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::0"
+      ]
+    },
+    {
+      "source": "entity:entity extraction",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:knowledge graph construction",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:__init__.py",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:__init__.py",
+      "relation": "exports",
+      "target": "entity:package",
+      "evidence": [
+        "├── __init__.py          # Package exports"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::1"
+      ]
+    },
+    {
+      "source": "entity:entity_extractor.py",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:entity_extractor.py",
+      "relation": "responsibility",
+      "target": "entity:llm-based entity/relation extraction",
+      "evidence": [
+        "├── entity_extractor.py  # LLM-based entity/relation extraction"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::1"
+      ]
+    },
+    {
+      "source": "entity:graph_builder.py",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:graph_builder.py",
+      "relation": "responsibility",
+      "target": "entity:knowledge graph construction",
+      "evidence": [
+        "└── graph_builder.py     # Knowledge graph construction"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::1"
+      ]
+    },
+    {
+      "source": "entity:vectorizere",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:vectorizere",
+      "relation": "calls",
+      "target": "entity:entityextractor",
+      "evidence": [
+        "For each chunk, `vectorizerE` calls `EntityExtractor.extract(chunk.page_content, chunk_id=...)`."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:entityextractor",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:entityextractor",
+      "relation": "extracts",
+      "target": "entity:chunk.page_content",
+      "evidence": [
+        "For each chunk, `vectorizerE` calls `EntityExtractor.extract(chunk.page_content, chunk_id=...)`."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:knowledge_records",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:knowledge_records",
+      "relation": "stores",
+      "target": "entity:extracted entities/relations",
+      "evidence": [
+        "Extracted entities/relations are stored as `knowledge_records`."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:knowledge_records",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:knowledge_records",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::7",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "builds",
+      "target": "entity:graph",
+      "evidence": [
+        "After all chunks are processed, `graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "builds",
+      "target": "entity:knowledge_graph",
+      "evidence": [
+        "`graph_builder.build_graph(doc_stem, knowledge_records)` builds the graph."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::5"
+      ]
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "saves",
+      "target": "entity:knowledge_graph",
+      "evidence": [
+        "The graph is saved with `graph_builder.save_graph(knowledge_graph, path)`."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::5"
+      ]
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "provides",
+      "target": "entity:flat lists",
+      "evidence": [
+        "`graph_builder.aggregate_entities()` and `graph_builder.aggregate_relations()` provide flat lists for downstream use."
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::5"
+      ]
+    },
+    {
+      "source": "entity:graph_builder",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::7",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:doc_stem",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:graph",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::9",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:knowledge_graph",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:path",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:path",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::9",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:langchain-openai",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::6",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:langchain-openai",
+      "relation": "is a",
+      "target": "entity:library",
+      "evidence": [
+        "- **entity_extractor**: `langchain-openai`, `pydantic`"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::6"
+      ]
+    },
+    {
+      "source": "entity:pydantic",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::6",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:pydantic",
+      "relation": "is a",
+      "target": "entity:library",
+      "evidence": [
+        "- **entity_extractor**: `langchain-openai`, `pydantic`"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::6"
+      ]
+    },
+    {
+      "source": "entity:networkx",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::6",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:networkx",
+      "relation": "is a",
+      "target": "entity:library",
+      "evidence": [
+        "- **graph_builder**: `networkx`"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::6"
+      ]
+    },
+    {
+      "source": "entity:llm (openai)",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::7",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:nx.multidigraph",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::7",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:v",
+      "relation": "interacts with",
+      "target": "entity:e",
+      "evidence": [
+        "V -> E: EntityExtractor(model=...)"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::7"
+      ]
+    },
+    {
+      "source": "entity:v",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::9",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:v",
+      "relation": "saves",
+      "target": "entity:graph",
+      "evidence": [
+        "V -> GB: save_graph(graph, path)"
+      ],
+      "chunk_ids": [
+        "knowledge_package::chunk::9"
+      ]
+    },
+    {
+      "source": "entity:gb",
+      "relation": "mentions",
+      "target": "chunk:knowledge_package::chunk::9",
+      "evidence": [],
+      "chunk_ids": []
+    }
+  ]
+}

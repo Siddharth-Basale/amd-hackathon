@@ -1,0 +1,34 @@
+@startuml knowledge_package_sequence
+title knowledge Package — End-to-End Flow
+
+participant "vectorizerE" as V
+participant "EntityExtractor" as E
+participant "LLM (OpenAI)" as LLM
+participant "knowledge_records" as KR
+participant "graph_builder" as GB
+participant "nx.MultiDiGraph" as Graph
+
+V -> E: EntityExtractor(model=...)
+
+loop for each chunk
+    V -> E: extract(chunk.page_content, chunk_id=...)
+    E -> LLM: invoke(prompt) [structured output]
+    LLM --> E: ExtractionSchema
+    E --> V: ExtractionResult(entities, relations)
+    V -> KR: append({chunk_id, entities, relations})
+end
+
+V -> GB: build_graph(doc_stem, knowledge_records)
+GB -> Graph: Create MultiDiGraph
+loop for each record in knowledge_records
+    GB -> Graph: add chunk node, entity nodes, edges
+end
+GB --> V: graph
+
+V -> GB: save_graph(graph, path)
+GB --> V: (file persisted)
+
+V -> GB: aggregate_entities(graph)
+V -> GB: aggregate_relations(graph)
+GB --> V: entities list, relations list
+@enduml
