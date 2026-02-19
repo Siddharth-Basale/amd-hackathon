@@ -1,0 +1,161 @@
+{
+  "document_id": "msg_19c74db7681db7cd",
+  "chunks": [
+    {
+      "chunk_id": "msg_19c74db7681db7cd::chunk::0",
+      "heading": "My resume",
+      "section_path": "My resume",
+      "entities": [
+        {
+          "name": "Siddharth Basale",
+          "type": "Person",
+          "description": "Sender of the email",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c74db7681db7cd::chunk::0"
+          ]
+        },
+        {
+          "name": "siddb12345@gmail.com",
+          "type": "Email",
+          "description": "Recipient of the email",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c74db7681db7cd::chunk::0"
+          ]
+        },
+        {
+          "name": "Thu, 19 Feb 2026 13:14:12 +0530",
+          "type": "Date",
+          "description": "Date of the email",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c74db7681db7cd::chunk::0"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "Siddharth Basale",
+          "relation": "sent email to",
+          "target": "siddb12345@gmail.com",
+          "evidence": "From | Siddharth Basale <siddharthbasale2004@gmail.com> | To | \"siddb12345@gmail.com\" <siddb12345@gmail.com> | Date | Thu, 19 Feb 2026 13:14:12 +0530"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "msg_19c74db7681db7cd::chunk::1",
+      "heading": "My resume",
+      "section_path": "My resume",
+      "entities": [
+        {
+          "name": "Siddharth_20Basale.pdf",
+          "type": "File",
+          "description": "Attached file in PDF format",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c74db7681db7cd::chunk::1"
+          ]
+        }
+      ],
+      "relations": [],
+      "raw_response": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:siddharth basale",
+      "name": "Siddharth Basale",
+      "type": "Person",
+      "description": "Sender of the email",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c74db7681db7cd::chunk::0"
+      ],
+      "documents": [
+        "msg_19c74db7681db7cd"
+      ]
+    },
+    {
+      "id": "entity:siddb12345@gmail.com",
+      "name": "siddb12345@gmail.com",
+      "type": "Email",
+      "description": "Recipient of the email",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c74db7681db7cd::chunk::0"
+      ],
+      "documents": [
+        "msg_19c74db7681db7cd"
+      ]
+    },
+    {
+      "id": "entity:thu, 19 feb 2026 13:14:12 +0530",
+      "name": "Thu, 19 Feb 2026 13:14:12 +0530",
+      "type": "Date",
+      "description": "Date of the email",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c74db7681db7cd::chunk::0"
+      ],
+      "documents": [
+        "msg_19c74db7681db7cd"
+      ]
+    },
+    {
+      "id": "entity:siddharth_20basale.pdf",
+      "name": "Siddharth_20Basale.pdf",
+      "type": "File",
+      "description": "Attached file in PDF format",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c74db7681db7cd::chunk::1"
+      ],
+      "documents": [
+        "msg_19c74db7681db7cd"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "entity:siddharth basale",
+      "relation": "mentions",
+      "target": "chunk:msg_19c74db7681db7cd::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:siddharth basale",
+      "relation": "sent email to",
+      "target": "entity:siddb12345@gmail.com",
+      "evidence": [
+        "From | Siddharth Basale <siddharthbasale2004@gmail.com> | To | \"siddb12345@gmail.com\" <siddb12345@gmail.com> | Date | Thu, 19 Feb 2026 13:14:12 +0530"
+      ],
+      "chunk_ids": [
+        "msg_19c74db7681db7cd::chunk::0"
+      ]
+    },
+    {
+      "source": "entity:siddb12345@gmail.com",
+      "relation": "mentions",
+      "target": "chunk:msg_19c74db7681db7cd::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:thu, 19 feb 2026 13:14:12 +0530",
+      "relation": "mentions",
+      "target": "chunk:msg_19c74db7681db7cd::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:siddharth_20basale.pdf",
+      "relation": "mentions",
+      "target": "chunk:msg_19c74db7681db7cd::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    }
+  ]
+}

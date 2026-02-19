@@ -1,0 +1,54 @@
+[
+  {
+    "vector_number": 0,
+    "heading": "My resume",
+    "section_path": "My resume",
+    "content": "# My resume\n<details>\n<summary>Metadata</summary>\n\n| Field | Value |\n| --- | --- |\n| From | Siddharth Basale <siddharthbasale2004@gmail.com> |\n| To | \"siddb12345@gmail.com\" <siddb12345@gmail.com> |\n| Cc |  |\n| Date | Thu, 19 Feb 2026 13:14:12 +0530 |\n| Labels | UNREAD, CATEGORY_PERSONAL, INBOX |\n\n",
+    "content_length": 298,
+    "metadata": {
+      "vector_number": 0,
+      "chunk_index": 0,
+      "heading": "My resume",
+      "section_path": "My resume",
+      "section_title": "My resume",
+      "section_level": 1,
+      "chunk_type": "table",
+      "table_context": "| Field | Value |\n| --- | --- |\n| From | Siddharth Basale <siddharthbasale2004@gmail.com> |",
+      "original_length": 298,
+      "truncated": false,
+      "has_table": true,
+      "sequential_position": 0,
+      "prev_chunk_ids": [],
+      "next_chunk_ids": [
+        1
+      ],
+      "start_line": 1
+    }
+  },
+  {
+    "vector_number": 1,
+    "heading": "My resume",
+    "section_path": "My resume",
+    "content": "\n</details>\n\n## Body\n\nDear sir\n\nPlease find herewith the attached email\n\n<details>\n<summary>Attachments</summary>\n\n- **Siddharth_20Basale.pdf** — application/pdf, 200847 bytes\n\n</details>\n\n",
+    "content_length": 189,
+    "metadata": {
+      "vector_number": 1,
+      "chunk_index": 1,
+      "heading": "My resume",
+      "section_path": "My resume",
+      "section_title": "My resume",
+      "section_level": 1,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 189,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 1,
+      "prev_chunk_ids": [
+        0
+      ],
+      "next_chunk_ids": [],
+      "start_line": 11
+    }
+  }
+]

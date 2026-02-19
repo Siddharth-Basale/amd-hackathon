@@ -14,9 +14,9 @@ import networkx as nx
 def load_document_graph(path: Path):
     """
     Load DocumentGraph from JSON file.
-    Returns a DocumentGraph instance (from vectorizerE).
+    Returns a DocumentGraph instance (from ingestion.vectorizer_e).
     """
-    from vectorizerE import DocumentGraph
+    from ingestion.vectorizer_e import DocumentGraph
 
     doc_graph = DocumentGraph()
     doc_graph.load(path)

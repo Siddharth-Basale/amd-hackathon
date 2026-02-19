@@ -1,0 +1,204 @@
+[
+  {
+    "vector_number": 0,
+    "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+    "content": "# Your project indigo-tracker-477806-v0 has been shut down\n<details>\n<summary>Metadata</summary>\n\n| Field | Value |\n| --- | --- |\n| From | Platform Notifications <PlatformNotifications-noreply@google.com> |\n| To | siddb12345@gmail.com |\n| Cc |  |\n| Date | Wed, 18 Feb 2026 07:51:32 -0800 |\n",
+    "content_length": 290,
+    "metadata": {
+      "vector_number": 0,
+      "chunk_index": 0,
+      "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_title": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_level": 1,
+      "chunk_type": "table",
+      "table_context": "| Field | Value |\n| --- | --- |\n| From | Platform Notifications <PlatformNotifications-noreply@google.com> |",
+      "original_length": 290,
+      "truncated": false,
+      "has_table": true,
+      "sequential_position": 0,
+      "prev_chunk_ids": [],
+      "next_chunk_ids": [
+        1,
+        2
+      ],
+      "start_line": 1
+    }
+  },
+  {
+    "vector_number": 1,
+    "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+    "content": "| Date | Wed, 18 Feb 2026 07:51:32 -0800 |\n| Labels | UNREAD, CATEGORY_UPDATES, INBOX |\n\n</details>\n\n## Body\n\nProject Permanent Deletion Warning\n\n\n\n\n\nDear Developer,\n\n\n\nYour Google Cloud project indigo-tracker-477806-v0 was shut down on  \n\nFebruary 18, 2026 3:51:30 PM UTC.\n\n\n\n",
+    "content_length": 277,
+    "metadata": {
+      "vector_number": 1,
+      "chunk_index": 1,
+      "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_title": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_level": 1,
+      "chunk_type": "table",
+      "table_context": "| Date | Wed, 18 Feb 2026 07:51:32 -0800 |\n| Labels | UNREAD, CATEGORY_UPDATES, INBOX |",
+      "original_length": 277,
+      "truncated": false,
+      "has_table": true,
+      "sequential_position": 1,
+      "prev_chunk_ids": [
+        0
+      ],
+      "next_chunk_ids": [
+        2,
+        3
+      ],
+      "start_line": 10
+    }
+  },
+  {
+    "vector_number": 2,
+    "heading": "Body",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+    "content": "\nShut-down projects and the data stored in them may be recovered for a  \n\nlimited time before the projects are permanently deleted. If you'd like to  \n\nrecover your project, you must cancel the project's permanent deletion  \n\nbefore March 20, 2026 3:51:30 PM UTC.\n\n\n\n",
+    "content_length": 267,
+    "metadata": {
+      "vector_number": 2,
+      "chunk_index": 2,
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "section_title": "Body",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 267,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 2,
+      "prev_chunk_ids": [
+        0,
+        1
+      ],
+      "next_chunk_ids": [
+        3,
+        4
+      ],
+      "start_line": 32
+    }
+  },
+  {
+    "vector_number": 3,
+    "heading": "Body",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+    "content": "\nTo recover your shut-down project:\n\n\n\nVisit the Resources pending deletion page.\n\nSelect the project you want to recover, and click Restore.\n\nIn the confirmation dialog, click Restore.\n\n\n\n\n\nIf you cannot recover your project by following the instructions above, you  \n\n",
+    "content_length": 270,
+    "metadata": {
+      "vector_number": 3,
+      "chunk_index": 3,
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "section_title": "Body",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 270,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 3,
+      "prev_chunk_ids": [
+        1,
+        2
+      ],
+      "next_chunk_ids": [
+        4,
+        5
+      ],
+      "start_line": 42
+    }
+  },
+  {
+    "vector_number": 4,
+    "heading": "Body",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+    "content": "\ncan try restoring it using the gcloud undelete command.\n\n\n\nIf you take no action by March 20, 2026 3:51:30 PM UTC, you will be unable  \n\nto recover your project.\n\n\n\nIf you have any questions, please visit Google Cloud Platform Resource  \n\n",
+    "content_length": 240,
+    "metadata": {
+      "vector_number": 4,
+      "chunk_index": 4,
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "section_title": "Body",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 240,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 4,
+      "prev_chunk_ids": [
+        2,
+        3
+      ],
+      "next_chunk_ids": [
+        5,
+        6
+      ],
+      "start_line": 58
+    }
+  },
+  {
+    "vector_number": 5,
+    "heading": "Body",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+    "content": "\nManager Documentation or contact Google Cloud Platform Support.\n\n\n\nCordially,\n\nThe Google Cloud Platform Team\n\n\n\n\n\n© 2026 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043\n\n\n\nYou have received this mandatory email service announcement to update you  \n\n",
+    "content_length": 266,
+    "metadata": {
+      "vector_number": 5,
+      "chunk_index": 5,
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "section_title": "Body",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 266,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 5,
+      "prev_chunk_ids": [
+        3,
+        4
+      ],
+      "next_chunk_ids": [
+        6
+      ],
+      "start_line": 70
+    }
+  },
+  {
+    "vector_number": 6,
+    "heading": "Body",
+    "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+    "content": "\nabout important changes to your Google project, product or account.\n\n## Attachments\n\n*(none)*\n\n",
+    "content_length": 96,
+    "metadata": {
+      "vector_number": 6,
+      "chunk_index": 6,
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "section_title": "Body",
+      "section_level": 2,
+      "chunk_type": "text",
+      "table_context": "",
+      "original_length": 96,
+      "truncated": false,
+      "has_table": false,
+      "sequential_position": 6,
+      "prev_chunk_ids": [
+        4,
+        5
+      ],
+      "next_chunk_ids": [],
+      "start_line": 87
+    }
+  }
+]

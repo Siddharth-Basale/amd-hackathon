@@ -1,0 +1,66 @@
+{
+  "nodes": [
+    {
+      "id": "section:My resume",
+      "type": "section",
+      "section_path": "My resume",
+      "section_title": "My resume",
+      "level": 1,
+      "start_line": 1
+    },
+    {
+      "id": "section:My resume > Body",
+      "type": "section",
+      "section_path": "My resume > Body",
+      "section_title": "Body",
+      "level": 2,
+      "start_line": 15
+    },
+    {
+      "id": "chunk:0",
+      "type": "chunk",
+      "chunk_id": 0,
+      "heading": "My resume",
+      "section_path": "My resume"
+    },
+    {
+      "id": "chunk:1",
+      "type": "chunk",
+      "chunk_id": 1,
+      "heading": "My resume",
+      "section_path": "My resume"
+    }
+  ],
+  "edges": [
+    {
+      "source": "section:My resume",
+      "target": "section:My resume > Body",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:My resume",
+      "target": "chunk:0",
+      "relation": "contains"
+    },
+    {
+      "source": "section:My resume",
+      "target": "chunk:1",
+      "relation": "contains"
+    },
+    {
+      "source": "chunk:0",
+      "target": "section:My resume",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "section:My resume",
+      "relation": "belongs_to"
+    }
+  ]
+}

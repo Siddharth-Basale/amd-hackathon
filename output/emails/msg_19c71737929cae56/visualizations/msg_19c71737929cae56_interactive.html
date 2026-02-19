@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 800px;
+                 background-color: #222222;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"font": {"color": "white"}, "group": "section", "id": "section:Your project gplaces-465218 has been shut down", "label": "Your project gplaces-465218 ha", "shape": "dot", "size": 30, "title": "Section: Your project gplaces-465218 has been shut down"}, {"font": {"color": "white"}, "group": "section", "id": "section:Your project gplaces-465218 has been shut down \u003e Attachments", "label": "Attachments", "shape": "dot", "size": 30, "title": "Section: Attachments"}, {"font": {"color": "white"}, "group": "section", "id": "section:Your project gplaces-465218 has been shut down \u003e Body", "label": "Body", "shape": "dot", "size": 30, "title": "Section: Body"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:0", "label": "0", "shape": "dot", "size": 15, "title": "Chunk 0: Your project gplaces-465218 has been shut down"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:1", "label": "1", "shape": "dot", "size": 15, "title": "Chunk 1: Your project gplaces-465218 has been shut down"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:2", "label": "2", "shape": "dot", "size": 15, "title": "Chunk 2: Body"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:3", "label": "3", "shape": "dot", "size": 15, "title": "Chunk 3: Body"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:4", "label": "4", "shape": "dot", "size": 15, "title": "Chunk 4: Body"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:5", "label": "5", "shape": "dot", "size": 15, "title": "Chunk 5: Body"}, {"font": {"color": "white"}, "group": "chunk", "id": "chunk:6", "label": "6", "shape": "dot", "size": 15, "title": "Chunk 6: Body"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:gplaces-465218", "label": "gplaces-465218", "shape": "star", "size": 26, "title": "Your project gplaces-465218 has been shut down."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:platform notifications", "label": "Platform Notifications", "shape": "star", "size": 26, "title": "Sender of the notification email."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:siddb12345@gmail.com", "label": "siddb12345@gmail.com", "shape": "star", "size": 26, "title": "Recipient of the notification email."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:wed, 18 feb 2026 07:51:58 -0800", "label": "Wed, 18 Feb 2026 07:51:58 -080", "shape": "star", "size": 26, "title": "Date of the notification email."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:google cloud", "label": "Google Cloud", "shape": "star", "size": 26, "title": "A cloud computing service by Google."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:february 18, 2026", "label": "February 18, 2026", "shape": "star", "size": 26, "title": "The date when the project was shut down."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:march 20, 2026 3:51:56 pm utc", "label": "March 20, 2026 3:51:56 PM UTC", "shape": "star", "size": 26, "title": "Deadline for canceling the project\u0027s permanent deletion"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:shut-down projects", "label": "Shut-down projects", "shape": "star", "size": 26, "title": "Knowledge entity"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:permanent deletion", "label": "permanent deletion", "shape": "star", "size": 26, "title": "Knowledge entity"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:project\u0027s permanent deletion", "label": "project\u0027s permanent deletion", "shape": "star", "size": 26, "title": "Knowledge entity"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:gcloud undelete command", "label": "gcloud undelete command", "shape": "star", "size": 26, "title": "Command used to restore a project in Google Cloud."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:google cloud platform", "label": "Google Cloud Platform", "shape": "star", "size": 26, "title": "Cloud computing service offered by Google. | Aliases: GCP"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:project", "label": "project", "shape": "star", "size": 26, "title": "Knowledge entity"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:project recovery", "label": "project recovery", "shape": "star", "size": 26, "title": "Knowledge entity"}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:google llc", "label": "Google LLC", "shape": "star", "size": 26, "title": "The parent company of Google and its subsidiaries."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:1600 amphitheatre parkway, mountain view, ca 94043", "label": "1600 Amphitheatre Parkway, Mou", "shape": "star", "size": 26, "title": "The address of Google LLC headquarters."}, {"font": {"color": "white"}, "group": "knowledge_entity", "id": "kg::entity:google cloud platform support", "label": "Google Cloud Platform Support", "shape": "star", "size": 26, "title": "Knowledge entity"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#888888", "from": "section:Your project gplaces-465218 has been shut down", "title": "contains_section", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 1}, {"arrows": "to", "color": "#888888", "from": "section:Your project gplaces-465218 has been shut down", "title": "contains_section", "to": "section:Your project gplaces-465218 has been shut down \u003e Attachments", "width": 1}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down", "title": "contains", "to": "chunk:0", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down", "title": "contains", "to": "chunk:1", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down \u003e Body", "title": "contains", "to": "chunk:2", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down \u003e Body", "title": "contains", "to": "chunk:3", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down \u003e Body", "title": "contains", "to": "chunk:4", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down \u003e Body", "title": "contains", "to": "chunk:5", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "section:Your project gplaces-465218 has been shut down \u003e Body", "title": "contains", "to": "chunk:6", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:0", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:0", "title": "follows", "to": "chunk:1", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:0", "title": "follows", "to": "chunk:2", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:1", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:1", "title": "follows", "to": "chunk:2", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:1", "title": "follows", "to": "chunk:3", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:2", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:2", "title": "follows", "to": "chunk:3", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:2", "title": "follows", "to": "chunk:4", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:3", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:3", "title": "follows", "to": "chunk:4", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:3", "title": "follows", "to": "chunk:5", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:4", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:4", "title": "follows", "to": "chunk:5", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:4", "title": "follows", "to": "chunk:6", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:5", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 2}, {"arrows": "to", "color": "#3498DB", "from": "chunk:5", "title": "follows", "to": "chunk:6", "width": 2}, {"arrows": "to", "color": "#2ECC71", "from": "chunk:6", "title": "belongs_to", "to": "section:Your project gplaces-465218 has been shut down \u003e Body", "width": 2}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:gplaces-465218", "title": "mentions", "to": "chunk:0"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:gplaces-465218", "title": "has been shut down | Your project gplaces-465218 has been shut down.", "to": "kg::entity:siddb12345@gmail.com"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:gplaces-465218", "title": "mentions", "to": "chunk:1"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:gplaces-465218", "title": "was shut down on | Your Google Cloud project gplaces-465218 was shut down on February 18, 2026 3:51:56 PM UTC.", "to": "kg::entity:february 18, 2026"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:platform notifications", "title": "mentions", "to": "chunk:0"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:siddb12345@gmail.com", "title": "mentions", "to": "chunk:0"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:wed, 18 feb 2026 07:51:58 -0800", "title": "mentions", "to": "chunk:0"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:google cloud", "title": "mentions", "to": "chunk:1"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:february 18, 2026", "title": "mentions", "to": "chunk:1"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:march 20, 2026 3:51:56 pm utc", "title": "mentions", "to": "chunk:2"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:march 20, 2026 3:51:56 pm utc", "title": "mentions", "to": "chunk:4"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:march 20, 2026 3:51:56 pm utc", "title": "deadline for action | If you take no action by March 20, 2026 3:51:56 PM UTC, you will be unable to recover your project.", "to": "kg::entity:project recovery"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:shut-down projects", "title": "may be recovered for a limited time before | Shut-down projects and the data stored in them may be recovered for a limited time before the projects are permanently deleted.", "to": "kg::entity:permanent deletion"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:project\u0027s permanent deletion", "title": "must be canceled before | If you\u0027d like to recover your project, you must cancel the project\u0027s permanent deletion before March 20, 2026 3:51:56 PM UTC.", "to": "kg::entity:march 20, 2026 3:51:56 pm utc"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:gcloud undelete command", "title": "mentions", "to": "chunk:4"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:gcloud undelete command", "title": "used to restore | can try restoring it using the gcloud undelete command.", "to": "kg::entity:project"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:google cloud platform", "title": "mentions", "to": "chunk:4"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:google cloud platform", "title": "provides | please visit Google Cloud Platform Resource", "to": "kg::entity:gcloud undelete command"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:google cloud platform", "title": "mentions", "to": "chunk:5"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:google cloud platform", "title": "contact | Manager Documentation or contact Google Cloud Platform Support.", "to": "kg::entity:google cloud platform support"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:google llc", "title": "mentions", "to": "chunk:5"}, {"arrows": "to", "color": "#ff8800", "from": "kg::entity:google llc", "title": "located at | \u00a9 2026 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043", "to": "kg::entity:1600 amphitheatre parkway, mountain view, ca 94043"}, {"arrows": "to", "color": "#ffa500", "from": "kg::entity:1600 amphitheatre parkway, mountain view, ca 94043", "title": "mentions", "to": "chunk:5"}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"nodes": {"font": {"size": 12}, "scaling": {"min": 10, "max": 50}}, "edges": {"arrows": {"to": {"enabled": true}}, "smooth": {"type": "continuous"}}, "physics": {"hierarchicalRepulsion": {"centralGravity": 0.0, "springLength": 100, "springConstant": 0.01, "nodeDistance": 120, "damping": 0.09}, "solver": "hierarchicalRepulsion"}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

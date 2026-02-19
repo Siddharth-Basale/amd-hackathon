@@ -15,3 +15,11 @@ matplotlib>=3.7.0
 pandas>=2.2.0
 pyarrow>=14.0.0
 numpy>=1.26.0
+
+# Gmail API / Email Pipeline
+google-api-python-client>=2.100.0
+google-auth-oauthlib>=1.1.0
+google-auth-httplib2>=0.1.0
+
+# HTML to Markdown for emails
+html2text>=2020.1.16

@@ -1,0 +1,676 @@
+{
+  "document_id": "msg_19c717348732f68f",
+  "chunks": [
+    {
+      "chunk_id": "msg_19c717348732f68f::chunk::0",
+      "heading": "Your project geminiai-475715 has been shut down",
+      "section_path": "Your project geminiai-475715 has been shut down",
+      "entities": [
+        {
+          "name": "geminiai-475715",
+          "type": "Project",
+          "description": "Your project geminiai-475715 has been shut down",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::0"
+          ]
+        },
+        {
+          "name": "Platform Notifications",
+          "type": "Sender",
+          "description": "Sender of the notification",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::0"
+          ]
+        },
+        {
+          "name": "siddb12345@gmail.com",
+          "type": "Recipient",
+          "description": "Recipient of the notification",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::0"
+          ]
+        },
+        {
+          "name": "Wed, 18 Feb 2026 07:51:46 -0800",
+          "type": "Date",
+          "description": "Date of the notification",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::0"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "geminiai-475715",
+          "relation": "has been shut down",
+          "target": "Platform Notifications",
+          "evidence": "Your project geminiai-475715 has been shut down"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "msg_19c717348732f68f::chunk::1",
+      "heading": "Your project geminiai-475715 has been shut down",
+      "section_path": "Your project geminiai-475715 has been shut down",
+      "entities": [
+        {
+          "name": "Google Cloud",
+          "type": "Service",
+          "description": "A cloud computing service by Google.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::1"
+          ]
+        },
+        {
+          "name": "geminiai-475715",
+          "type": "Project",
+          "description": "A specific Google Cloud project that was shut down.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::1"
+          ]
+        },
+        {
+          "name": "February 18, 2026",
+          "type": "Date",
+          "description": "The date when the project was shut down.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::1"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "geminiai-475715",
+          "relation": "was shut down on",
+          "target": "February 18, 2026",
+          "evidence": "Your Google Cloud project geminiai-475715 was shut down on February 18, 2026 3:51:44 PM UTC."
+        },
+        {
+          "source": "geminiai-475715",
+          "relation": "is a project of",
+          "target": "Google Cloud",
+          "evidence": "Your Google Cloud project geminiai-475715 was shut down on February 18, 2026 3:51:44 PM UTC."
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "msg_19c717348732f68f::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "entities": [
+        {
+          "name": "March 20, 2026 3:51:44 PM UTC",
+          "type": "Date",
+          "description": "Deadline for canceling the project's permanent deletion",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::2"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "Shut-down projects",
+          "relation": "may be recovered for a limited time before",
+          "target": "permanently deleted",
+          "evidence": "Shut-down projects and the data stored in them may be recovered for a limited time before the projects are permanently deleted."
+        },
+        {
+          "source": "project's permanent deletion",
+          "relation": "must be canceled before",
+          "target": "March 20, 2026 3:51:44 PM UTC",
+          "evidence": "If you'd like to recover your project, you must cancel the project's permanent deletion before March 20, 2026 3:51:44 PM UTC."
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "msg_19c717348732f68f::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "entities": [
+        {
+          "name": "gcloud",
+          "type": "Command",
+          "description": "Command used to restore deleted resources in Google Cloud.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::4"
+          ]
+        },
+        {
+          "name": "Google Cloud Platform",
+          "type": "Service",
+          "description": "Cloud computing service offered by Google.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::4"
+          ]
+        },
+        {
+          "name": "March 20, 2026 3:51:44 PM UTC",
+          "type": "Date",
+          "description": "Deadline for recovering the project before it becomes unrecoverable.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::4"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "gcloud",
+          "relation": "used to restore",
+          "target": "deleted resources",
+          "evidence": "can try restoring it using the gcloud undelete command."
+        },
+        {
+          "source": "March 20, 2026 3:51:44 PM UTC",
+          "relation": "deadline for recovery",
+          "target": "project",
+          "evidence": "If you take no action by March 20, 2026 3:51:44 PM UTC, you will be unable to recover your project."
+        },
+        {
+          "source": "Google Cloud Platform",
+          "relation": "provides support for",
+          "target": "questions",
+          "evidence": "If you have any questions, please visit Google Cloud Platform Resource"
+        }
+      ],
+      "raw_response": null
+    },
+    {
+      "chunk_id": "msg_19c717348732f68f::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "entities": [
+        {
+          "name": "Google Cloud Platform",
+          "type": "Organization",
+          "description": "A cloud computing service provided by Google.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::5"
+          ]
+        },
+        {
+          "name": "Google LLC",
+          "type": "Organization",
+          "description": "The parent company of Google and its subsidiaries.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::5"
+          ]
+        },
+        {
+          "name": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+          "type": "Location",
+          "description": "The address of Google LLC headquarters.",
+          "aliases": [],
+          "source_ids": [
+            "msg_19c717348732f68f::chunk::5"
+          ]
+        }
+      ],
+      "relations": [
+        {
+          "source": "Google Cloud Platform",
+          "relation": "contact",
+          "target": "Google Cloud Platform Support",
+          "evidence": "Manager Documentation or contact Google Cloud Platform Support."
+        },
+        {
+          "source": "Google LLC",
+          "relation": "located at",
+          "target": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+          "evidence": "© 2026 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043"
+        }
+      ],
+      "raw_response": null
+    }
+  ],
+  "entities": [
+    {
+      "id": "entity:geminiai-475715",
+      "name": "geminiai-475715",
+      "type": "Project",
+      "description": "Your project geminiai-475715 has been shut down",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::1",
+        "msg_19c717348732f68f::chunk::0"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:platform notifications",
+      "name": "Platform Notifications",
+      "type": "Sender",
+      "description": "Sender of the notification",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::0"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:siddb12345@gmail.com",
+      "name": "siddb12345@gmail.com",
+      "type": "Recipient",
+      "description": "Recipient of the notification",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::0"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:wed, 18 feb 2026 07:51:46 -0800",
+      "name": "Wed, 18 Feb 2026 07:51:46 -0800",
+      "type": "Date",
+      "description": "Date of the notification",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::0"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:google cloud",
+      "name": "Google Cloud",
+      "type": "Service",
+      "description": "A cloud computing service by Google.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::1"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:february 18, 2026",
+      "name": "February 18, 2026",
+      "type": "Date",
+      "description": "The date when the project was shut down.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::1"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:march 20, 2026 3:51:44 pm utc",
+      "name": "March 20, 2026 3:51:44 PM UTC",
+      "type": "Date",
+      "description": "Deadline for canceling the project's permanent deletion",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::4",
+        "msg_19c717348732f68f::chunk::2"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:shut-down projects",
+      "name": "Shut-down projects",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:permanently deleted",
+      "name": "permanently deleted",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:project's permanent deletion",
+      "name": "project's permanent deletion",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:gcloud",
+      "name": "gcloud",
+      "type": "Command",
+      "description": "Command used to restore deleted resources in Google Cloud.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::4"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:google cloud platform",
+      "name": "Google Cloud Platform",
+      "type": "Service",
+      "description": "Cloud computing service offered by Google.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::4",
+        "msg_19c717348732f68f::chunk::5"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:deleted resources",
+      "name": "deleted resources",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:project",
+      "name": "project",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:questions",
+      "name": "questions",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:google llc",
+      "name": "Google LLC",
+      "type": "Organization",
+      "description": "The parent company of Google and its subsidiaries.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::5"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "name": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+      "type": "Location",
+      "description": "The address of Google LLC headquarters.",
+      "aliases": [],
+      "source_chunks": [
+        "msg_19c717348732f68f::chunk::5"
+      ],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    },
+    {
+      "id": "entity:google cloud platform support",
+      "name": "Google Cloud Platform Support",
+      "type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "source_chunks": [],
+      "documents": [
+        "msg_19c717348732f68f"
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "source": "entity:geminiai-475715",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:geminiai-475715",
+      "relation": "has been shut down",
+      "target": "entity:platform notifications",
+      "evidence": [
+        "Your project geminiai-475715 has been shut down"
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::0"
+      ]
+    },
+    {
+      "source": "entity:geminiai-475715",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:geminiai-475715",
+      "relation": "was shut down on",
+      "target": "entity:february 18, 2026",
+      "evidence": [
+        "Your Google Cloud project geminiai-475715 was shut down on February 18, 2026 3:51:44 PM UTC."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::1"
+      ]
+    },
+    {
+      "source": "entity:geminiai-475715",
+      "relation": "is a project of",
+      "target": "entity:google cloud",
+      "evidence": [
+        "Your Google Cloud project geminiai-475715 was shut down on February 18, 2026 3:51:44 PM UTC."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::1"
+      ]
+    },
+    {
+      "source": "entity:platform notifications",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:siddb12345@gmail.com",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:wed, 18 feb 2026 07:51:46 -0800",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::0",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:google cloud",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:february 18, 2026",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::1",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:44 pm utc",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:44 pm utc",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:44 pm utc",
+      "relation": "deadline for recovery",
+      "target": "entity:project",
+      "evidence": [
+        "If you take no action by March 20, 2026 3:51:44 PM UTC, you will be unable to recover your project."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:shut-down projects",
+      "relation": "may be recovered for a limited time before",
+      "target": "entity:permanently deleted",
+      "evidence": [
+        "Shut-down projects and the data stored in them may be recovered for a limited time before the projects are permanently deleted."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::2"
+      ]
+    },
+    {
+      "source": "entity:project's permanent deletion",
+      "relation": "must be canceled before",
+      "target": "entity:march 20, 2026 3:51:44 pm utc",
+      "evidence": [
+        "If you'd like to recover your project, you must cancel the project's permanent deletion before March 20, 2026 3:51:44 PM UTC."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::2"
+      ]
+    },
+    {
+      "source": "entity:gcloud",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:gcloud",
+      "relation": "used to restore",
+      "target": "entity:deleted resources",
+      "evidence": [
+        "can try restoring it using the gcloud undelete command."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:google cloud platform",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:google cloud platform",
+      "relation": "provides support for",
+      "target": "entity:questions",
+      "evidence": [
+        "If you have any questions, please visit Google Cloud Platform Resource"
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::4"
+      ]
+    },
+    {
+      "source": "entity:google cloud platform",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:google cloud platform",
+      "relation": "contact",
+      "target": "entity:google cloud platform support",
+      "evidence": [
+        "Manager Documentation or contact Google Cloud Platform Support."
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::5"
+      ]
+    },
+    {
+      "source": "entity:google llc",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    },
+    {
+      "source": "entity:google llc",
+      "relation": "located at",
+      "target": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "evidence": [
+        "© 2026 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043"
+      ],
+      "chunk_ids": [
+        "msg_19c717348732f68f::chunk::5"
+      ]
+    },
+    {
+      "source": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "relation": "mentions",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "evidence": [],
+      "chunk_ids": []
+    }
+  ]
+}

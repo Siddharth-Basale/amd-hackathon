@@ -1,0 +1,1057 @@
+{
+  "nodes": [
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::0",
+      "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::1",
+      "heading": "Your project indigo-tracker-477806-v0 has been shut down",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::3",
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173139d3ae92::chunk::6",
+      "heading": "Body",
+      "section_path": "Your project indigo-tracker-477806-v0 has been shut down > Body",
+      "email_id": "msg_19c7173139d3ae92"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::0",
+      "heading": "Your project geminiai-475715 has been shut down",
+      "section_path": "Your project geminiai-475715 has been shut down",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::1",
+      "heading": "Your project geminiai-475715 has been shut down",
+      "section_path": "Your project geminiai-475715 has been shut down",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::3",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::3",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c717348732f68f::chunk::6",
+      "type": "chunk",
+      "chunk_id": "msg_19c717348732f68f::chunk::6",
+      "heading": "Body",
+      "section_path": "Your project geminiai-475715 has been shut down > Body",
+      "email_id": "msg_19c717348732f68f"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::0",
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::1",
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::3",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::3",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::6",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::6",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "email_id": "msg_19c71737929cae56"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::0",
+      "heading": "Your project pdfparser-448808 has been shut down",
+      "section_path": "Your project pdfparser-448808 has been shut down",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::1",
+      "heading": "Your project pdfparser-448808 has been shut down",
+      "section_path": "Your project pdfparser-448808 has been shut down",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project pdfparser-448808 has been shut down > Body",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::3",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::3",
+      "heading": "Body",
+      "section_path": "Your project pdfparser-448808 has been shut down > Body",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project pdfparser-448808 has been shut down > Body",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project pdfparser-448808 has been shut down > Body",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173adad19df0::chunk::6",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173adad19df0::chunk::6",
+      "heading": "Body",
+      "section_path": "Your project pdfparser-448808 has been shut down > Body",
+      "email_id": "msg_19c7173adad19df0"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::0",
+      "heading": "Your project chrome-unity-419214 has been shut down",
+      "section_path": "Your project chrome-unity-419214 has been shut down",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::1",
+      "heading": "Your project chrome-unity-419214 has been shut down",
+      "section_path": "Your project chrome-unity-419214 has been shut down",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project chrome-unity-419214 has been shut down > Body",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::3",
+      "heading": "Body",
+      "section_path": "Your project chrome-unity-419214 has been shut down > Body",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project chrome-unity-419214 has been shut down > Body",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project chrome-unity-419214 has been shut down > Body",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "type": "chunk",
+      "chunk_id": "msg_19c7173ff56f5361::chunk::6",
+      "heading": "Body",
+      "section_path": "Your project chrome-unity-419214 has been shut down > Body",
+      "email_id": "msg_19c7173ff56f5361"
+    },
+    {
+      "id": "chunk:msg_19c74db7681db7cd::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c74db7681db7cd::chunk::0",
+      "heading": "My resume",
+      "section_path": "My resume",
+      "email_id": "msg_19c74db7681db7cd"
+    },
+    {
+      "id": "chunk:msg_19c74db7681db7cd::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c74db7681db7cd::chunk::1",
+      "heading": "My resume",
+      "section_path": "My resume",
+      "email_id": "msg_19c74db7681db7cd"
+    }
+  ],
+  "edges": [
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::0",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::1",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "target": "chunk:msg_19c7173adad19df0::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5488645596131572
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5486048285640605
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5473191458727955
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.545019313855812
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "target": "chunk:msg_19c717348732f68f::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "target": "chunk:msg_19c71737929cae56::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "target": "chunk:msg_19c7173adad19df0::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "target": "chunk:msg_19c7173adad19df0::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6192640676755641
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6157391171286704
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.611899472804385
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6116932953986918
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "target": "chunk:msg_19c7173adad19df0::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "target": "chunk:msg_19c717348732f68f::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "target": "chunk:msg_19c71737929cae56::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "target": "chunk:msg_19c7173adad19df0::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::0",
+      "target": "chunk:msg_19c717348732f68f::chunk::1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::1",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::2",
+      "target": "chunk:msg_19c717348732f68f::chunk::3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::2",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5506616998218181
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::2",
+      "target": "chunk:msg_19c7173adad19df0::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5506133838360995
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::2",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5501600464063223
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::2",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5467788057134781
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::3",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::3",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::3",
+      "target": "chunk:msg_19c71737929cae56::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::3",
+      "target": "chunk:msg_19c7173adad19df0::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::3",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::4",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::4",
+      "target": "chunk:msg_19c7173adad19df0::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6221572510299828
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::4",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6155343528705464
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::4",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6145012774917966
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::4",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6145003747955955
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::5",
+      "target": "chunk:msg_19c717348732f68f::chunk::6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::5",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::5",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::5",
+      "target": "chunk:msg_19c7173adad19df0::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::5",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::6",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::6",
+      "target": "chunk:msg_19c71737929cae56::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::6",
+      "target": "chunk:msg_19c7173adad19df0::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c717348732f68f::chunk::6",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::0",
+      "target": "chunk:msg_19c71737929cae56::chunk::1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::1",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::2",
+      "target": "chunk:msg_19c71737929cae56::chunk::3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::2",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5505942941876999
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::2",
+      "target": "chunk:msg_19c7173adad19df0::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5504962762794227
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::2",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5500806047932119
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::2",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5490128140408419
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::3",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::3",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::3",
+      "target": "chunk:msg_19c717348732f68f::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::3",
+      "target": "chunk:msg_19c7173adad19df0::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::3",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::4",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::4",
+      "target": "chunk:msg_19c7173adad19df0::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6205185259693006
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::4",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6170330148503383
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::4",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.614004350946359
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::4",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6129514425035035
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::5",
+      "target": "chunk:msg_19c71737929cae56::chunk::6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::5",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::5",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::5",
+      "target": "chunk:msg_19c7173adad19df0::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::5",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::6",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::6",
+      "target": "chunk:msg_19c717348732f68f::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::6",
+      "target": "chunk:msg_19c7173adad19df0::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c71737929cae56::chunk::6",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::0",
+      "target": "chunk:msg_19c7173adad19df0::chunk::1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::1",
+      "target": "chunk:msg_19c7173adad19df0::chunk::2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::2",
+      "target": "chunk:msg_19c7173adad19df0::chunk::3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::2",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5508959975615859
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::2",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5505335183565916
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::2",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5493457393614767
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::2",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5469825541365501
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::3",
+      "target": "chunk:msg_19c7173adad19df0::chunk::4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::3",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::3",
+      "target": "chunk:msg_19c717348732f68f::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::3",
+      "target": "chunk:msg_19c71737929cae56::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::3",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::4",
+      "target": "chunk:msg_19c7173adad19df0::chunk::5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::4",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6182056352527638
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::4",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6150612677454849
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::4",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6142948404020087
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::4",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6140171219483951
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::5",
+      "target": "chunk:msg_19c7173adad19df0::chunk::6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::5",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::5",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::5",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::5",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::6",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::6",
+      "target": "chunk:msg_19c717348732f68f::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::6",
+      "target": "chunk:msg_19c71737929cae56::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173adad19df0::chunk::6",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::0",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::1",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5495186122150725
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "target": "chunk:msg_19c7173adad19df0::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5494358395437644
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "target": "chunk:msg_19c717348732f68f::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5477507500063102
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::2",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "similar_to",
+      "similarity": 0.5454401092566964
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "target": "chunk:msg_19c717348732f68f::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "target": "chunk:msg_19c71737929cae56::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::3",
+      "target": "chunk:msg_19c7173adad19df0::chunk::3",
+      "relation": "similar_to",
+      "similarity": 0.5819547324536465
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "target": "chunk:msg_19c7173adad19df0::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6198868509755538
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "target": "chunk:msg_19c717348732f68f::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6161275832354182
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6133269079087501
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::4",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "similar_to",
+      "similarity": 0.6120596750711762
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "target": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "target": "chunk:msg_19c717348732f68f::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::5",
+      "target": "chunk:msg_19c7173adad19df0::chunk::5",
+      "relation": "similar_to",
+      "similarity": 0.558798834892151
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "target": "chunk:msg_19c7173139d3ae92::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "target": "chunk:msg_19c717348732f68f::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "target": "chunk:msg_19c71737929cae56::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c7173ff56f5361::chunk::6",
+      "target": "chunk:msg_19c7173adad19df0::chunk::6",
+      "relation": "similar_to",
+      "similarity": 0.5655114958401505
+    },
+    {
+      "source": "chunk:msg_19c74db7681db7cd::chunk::0",
+      "target": "chunk:msg_19c74db7681db7cd::chunk::1",
+      "relation": "follows"
+    }
+  ]
+}

@@ -1,0 +1,405 @@
+{
+  "nodes": [
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::0",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::0",
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down"
+    },
+    {
+      "id": "entity:gplaces-465218",
+      "type": "entity",
+      "name": "gplaces-465218",
+      "entity_type": "Project",
+      "description": "Your project gplaces-465218 has been shut down.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::0",
+        "msg_19c71737929cae56::chunk::1"
+      ]
+    },
+    {
+      "id": "entity:platform notifications",
+      "type": "entity",
+      "name": "Platform Notifications",
+      "entity_type": "Sender",
+      "description": "Sender of the notification email.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::0"
+      ]
+    },
+    {
+      "id": "entity:siddb12345@gmail.com",
+      "type": "entity",
+      "name": "siddb12345@gmail.com",
+      "entity_type": "Recipient",
+      "description": "Recipient of the notification email.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::0"
+      ]
+    },
+    {
+      "id": "entity:wed, 18 feb 2026 07:51:58 -0800",
+      "type": "entity",
+      "name": "Wed, 18 Feb 2026 07:51:58 -0800",
+      "entity_type": "Date",
+      "description": "Date of the notification email.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::0"
+      ]
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::1",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::1",
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down"
+    },
+    {
+      "id": "entity:google cloud",
+      "type": "entity",
+      "name": "Google Cloud",
+      "entity_type": "Service",
+      "description": "A cloud computing service by Google.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::1"
+      ]
+    },
+    {
+      "id": "entity:february 18, 2026",
+      "type": "entity",
+      "name": "February 18, 2026",
+      "entity_type": "Date",
+      "description": "The date when the project was shut down.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::1"
+      ]
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::2",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::2",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "entity:march 20, 2026 3:51:56 pm utc",
+      "type": "entity",
+      "name": "March 20, 2026 3:51:56 PM UTC",
+      "entity_type": "Date",
+      "description": "Deadline for canceling the project's permanent deletion",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::4",
+        "msg_19c71737929cae56::chunk::2"
+      ]
+    },
+    {
+      "id": "entity:shut-down projects",
+      "type": "entity",
+      "name": "Shut-down projects",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:permanent deletion",
+      "type": "entity",
+      "name": "permanent deletion",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:project's permanent deletion",
+      "type": "entity",
+      "name": "project's permanent deletion",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::4",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::4",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "entity:gcloud undelete command",
+      "type": "entity",
+      "name": "gcloud undelete command",
+      "entity_type": "Command",
+      "description": "Command used to restore a project in Google Cloud.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::4"
+      ]
+    },
+    {
+      "id": "entity:google cloud platform",
+      "type": "entity",
+      "name": "Google Cloud Platform",
+      "entity_type": "Platform",
+      "description": "Cloud computing service offered by Google.",
+      "aliases": [
+        "GCP"
+      ],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::4",
+        "msg_19c71737929cae56::chunk::5"
+      ]
+    },
+    {
+      "id": "entity:project",
+      "type": "entity",
+      "name": "project",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "entity:project recovery",
+      "type": "entity",
+      "name": "project recovery",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    },
+    {
+      "id": "chunk:msg_19c71737929cae56::chunk::5",
+      "type": "chunk",
+      "chunk_id": "msg_19c71737929cae56::chunk::5",
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "entity:google llc",
+      "type": "entity",
+      "name": "Google LLC",
+      "entity_type": "Organization",
+      "description": "The parent company of Google and its subsidiaries.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::5"
+      ]
+    },
+    {
+      "id": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "type": "entity",
+      "name": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+      "entity_type": "Location",
+      "description": "The address of Google LLC headquarters.",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": [
+        "msg_19c71737929cae56::chunk::5"
+      ]
+    },
+    {
+      "id": "entity:google cloud platform support",
+      "type": "entity",
+      "name": "Google Cloud Platform Support",
+      "entity_type": "OTHER",
+      "description": "",
+      "aliases": [],
+      "documents": [
+        "msg_19c71737929cae56"
+      ],
+      "source_chunks": []
+    }
+  ],
+  "edges": [
+    {
+      "source": "entity:gplaces-465218",
+      "target": "chunk:msg_19c71737929cae56::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:gplaces-465218",
+      "target": "entity:siddb12345@gmail.com",
+      "relation": "has been shut down",
+      "evidence": "Your project gplaces-465218 has been shut down.",
+      "chunk_id": "msg_19c71737929cae56::chunk::0"
+    },
+    {
+      "source": "entity:gplaces-465218",
+      "target": "chunk:msg_19c71737929cae56::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:gplaces-465218",
+      "target": "entity:february 18, 2026",
+      "relation": "was shut down on",
+      "evidence": "Your Google Cloud project gplaces-465218 was shut down on February 18, 2026 3:51:56 PM UTC.",
+      "chunk_id": "msg_19c71737929cae56::chunk::1"
+    },
+    {
+      "source": "entity:platform notifications",
+      "target": "chunk:msg_19c71737929cae56::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:siddb12345@gmail.com",
+      "target": "chunk:msg_19c71737929cae56::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:wed, 18 feb 2026 07:51:58 -0800",
+      "target": "chunk:msg_19c71737929cae56::chunk::0",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:google cloud",
+      "target": "chunk:msg_19c71737929cae56::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:february 18, 2026",
+      "target": "chunk:msg_19c71737929cae56::chunk::1",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:56 pm utc",
+      "target": "chunk:msg_19c71737929cae56::chunk::2",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:56 pm utc",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:march 20, 2026 3:51:56 pm utc",
+      "target": "entity:project recovery",
+      "relation": "deadline for action",
+      "evidence": "If you take no action by March 20, 2026 3:51:56 PM UTC, you will be unable to recover your project.",
+      "chunk_id": "msg_19c71737929cae56::chunk::4"
+    },
+    {
+      "source": "entity:shut-down projects",
+      "target": "entity:permanent deletion",
+      "relation": "may be recovered for a limited time before",
+      "evidence": "Shut-down projects and the data stored in them may be recovered for a limited time before the projects are permanently deleted.",
+      "chunk_id": "msg_19c71737929cae56::chunk::2"
+    },
+    {
+      "source": "entity:project's permanent deletion",
+      "target": "entity:march 20, 2026 3:51:56 pm utc",
+      "relation": "must be canceled before",
+      "evidence": "If you'd like to recover your project, you must cancel the project's permanent deletion before March 20, 2026 3:51:56 PM UTC.",
+      "chunk_id": "msg_19c71737929cae56::chunk::2"
+    },
+    {
+      "source": "entity:gcloud undelete command",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:gcloud undelete command",
+      "target": "entity:project",
+      "relation": "used to restore",
+      "evidence": "can try restoring it using the gcloud undelete command.",
+      "chunk_id": "msg_19c71737929cae56::chunk::4"
+    },
+    {
+      "source": "entity:google cloud platform",
+      "target": "chunk:msg_19c71737929cae56::chunk::4",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:google cloud platform",
+      "target": "entity:gcloud undelete command",
+      "relation": "provides",
+      "evidence": "please visit Google Cloud Platform Resource",
+      "chunk_id": "msg_19c71737929cae56::chunk::4"
+    },
+    {
+      "source": "entity:google cloud platform",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:google cloud platform",
+      "target": "entity:google cloud platform support",
+      "relation": "contact",
+      "evidence": "Manager Documentation or contact Google Cloud Platform Support.",
+      "chunk_id": "msg_19c71737929cae56::chunk::5"
+    },
+    {
+      "source": "entity:google llc",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "mentions"
+    },
+    {
+      "source": "entity:google llc",
+      "target": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "relation": "located at",
+      "evidence": "© 2026 Google LLC. 1600 Amphitheatre Parkway, Mountain View, CA 94043",
+      "chunk_id": "msg_19c71737929cae56::chunk::5"
+    },
+    {
+      "source": "entity:1600 amphitheatre parkway, mountain view, ca 94043",
+      "target": "chunk:msg_19c71737929cae56::chunk::5",
+      "relation": "mentions"
+    }
+  ]
+}

@@ -1,0 +1,214 @@
+{
+  "nodes": [
+    {
+      "id": "section:Your project gplaces-465218 has been shut down",
+      "type": "section",
+      "section_path": "Your project gplaces-465218 has been shut down",
+      "section_title": "Your project gplaces-465218 has been shut down",
+      "level": 1,
+      "start_line": 1
+    },
+    {
+      "id": "section:Your project gplaces-465218 has been shut down > Attachments",
+      "type": "section",
+      "section_path": "Your project gplaces-465218 has been shut down > Attachments",
+      "section_title": "Attachments",
+      "level": 2,
+      "start_line": 91
+    },
+    {
+      "id": "section:Your project gplaces-465218 has been shut down > Body",
+      "type": "section",
+      "section_path": "Your project gplaces-465218 has been shut down > Body",
+      "section_title": "Body",
+      "level": 2,
+      "start_line": 15
+    },
+    {
+      "id": "chunk:0",
+      "type": "chunk",
+      "chunk_id": 0,
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down"
+    },
+    {
+      "id": "chunk:1",
+      "type": "chunk",
+      "chunk_id": 1,
+      "heading": "Your project gplaces-465218 has been shut down",
+      "section_path": "Your project gplaces-465218 has been shut down"
+    },
+    {
+      "id": "chunk:2",
+      "type": "chunk",
+      "chunk_id": 2,
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "chunk:3",
+      "type": "chunk",
+      "chunk_id": 3,
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "chunk:4",
+      "type": "chunk",
+      "chunk_id": 4,
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "chunk:5",
+      "type": "chunk",
+      "chunk_id": 5,
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    },
+    {
+      "id": "chunk:6",
+      "type": "chunk",
+      "chunk_id": 6,
+      "heading": "Body",
+      "section_path": "Your project gplaces-465218 has been shut down > Body"
+    }
+  ],
+  "edges": [
+    {
+      "source": "section:Your project gplaces-465218 has been shut down",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down",
+      "target": "section:Your project gplaces-465218 has been shut down > Attachments",
+      "relation": "contains_section"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down",
+      "target": "chunk:0",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down",
+      "target": "chunk:1",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down > Body",
+      "target": "chunk:2",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down > Body",
+      "target": "chunk:3",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down > Body",
+      "target": "chunk:4",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down > Body",
+      "target": "chunk:5",
+      "relation": "contains"
+    },
+    {
+      "source": "section:Your project gplaces-465218 has been shut down > Body",
+      "target": "chunk:6",
+      "relation": "contains"
+    },
+    {
+      "source": "chunk:0",
+      "target": "section:Your project gplaces-465218 has been shut down",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:1",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:0",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "section:Your project gplaces-465218 has been shut down",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:2",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:1",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:3",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:2",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:4",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:3",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:5",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:4",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:5",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "belongs_to"
+    },
+    {
+      "source": "chunk:5",
+      "target": "chunk:6",
+      "relation": "follows"
+    },
+    {
+      "source": "chunk:6",
+      "target": "section:Your project gplaces-465218 has been shut down > Body",
+      "relation": "belongs_to"
+    }
+  ]
+}

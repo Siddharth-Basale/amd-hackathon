@@ -13,13 +13,15 @@ This project builds a document understanding pipeline that:
 
 | Path | Purpose |
 | --- | --- |
-| `vectorizerE.py` | Primary ingestion pipeline. Produces chunk embeddings, document graph, and knowledge triples/graph. |
-| `knowledge/entity_extractor.py` | LLM-backed entity & relation extractor used during vectorization. |
-| `knowledge/graph_builder.py` | Converts chunk-level triples into a knowledge graph + aggregated entity/relationship tables. |
-| `graphrag_bridge.py` | Bundles Plan-E outputs into GraphRAG-compatible parquet exports (sections, chunks, knowledge entities, relations). |
-| `visualizeGraphE.py` | Generates interactive/static graphs with optional knowledge overlay. |
-| `retrieval/hybrid_planner.py` | Helper utilities to blend vector similarity and knowledge traversal for query answering. |
-| `scripts/demo_pipeline.py` | Smoke-test / walkthrough script for running the full pipeline end-to-end. |
+| **email_ingestion/** | Email pipeline: Gmail fetch, markdown conversion, collection build. Entry: `email_pipeline.py`. |
+| **ingestion/vectorizer_e.py** | Primary ingestion. Produces chunk embeddings, document graph, and knowledge triples. Entry: `vectorizerE.py`. |
+| **visualization/graph.py** | Interactive/static graph visualization. Entry: `visualizeGraphE.py`. |
+| **knowledge/** | Entity extractor and graph builder used during vectorization. |
+| **retrieval/** | Hybrid planner, graph expansion, loaders for RAG. |
+| **docs/commands/** | Runbooks (e.g. email-pipeline-runbook.md). |
+| **scripts/** | Demo and utility scripts. |
+
+See [PROJECT_STRUCTURE.md](PROJECT_STRUCTURE.md) for the full folder tree.
 
 ---
 
